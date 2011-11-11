@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<synoptic xsi:noNamespaceSchemaLocation="http://projects.nl.terma.com/SCHEMAS/SYNOPTICS/synopter.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" editor3D="1" editorVersion="0">
+ <assets>
+  <brush gradient="linearGradient7" g="170" id="brush6" r="170" a="255" b="255"/>
+  <linearGradient direction="0" id="linearGradient7">
+   <gradientStop g="25" position="0" r="25" a="255" b="255"/>
+   <gradientStop g="0" position="1" r="0" a="255" b="0"/>
+  </linearGradient>
+  <brush g="185" id="brush9" r="185" a="255" b="185"/>
+  <font fontFamily="MS Shell Dlg 2" pointSize="18" bold="true" id="font16" italic="true"/>
+  <pen width="2" g="0" penStyle="1" id="pen17" r="0" a="255" b="0"/>
+  <font fontFamily="MS Shell Dlg 2" pointSize="18" bold="true" id="font19" italic="false"/>
+  <font fontFamily="Courier" pointSize="10" bold="false" id="font32" italic="false"/>
+  <font fontFamily="Courier" pointSize="10" bold="false" id="font34" italic="false"/>
+  <brush g="255" id="brush36" r="170" a="255" b="127"/>
+  <rotate deg="-90" id="rotate45"/>
+  <brush g="170" id="brush46" r="0" a="255" b="255"/>
+  <brush g="255" id="brush64" r="255" a="255" b="0"/>
+ </assets>
+ <slots>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="arg0 == 0x5" id="expression62" annotation="is link on" arg0="0" arg1="0" arg2="0" arg3="0"/>
+ </slots>
+ <shapes>
+  <rect w="700" x="50" hilit3D="false" pen="pen17" y="300" h="200" brush="brush9" id="rect8"/>
+  <meter w="100" hilit3D="false" x="800" y="300" h="100" minimum="0" maximum="100" value="0" id="meter12" annotation="Lim1 V" label="Lim1 V"/>
+  <meter w="100" hilit3D="false" x="800" y="400" h="100" minimum="0" maximum="100" value="0" id="meter13" label="Lim1 T"/>
+  <rrect w="660" x="70" hilit3D="false" pen="pen17" y="314" h="172" rnd="10" id="rrect14"/>
+  <text w="80" hilit3D="false" x="97" y="475" h="20" alignment="132" id="text15" outline="false" text="SSBV" font="font16"/>
+  <text w="162" hilit3D="false" x="319" y="325" pen="pen17" h="20" alignment="132" id="text18" outline="false" text="PFE Platform" font="font19"/>
+  <led w="20" x="540" hilit3D="false" y="390" h="20" id="led2" annotation="Lim1 Status" state="false"/>
+  <led w="20" x="590" hilit3D="false" y="390" h="20" id="led22" state="false"/>
+  <led w="20" x="640" hilit3D="false" y="390" h="20" id="led23" state="false"/>
+  <led w="20" x="540" hilit3D="false" y="440" h="20" id="led24" state="false"/>
+  <led w="20" x="590" hilit3D="false" y="440" h="20" id="led25" state="false"/>
+  <group w="202" hilit3D="false" x="99" y="332" h="136" scale="1" hidden="true" offsetX="0" offsetY="0" id="group26" clip="false"/>
+  <rrect w="168" x="0" hilit3D="false" pen="pen17" y="0" h="136" rnd="10" id="rrect20" parent="group26"/>
+  <text w="80" hilit3D="false" x="44" y="8" h="20" alignment="132" id="text21" parent="group26" outline="false" text="Platorm Status"/>
+  <rrect w="186" x="507" hilit3D="false" pen="pen17" y="332" h="136" rnd="10" id="rrect28"/>
+  <text w="132" hilit3D="false" x="534" y="340" h="20" alignment="132" id="text27" outline="false" text="Limiter Status / Reset"/>
+  <rrect w="186" x="307" hilit3D="false" pen="pen17" y="360" h="80" rnd="10" id="rrect30"/>
+  <rrect w="170" x="315" hilit3D="false" y="368" h="64" rnd="10" brush="brush36" id="rrect35"/>
+  <text w="140" hilit3D="false" x="330" y="378" h="20" alignment="132" id="text31" outline="false" text="Power Front End" font="font32"/>
+  <text w="140" hilit3D="false" x="330" y="409" h="20" alignment="132" url="http://www.satserv.nl" id="text33" outline="false" text="www.satserv.nl" font="font32"/>
+  <led w="20" x="105" hilit3D="false" y="359" h="20" brush="brush46" id="led4" annotation="System Enabled" state="false"/>
+ </shapes>
+ <transforms/>
+ <dynamics>
+  <param id="param0" name="PFE_PLF_Enabled"/>
+  <param id="param1" name="PFE_PLF_LIM1_Status"/>
+  <pictureinfo width="1227" x="0" y="0" brush="brush6" height="989" id="pictureinfo5"/>
+  <param id="param10" name="PFE_PLF_LIM1_Voltage"/>
+  <param id="param11" name="PFE_PLF_LIM1_Temperature"/>
+  <param id="param56" name="SFE_OnLineMode"/>
+  <param id="param61" name="SFE_LINK_Status"/>
+  <param id="param68" name="SFE_LINK_Rx_ProcessedPcktsGood"/>
+ </dynamics>
+ <connections>
+  <connect dest="led2" srcProp="rawValue" destProp="state" src="param1"/>
+  <connect dest="led4" srcProp="rawValue" destProp="state" src="param0"/>
+  <connect dest="expression62" srcProp="rawValue" destProp="arg0" src="param61"/>
+  <connect dest="meter12" srcProp="rawValue" destProp="value" src="param10"/>
+  <connect dest="meter13" srcProp="rawValue" destProp="value" src="param11"/>
+ </connections>
+</synoptic>

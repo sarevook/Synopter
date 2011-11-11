@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<synoptic xsi:noNamespaceSchemaLocation="http://projects.nl.terma.com/SCHEMAS/SYNOPTICS/synopter.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" editor3D="0" editorVersion="0">
+ <assets>
+  <brush g="10" id="brush1" r="10" a="50" b="100"/>
+  <pen width="1" g="10" penStyle="1" id="pen19" r="10" a="255" b="10"/>
+  <font fontFamily="MS Shell Dlg 2" pointSize="36" bold="false" id="font40" italic="false"/>
+  <brush g="255" id="brush41" r="255" a="255" b="255"/>
+  <brush gradient="linearGradient50" g="200" id="brush42" r="200" a="222" b="200"/>
+  <linearGradient direction="1" id="linearGradient50">
+   <gradientStop g="150" position="0" r="150" a="200" b="255"/>
+   <gradientStop g="0" position="1" r="0" a="255" b="0"/>
+  </linearGradient>
+  <pen width="0" g="200" penStyle="1" id="pen58" r="170" a="255" b="0"/>
+  <font fontFamily="MS Shell Dlg 2" pointSize="11" bold="true" id="font59" italic="false"/>
+  <brush g="255" id="brush52" r="255" a="255" b="127"/>
+ </assets>
+ <shapes>
+  <rect w="146" x="35" hilit3D="false" y="105" h="284" brush="brush41" id="rect65"/>
+  <text w="245.57" hilit3D="false" x="4.761" y="40.827" h="70.4937" alignment="132" id="text69" outline="false" text="RTU - P" font="font40"/>
+  <commandbutton w="100" x="50" hilit3D="false" y="220" h="24" arguments="rtuSerialConfig.tcl" id="commandbutton73" font="font59" text="Serial Config"/>
+  <text w="80" hilit3D="false" x="90" y="139" pen="pen19" h="22" alignment="132" id="text80" outline="false" text="  Status" font="font59"/>
+  <led w="48.0001" x="57.9999" hilit3D="false" y="126.001" h="53.9993" id="led74" state="false"/>
+  <commandbutton w="100" x="50" hilit3D="false" y="188" h="24" arguments="rtuOn.tcl" id="commandbutton70" font="font59" text="ON/OFF"/>
+  <commandbutton w="100" x="50" hilit3D="false" y="252" h="24" arguments="rtuLogTM.tcl" id="commandbutton74" font="font59" text="Log TM"/>
+  <rect w="217.999" x="191" hilit3D="false" y="108" h="283.999" brush="brush41" id="rect72"/>
+  <text w="135.571" hilit3D="false" x="266.339" y="323.433" pen="pen19" h="19.1344" alignment="68" id="text85" outline="false" text="FGPA Temp" font="font59"/>
+  <text w="137.306" hilit3D="false" x="270.346" y="138.032" pen="pen19" h="19.9358" alignment="68" id="text83" outline="false" text="3.3 supply" font="font59"/>
+  <text w="107.751" hilit3D="false" x="288.248" y="200" pen="pen19" h="20" alignment="132" id="text86" outline="false" text="DC-DC Temp" font="font59"/>
+  <text w="108.039" hilit3D="false" x="285.981" y="262" pen="pen19" h="20" alignment="132" id="text82" outline="false" text="Lin Reg Temp" font="font59"/>
+  <parameterbox w="198" showGenerationTime="false" hilit3D="false" x="201" y="139" showMonitoringState="true" showSource="false" h="54" showRawValue="false" showValidity="false" showUnit="false" showEngineeringValue="true" showMonitoringDescription="false" id="parameterbox43" annotation="Supply Voltage" showReceivedTime="true" showDestination="false"/>
+  <parameterbox w="198" showGenerationTime="false" hilit3D="false" x="201" y="199" showMonitoringState="true" showSource="false" h="54" showRawValue="false" showValidity="false" showUnit="false" showEngineeringValue="true" showMonitoringDescription="false" id="parameterbox45" annotation="Supply Voltage" showReceivedTime="true" showDestination="false"/>
+  <parameterbox w="198" showGenerationTime="false" hilit3D="false" x="201" y="260" showMonitoringState="true" showSource="false" h="54" showRawValue="false" showValidity="false" showUnit="false" showEngineeringValue="true" showMonitoringDescription="false" id="parameterbox46" annotation="Supply Voltage" showReceivedTime="true" showDestination="false"/>
+  <parameterbox w="198" showGenerationTime="false" hilit3D="false" x="201" y="323" showMonitoringState="true" showSource="false" h="54" showRawValue="false" showValidity="false" showUnit="false" showEngineeringValue="true" showMonitoringDescription="false" id="parameterbox47" annotation="Supply Voltage" showReceivedTime="true" showDestination="false"/>
+  <text w="150" hilit3D="false" x="225" y="113" h="20" alignment="132" id="text48" outline="false" text="Management Board" font="font59"/>
+  <rect w="217.999" x="414" hilit3D="false" y="107.999" h="284.001" brush="brush41" id="rect63"/>
+  <text w="135.571" hilit3D="false" x="487.339" y="324.388" pen="pen19" h="19.1344" alignment="68" id="text60" outline="false" text="5V Supply" font="font59"/>
+  <text w="137.306" hilit3D="false" x="489.346" y="140.032" pen="pen19" h="19.9358" alignment="68" id="text58" outline="false" text="Ref V 2.5" font="font59"/>
+  <text w="107.751" hilit3D="false" x="505.248" y="202" pen="pen19" h="20" alignment="132" id="text62" outline="false" text="FGPA Temp" font="font59"/>
+  <text w="108.039" hilit3D="false" x="507.98" y="261" pen="pen19" h="20" alignment="132" id="text55" outline="false" text="Lin Reg Temp" font="font59"/>
+  <parameterbox w="198" showGenerationTime="false" hilit3D="false" x="423.999" y="139" showMonitoringState="true" showSource="false" h="54" showRawValue="false" showValidity="false" showUnit="false" showEngineeringValue="true" showMonitoringDescription="false" id="parameterbox52" annotation="Supply Voltage" showReceivedTime="true" showDestination="false"/>
+  <parameterbox w="198" showGenerationTime="false" hilit3D="false" x="423.999" y="198" showMonitoringState="true" showSource="false" h="54" showRawValue="false" showValidity="false" showUnit="false" showEngineeringValue="true" showMonitoringDescription="false" id="parameterbox53" annotation="Supply Voltage" showReceivedTime="true" showDestination="false"/>
+  <parameterbox w="198" showGenerationTime="false" hilit3D="false" x="422.999" y="258" showMonitoringState="true" showSource="false" h="54" showRawValue="false" showValidity="false" showUnit="false" showEngineeringValue="true" showMonitoringDescription="false" id="parameterbox54" annotation="Supply Voltage" showReceivedTime="true" showDestination="false"/>
+  <parameterbox w="198" showGenerationTime="false" hilit3D="false" x="423.999" y="323" showMonitoringState="true" showSource="false" h="54" showRawValue="false" showValidity="false" showUnit="false" showEngineeringValue="true" showMonitoringDescription="false" id="parameterbox56" annotation="Supply Voltage" showReceivedTime="true" showDestination="false"/>
+  <text w="150" hilit3D="false" x="439.999" y="113" h="20" alignment="132" id="text51" outline="false" text="ATM0 Board" font="font59"/>
+  <rect w="217.999" x="641" hilit3D="false" y="108" h="284.001" brush="brush41" id="rect60"/>
+  <text w="135.571" hilit3D="false" x="714.339" y="324.389" pen="pen19" h="19.1344" alignment="68" id="text70" outline="false" text="5V Supply" font="font59"/>
+  <text w="137.306" hilit3D="false" x="731.347" y="140.032" pen="pen19" h="19.9358" alignment="68" id="text65" outline="false" text="Ref V 2.5" font="font59"/>
+  <text w="107.751" hilit3D="false" x="732.248" y="202.001" pen="pen19" h="20" alignment="132" id="text72" outline="false" text="FGPA Temp" font="font59"/>
+  <text w="108.039" hilit3D="false" x="733.98" y="260.001" pen="pen19" h="20" alignment="132" id="text75" outline="false" text="Lin Reg Temp" font="font59"/>
+  <parameterbox w="198" showGenerationTime="false" hilit3D="false" x="650.999" y="139.001" showMonitoringState="true" showSource="false" h="54" showRawValue="false" showValidity="false" showUnit="false" showEngineeringValue="true" showMonitoringDescription="false" id="parameterbox67" annotation="Supply Voltage" showReceivedTime="true" showDestination="false"/>
+  <parameterbox w="198" showGenerationTime="false" hilit3D="false" x="650.999" y="198.001" showMonitoringState="true" showSource="false" h="54" showRawValue="false" showValidity="false" showUnit="false" showEngineeringValue="true" showMonitoringDescription="false" id="parameterbox68" annotation="Supply Voltage" showReceivedTime="true" showDestination="false"/>
+  <parameterbox w="198" showGenerationTime="false" hilit3D="false" x="649.999" y="258.001" showMonitoringState="true" showSource="false" h="54" showRawValue="false" showValidity="false" showUnit="false" showEngineeringValue="true" showMonitoringDescription="false" id="parameterbox71" annotation="Supply Voltage" showReceivedTime="true" showDestination="false"/>
+  <parameterbox w="198" showGenerationTime="false" hilit3D="false" x="650.999" y="323.001" showMonitoringState="true" showSource="false" h="54" showRawValue="false" showValidity="false" showUnit="false" showEngineeringValue="true" showMonitoringDescription="false" id="parameterbox73" annotation="Supply Voltage" showReceivedTime="true" showDestination="false"/>
+  <text w="150" hilit3D="false" x="666.999" y="113.001" h="20" alignment="132" id="text74" outline="false" text="ATM1 Board" font="font59"/>
+  <group w="123.805" hilit3D="false" x="46.465" y="299.086" h="81.828" scale="1" hidden="true" offsetX="0" offsetY="0" id="group71" clip="false"/>
+  <rrect w="123.448" x="0.357" hilit3D="false" y="0" h="81.828" rnd="10" brush="brush42" id="rrect67" parent="group71"/>
+  <text w="77.2591" hilit3D="false" x="36.37" y="31.956" pen="pen58" h="20" alignment="129" id="text57" parent="group71" annotation="NSGU FE V" outline="false" text="0" font="font59"/>
+  <text w="81.1567" hilit3D="false" x="35.422" y="55.914" pen="pen58" h="20" alignment="129" id="text59" parent="group71" annotation="NSGU FE I" outline="false" text="0" font="font59"/>
+  <text w="30" hilit3D="false" x="0" y="55.914" pen="pen58" h="20" alignment="132" id="text63" parent="group71" outline="false" text="I" font="font59"/>
+  <text w="24" hilit3D="false" x="2" y="30.956" pen="pen58" h="20" alignment="132" id="text64" parent="group71" outline="false" text="V" font="font59"/>
+  <text w="100.182" hilit3D="false" x="10.081" y="1.956" h="20" alignment="132" id="text61" parent="group71" outline="false" text="PFE Module 2" font="font59"/>
+ </shapes>
+ <transforms/>
+ <dynamics>
+  <pictureinfo width="871" title="Test NSGU Synoptic" x="0" y="0" brush="brush1" height="535" id="pictureinfo0" mnemonic="SYN2"/>
+  <param id="param6" annotation="DCDC Temp" name="PRT1147T"/>
+  <param id="param7" annotation="5v Supply" name="PRT1114U"/>
+  <param id="param8" annotation="2.5v Ref" name="PRT1111U"/>
+  <param id="param9" annotation="FPGA Temp" name="PRT1120T"/>
+  <param id="param47" annotation="Lin reg Temp" name="PRT1119T"/>
+  <param id="param39" annotation="Ref Voltage 2.5" name="PRT1118U"/>
+  <param id="param49" annotation="Lin Reg Voltage" name="PRT8091U"/>
+  <param id="param53" name="PFE_PLF_LIM2_Voltage"/>
+  <param id="param54" name="PFE_PLF_LIM2_Current"/>
+  <param id="param51" annotation="Status" name="PRT1001S"/>
+  <param id="param55" annotation="3.3 supply" name="PRT1131U"/>
+  <param id="param56" annotation="Lin Reg Temp" name="PRT1135T"/>
+  <param id="param57" annotation="FGPA Temp" name="PRT1136T"/>
+  <param id="param79" annotation="5v Supply" name="PRT1124U"/>
+  <param id="param76" annotation="2.5v Ref" name="PRT1121U"/>
+  <param id="param77" annotation="FPGA Temp" name="PRT1130T"/>
+  <param id="param78" annotation="Lin reg Temp" name="PRT1129T"/>
+ </dynamics>
+ <connections>
+  <connect dest="parameterbox43" srcProp="*" src="param55"/>
+  <connect dest="parameterbox45" srcProp="*" src="param6"/>
+  <connect dest="parameterbox46" srcProp="*" src="param56"/>
+  <connect dest="parameterbox47" srcProp="*" src="param57"/>
+  <connect dest="led74" srcProp="rawValue" destProp="state" src="param51"/>
+  <connect dest="parameterbox71" srcProp="*" src="param78"/>
+  <connect dest="parameterbox73" srcProp="*" src="param79"/>
+  <connect dest="text57" srcProp="rawValue" destProp="text" src="param53"/>
+  <connect dest="text59" srcProp="rawValue" destProp="text" src="param54"/>
+  <connect dest="parameterbox52" srcProp="*" src="param8"/>
+  <connect dest="parameterbox53" srcProp="*" src="param9"/>
+  <connect dest="parameterbox54" srcProp="*" src="param47"/>
+  <connect dest="parameterbox56" srcProp="*" src="param7"/>
+  <connect dest="parameterbox67" srcProp="*" src="param76"/>
+  <connect dest="parameterbox68" srcProp="*" src="param77"/>
+ </connections>
+</synoptic>

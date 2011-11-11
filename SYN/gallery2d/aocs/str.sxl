@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<synoptic xsi:noNamespaceSchemaLocation="http://projects.nl.terma.com/SCHEMAS/SYNOPTICS/synopter.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" editor3D="0" editorVersion="1117" >
+ <assets>
+  <brush g="170" id="brush1" r="170" a="200" b="127" />
+ </assets>
+ <slots>
+  <interface id="interface5" annotation="pwr on" name="pwr" />
+  <interface id="interface6" annotation="lock" name="lock" />
+ </slots>
+ <shapes>
+  <rect w="50" x="25" hilit3D="false" y="0" h="50" brush="brush1" id="rect0" />
+  <polygon x="25" y="100" brush="brush1" id="polygon2" >
+   <point x="0" y="0" />
+   <point x="50" y="0" />
+   <point x="35" y="-50" />
+   <point x="15" y="-50" />
+  </polygon>
+  <led w="20" x="50" hilit3D="false" y="0" h="20" id="led3" annotation="str LED" state="false" />
+  <led w="20" x="50" hilit3D="false" y="30" h="20" id="led4" annotation="lock LED" state="false" />
+ </shapes>
+ <transforms/>
+ <connections>
+  <connect dest="led3" srcProp="boolValue" destProp="state" src="interface5" />
+  <connect dest="led4" srcProp="boolValue" destProp="state" src="interface6" />
+ </connections>
+</synoptic>

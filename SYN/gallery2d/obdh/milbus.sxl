@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<synoptic xsi:noNamespaceSchemaLocation="http://projects.nl.terma.com/SCHEMAS/SYNOPTICS/synopter.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" editor3D="0" editorVersion="1117" >
+ <assets>
+  <pen width="4" g="255" penStyle="1" id="pen3" r="85" a="255" annotation="bus A pen" b="0" />
+  <pen width="0" g="0" penStyle="1" id="pen9" r="0" a="255" annotation="bus B pen" b="0" />
+ </assets>
+ <slots>
+  <interface value="1" id="interface4" name="bus" />
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0>0)?4:0" id="expression5" annotation="bus A pen width" arg0="1" arg1="0" arg2="0" arg3="0" />
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0>0)?255:0" id="expression6" annotation="bus A colour green component" arg0="1" arg1="0" arg2="0" arg3="0" />
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0&lt;1)?4:0" id="expression7" annotation="bus B pen width" arg0="1" arg1="0" arg2="0" arg3="0" />
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0&lt;1)?255:0" id="expression8" annotation="bus B colour green component" arg0="1" arg1="0" arg2="0" arg3="0" />
+ </slots>
+ <shapes>
+  <line w="200" x="0" hilit3D="false" pen="pen3" y="0" h="0" id="line0" annotation="bus A" />
+  <line w="200" x="10" hilit3D="false" pen="pen9" y="10" h="0" id="line2" annotation="bus B" />
+ </shapes>
+ <transforms/>
+ <connections>
+  <connect dest="expression5" srcProp="intValue" destProp="arg0" src="interface4" />
+  <connect dest="expression6" srcProp="intValue" destProp="arg0" src="interface4" />
+  <connect dest="pen9" srcProp="value" destProp="width" src="expression7" />
+  <connect dest="pen9" srcProp="value" destProp="g" src="expression8" />
+  <connect dest="expression7" srcProp="intValue" destProp="arg0" src="interface4" />
+  <connect dest="expression8" srcProp="intValue" destProp="arg0" src="interface4" />
+  <connect dest="pen3" srcProp="value" destProp="width" src="expression5" />
+  <connect dest="pen3" srcProp="value" destProp="g" src="expression6" />
+ </connections>
+</synoptic>

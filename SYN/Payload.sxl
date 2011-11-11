@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<synoptic xsi:noNamespaceSchemaLocation="http://projects.nl.terma.com/SCHEMAS/SYNOPTICS/synopter.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" editor3D="0" editorVersion="0">
+ <assets>
+  <font fontFamily="Times New Roman" pointSize="12" bold="true" id="font9" italic="false"/>
+  <pen width="4.5" g="150" penStyle="3" id="pen17" r="0" a="255" annotation="C-Band" b="50"/>
+  <pen width="4.5" g="0" penStyle="2" id="pen18" r="200" a="255" b="25"/>
+  <pen width="4.5" g="0" penStyle="1" id="pen20" r="0" a="255" annotation="MISREC N" b="0"/>
+  <pen width="4.5" g="150" penStyle="1" id="pen30" r="0" a="0" annotation="MISREC R" b="50"/>
+  <linearGradient direction="0" id="linearGradient49">
+   <gradientStop g="255" position="0.32" r="255" a="255" b="255"/>
+   <gradientStop g="0" position="1" r="0" a="255" b="0"/>
+  </linearGradient>
+  <brush gradient="linearGradient49" g="0" id="brush50" r="0" a="255" b="0"/>
+  <pen width="4.5" g="150" penStyle="1" id="pen54" r="0" a="0" b="50"/>
+  <pen width="4.5" g="150" penStyle="1" id="pen60" r="0" a="255" annotation="CSU N" b="50"/>
+  <pen width="4.5" g="150" penStyle="1" id="pen61" r="0" a="0" annotation="CSU R" b="50"/>
+  <pen width="4.5" g="150" penStyle="2" id="pen63" r="0" a="0" annotation="NSGU R" b="50"/>
+  <pen width="4.5" g="150" penStyle="1" id="pen65" r="0" a="0" b="50"/>
+  <pen width="4.5" g="150" penStyle="1" id="pen67" r="0" a="0" b="50"/>
+  <pen width="4.5" g="150" penStyle="1" id="pen69" r="0" a="0" b="50"/>
+  <pen width="4.5" g="150" penStyle="1" id="pen71" r="0" a="0" b="50"/>
+  <pen width="4.5" g="150" penStyle="1" id="pen72" r="0" a="0" b="50"/>
+  <pen width="0" g="0" penStyle="1" id="pen74" r="0" a="255" b="0"/>
+  <pen width="4.5" g="150" penStyle="2" id="pen76" r="0" a="255" annotation="NSGU N" b="50"/>
+  <pen width="4.5" g="0" penStyle="2" id="pen78" r="200" a="255" annotation="NSGU R" b="25"/>
+  <pen width="4.5" g="150" penStyle="2" id="pen79" r="0" a="255" annotation="NSGU N" b="50"/>
+  <pen width="2.5" g="150" penStyle="3" id="pen81" r="0" a="255" annotation="E1 N" b="50"/>
+  <pen width="2.5" g="150" penStyle="3" id="pen82" r="0" a="0" annotation="E1 R" b="50"/>
+  <pen width="2.5" g="150" penStyle="3" id="pen85" r="0" a="255" annotation="E5 N" b="50"/>
+  <pen width="2.5" g="150" penStyle="3" id="pen87" r="0" a="0" annotation="E5 R" b="50"/>
+  <pen width="2.5" g="50" penStyle="3" id="pen89" r="200" a="255" annotation="E1 R" b="25"/>
+  <pen width="2.5" g="150" penStyle="3" id="pen94" r="0" a="255" annotation="E6 N" b="50"/>
+  <pen width="2.5" g="150" penStyle="3" id="pen96" r="0" a="0" annotation="E6 R" b="50"/>
+  <pen width="2.5" g="150" penStyle="3" id="pen98" r="0" a="255" annotation="FGUU N" b="50"/>
+  <pen width="2.5" g="0" penStyle="3" id="pen100" r="200" a="255" annotation="FGUU R" b="25"/>
+  <pen width="2.5" g="184" penStyle="1" id="pen102" r="245" a="255" annotation="CMCU N" b="0"/>
+  <pen width="2.5" g="184" penStyle="1" id="pen104" r="245" a="0" annotation="CMCU R" b="0"/>
+  <pen width="2.5" g="184" penStyle="1" id="pen106" r="245" a="0" b="0"/>
+  <pen width="2.5" g="150" penStyle="3" id="pen108" r="0" a="255" b="50"/>
+  <pen width="2.5" g="150" penStyle="3" id="pen109" r="0" a="255" b="50"/>
+  <pen width="2.5" g="150" penStyle="3" id="pen111" r="0" a="255" b="50"/>
+  <pen width="2.5" g="150" penStyle="3" id="pen114" r="0" a="255" b="50"/>
+  <font fontFamily="MS Shell Dlg 2" pointSize="6" bold="true" id="font166" italic="false"/>
+  <font fontFamily="MS Shell Dlg 2" pointSize="6" bold="true" id="font171" italic="false"/>
+  <brush g="200" id="brush158" r="200" a="255" annotation="MISREC N Unit" b="200"/>
+  <brush g="0" id="brush159" r="200" a="255" annotation="MISREC R Unit" b="25"/>
+  <brush g="150" id="brush160" r="0" a="255" annotation="CSU N Unit" b="50"/>
+  <brush g="0" id="brush161" r="200" a="255" annotation="CSU R Unit" b="25"/>
+  <brush g="150" id="brush162" r="0" a="255" annotation="NSGU N Unit" b="50"/>
+  <brush g="0" id="brush163" r="200" a="255" annotation="NSGU R Unit" b="25"/>
+  <brush g="150" id="brush164" r="0" a="255" annotation="FGUU N Unit" b="50"/>
+  <brush g="0" id="brush165" r="200" a="255" annotation="FGUU R Unit" b="25"/>
+  <brush g="150" id="brush166" r="0" a="255" b="50"/>
+  <brush g="150" id="brush167" r="0" a="255" annotation="CMCU N Unit" b="50"/>
+  <brush g="0" id="brush168" r="200" a="255" annotation="CMCU R Unit" b="25"/>
+  <brush g="150" id="brush171" r="0" a="255" b="50"/>
+  <pen width="2.5" g="184" penStyle="1" id="pen211" r="245" a="255" annotation="PHM N" b="0"/>
+  <pen width="2.5" g="184" penStyle="1" id="pen212" r="245" a="0" annotation="PHM R" b="0"/>
+  <pen width="2.5" g="184" penStyle="1" id="pen213" r="245" a="255" annotation="RAFS N" b="0"/>
+  <pen width="2.5" g="184" penStyle="1" id="pen214" r="245" a="0" annotation="RAFS R" b="0"/>
+  <pen width="2.5" g="184" penStyle="1" id="pen215" r="245" a="0" annotation="CMCU R" b="0"/>
+  <pen width="2.5" g="184" penStyle="1" id="pen217" r="245" a="0" annotation="CMCU R" b="0"/>
+  <pen width="2.5" g="184" penStyle="1" id="pen220" r="245" a="0" annotation="CMCU R" b="0"/>
+  <pen width="2.5" g="184" penStyle="1" id="pen221" r="245" a="0" annotation="CMCU R" b="0"/>
+  <brush g="150" id="brush226" r="0" a="255" annotation="RAFS N Unit" b="50"/>
+  <brush g="0" id="brush227" r="200" a="255" annotation="RAFS R Unit" b="25"/>
+  <brush g="150" id="brush228" r="0" a="255" annotation="PHM N Unit" b="50"/>
+  <brush g="0" id="brush229" r="200" a="255" annotation="PHM R Unit" b="25"/>
+  <pen width="2.5" g="184" penStyle="1" id="pen240" r="245" a="255" annotation="CMCU R" b="0"/>
+  <pen width="2.5" g="184" penStyle="1" id="pen242" r="245" a="255" annotation="CMCU R" b="0"/>
+  <pen width="2.5" g="184" penStyle="1" id="pen244" r="245" a="255" annotation="CMCU R" b="0"/>
+  <pen width="2.5" g="184" penStyle="1" id="pen246" r="245" a="255" annotation="CMCU R" b="0"/>
+ </assets>
+ <slots>
+  <chooser defaultValue="*DEFAULT*" id="chooser123" annotation="NSGU N Unit Color R">
+   <pattern wildCard="false" regexp="0" value="200" minimal="false"/>
+   <pattern wildCard="false" regexp="1" value="0" minimal="false"/>
+  </chooser>
+  <chooser defaultValue="*DEFAULT*" id="chooser124" annotation="NSGU N Unit Color G">
+   <pattern wildCard="false" regexp="0" value="0" minimal="false"/>
+   <pattern wildCard="false" regexp="1" value="150" minimal="false"/>
+  </chooser>
+  <chooser defaultValue="*DEFAULT*" id="chooser125" annotation="NSGU N Unit Color B">
+   <pattern wildCard="false" regexp="25" minimal="false"/>
+   <pattern wildCard="false" regexp="1" value="50" minimal="false"/>
+  </chooser>
+  <chooser defaultValue="*DEFAULT*" id="chooser126" annotation="MISREC N Unit Color R">
+   <pattern wildCard="false" regexp="0" value="200" minimal="false"/>
+   <pattern wildCard="false" regexp="1" value="0" minimal="false"/>
+  </chooser>
+  <chooser defaultValue="*DEFAULT*" id="chooser127" annotation="MISREC N Unit Color G">
+   <pattern wildCard="false" regexp="0" value="0" minimal="false"/>
+   <pattern wildCard="false" regexp="1" value="150" minimal="false"/>
+  </chooser>
+  <chooser defaultValue="*DEFAULT*" id="chooser128" annotation="MISREC N Unit Color B">
+   <pattern wildCard="false" regexp="25" minimal="false"/>
+   <pattern wildCard="false" regexp="1" value="50" minimal="false"/>
+  </chooser>
+ </slots>
+ <shapes>
+  <line w="141" x="118" hilit3D="false" pen="pen17" y="125.86" h="0.28" id="line16"/>
+  <line w="0" x="259" hilit3D="false" pen="pen17" y="124.94" h="-73.94" id="line19"/>
+  <line w="0" x="259" hilit3D="false" pen="pen17" y="201.94" h="-73.94" id="line21"/>
+  <pictureButton w="100" hilit3D="false" x="209" y="152" h="100" brush="brush159" replace="false" link="SYN/testMISREC_R.sxl" id="pictureButton13" text="MISREC R" font="font9"/>
+  <text w="80" hilit3D="false" x="207" y="227" h="20" alignment="132" id="text12" annotation="MISREC N Temp" outline="false" text="Text"/>
+  <pictureButton w="100" hilit3D="false" x="361" y="2" h="100" brush="brush160" replace="false" link="SYN/testCSU_N.sxl" id="pictureButton23" text="CSU N" font="font9"/>
+  <text w="80" hilit3D="false" x="359" y="77" h="20" alignment="132" id="text22" annotation="MISREC N Temp" outline="false" text="Text"/>
+  <pictureButton w="100" hilit3D="false" x="357" y="151" h="100" brush="brush161" replace="false" link="SYN/testCSU_R.sxl" id="pictureButton27" text="CSU R" font="font9"/>
+  <text w="80" hilit3D="false" x="355" y="226" h="20" alignment="132" id="text28" annotation="MISREC N Temp" outline="false" text="Text"/>
+  <text w="80" hilit3D="false" x="210" y="77" h="20" alignment="132" id="text2" annotation="MISREC N Temp" outline="false" text="Text"/>
+  <line w="46" x="313" hilit3D="false" pen="pen20" y="51.93" h="0.14" id="line29"/>
+  <line w="46" x="309" hilit3D="false" pen="pen30" y="201.93" h="0.14" id="line32"/>
+  <pictureButton w="100" hilit3D="false" x="511" y="1" h="100" brush="brush162" replace="false" link="SYN/testNSGU_N.sxl" id="pictureButton34" text="NSGU N" font="font9"/>
+  <pictureButton w="100" hilit3D="false" x="508" y="151" h="100" brush="brush163" replace="false" link="SYN/testNSGU_R.sxl" id="pictureButton38" text="NSGU R" font="font9"/>
+  <text w="80" hilit3D="false" x="506" y="226" h="20" alignment="132" id="text36" annotation="MISREC N Temp" outline="false" text="Text"/>
+  <line w="46" x="463" hilit3D="false" pen="pen60" y="51.93" h="0.14" id="line39"/>
+  <line w="46" x="460" hilit3D="false" pen="pen61" y="201.93" h="0.14" id="line40"/>
+  <pictureButton w="100" hilit3D="false" x="679" y="1" h="100" brush="brush164" replace="false" link="SYN/testFGUU_N.sxl" id="pictureButton43" text="FGUU N" font="font9"/>
+  <text w="80" hilit3D="false" x="659" y="76" h="20" alignment="132" id="text41" annotation="MISREC N Temp" outline="false" text="Text"/>
+  <pictureButton w="100" hilit3D="false" x="680" y="152" h="100" brush="brush165" replace="false" link="SYN/testFGUU_R.sxl" id="pictureButton45" text="FGUU R" font="font9"/>
+  <line w="71.08" x="610" hilit3D="false" pen="pen63" y="201.93" h="0.0164" id="line47"/>
+  <line w="-0.0192" x="332.12" hilit3D="false" pen="pen20" y="54" h="143.85" id="line56"/>
+  <line w="21.2992" x="333.739" hilit3D="false" pen="pen20" y="197.85" h="0.0004" id="line57"/>
+  <line w="-3.93019e-14" x="336.197" hilit3D="false" pen="pen30" y="201.946" h="-145.817" id="line58"/>
+  <line w="21.1344" x="338" hilit3D="false" pen="pen30" y="55.93" h="0.1988" id="line59"/>
+  <line w="-0.0192" x="478.12" hilit3D="false" pen="pen60" y="54" h="143.85" id="line64"/>
+  <line w="25.8514" x="480.739" hilit3D="false" pen="pen60" y="197.85" h="0.0004" id="line66"/>
+  <line w="-3.93019e-14" x="482.197" hilit3D="false" pen="pen61" y="201.946" h="-145.817" id="line68"/>
+  <line w="23.9082" x="484.226" hilit3D="false" pen="pen61" y="56.252" h="-0.12288" id="line70"/>
+  <line w="0.0004" x="641.758" hilit3D="false" pen="pen76" y="52.852" h="145.408" id="line73"/>
+  <line w="-31.5394" x="677.394" hilit3D="false" pen="pen63" y="55.719" h="-0.0004" id="line77"/>
+  <line w="37.6832" x="642.168" hilit3D="false" pen="pen76" y="198.26" h="-0.4096" id="line80"/>
+  <line w="4.17444e-14" x="646.264" hilit3D="false" pen="pen63" y="201.946" h="-145.817" id="line75"/>
+  <line w="72.3746" x="779.038" hilit3D="false" pen="pen81" y="12.508" h="0.582859" id="line83"/>
+  <line w="27.6246" x="780.038" hilit3D="false" pen="pen82" y="163.508" h="-0.374641" id="line84"/>
+  <line w="0.294578" x="805.038" hilit3D="false" pen="pen82" y="163.508" h="-130.257" id="line86"/>
+  <line w="45.2146" x="808.038" hilit3D="false" pen="pen82" y="33.508" h="0.382859" id="line88"/>
+  <spdtswitch w="39.2492" x="852.663" hilit3D="false" pen="pen74" y="-4.029" h="69.325" id="spdtswitch91" state="false"/>
+  <spdtswitch w="-38.75" x="917.663" hilit3D="false" pen="pen74" y="-4.367" h="69.9999" id="spdtswitch92" state="true"/>
+  <line w="62.5746" x="779.038" hilit3D="false" pen="pen85" y="50.508" h="0.262859" id="line93"/>
+  <spdtswitch w="39.2492" x="851.663" hilit3D="false" pen="pen74" y="93.633" h="69.9999" id="spdtswitch95" state="false"/>
+  <spdtswitch w="-38.75" x="915.663" hilit3D="false" pen="pen74" y="93.633" h="69.9999" id="spdtswitch97" state="true"/>
+  <line w="37.8746" x="781.038" hilit3D="false" pen="pen87" y="199.508" h="0.312859" id="line99"/>
+  <line w="-0.225422" x="819.038" hilit3D="false" pen="pen87" y="199.508" h="-67.5371" id="line101"/>
+  <line w="32.9" x="818.013" hilit3D="false" pen="pen87" y="131.971" h="-0.15" id="line103"/>
+  <line w="53.5346" x="778.038" hilit3D="false" pen="pen94" y="85.508" h="0.222859" id="line105"/>
+  <line w="53.3746" x="780.038" hilit3D="false" pen="pen96" y="235.508" h="-0.187141" id="line107"/>
+  <line w="-0.225422" x="834.038" hilit3D="false" pen="pen96" y="235.508" h="-21.4571" id="line110"/>
+  <spdtswitch w="39.2492" x="850.663" hilit3D="false" pen="pen74" y="175.633" h="69.9999" id="spdtswitch112" state="false"/>
+  <spdtswitch w="-38.75" x="914.663" hilit3D="false" pen="pen74" y="175.633" h="69.9999" id="spdtswitch113" state="true"/>
+  <line w="16.7934" x="835.92" hilit3D="false" pen="pen96" y="214.432" h="0.204459" id="line115"/>
+  <polygon x="942" y="31.265" brush="brush50" id="polygon116">
+   <point x="0" y="0"/>
+   <point x="21.1726" y="-12.2541"/>
+   <point x="0.0445781" y="-25.2781"/>
+  </polygon>
+  <polygon x="942" y="61.265" brush="brush50" id="polygon118">
+   <point x="0" y="0"/>
+   <point x="21.1726" y="-12.2541"/>
+   <point x="0.0445781" y="-25.2781"/>
+  </polygon>
+  <polygon x="942" y="124.265" brush="brush50" id="polygon121">
+   <point x="0" y="0"/>
+   <point x="21.1726" y="-12.2541"/>
+   <point x="0.0445781" y="-25.2781"/>
+  </polygon>
+  <polygon x="942" y="154.265" brush="brush50" id="polygon122">
+   <point x="0" y="0"/>
+   <point x="21.1726" y="-12.2541"/>
+   <point x="0.0445781" y="-25.2781"/>
+  </polygon>
+  <polygon x="943" y="208.265" brush="brush50" id="polygon123">
+   <point x="0" y="0"/>
+   <point x="21.1726" y="-12.2541"/>
+   <point x="0.0445781" y="-25.2781"/>
+  </polygon>
+  <polygon x="943" y="238.265" brush="brush50" id="polygon124">
+   <point x="0" y="0"/>
+   <point x="21.1726" y="-12.2541"/>
+   <point x="0.0445781" y="-25.2781"/>
+  </polygon>
+  <line w="0.639578" x="834.453" hilit3D="false" pen="pen94" y="85.731" h="120.96" id="line125"/>
+  <line w="15.5746" x="835.038" hilit3D="false" pen="pen94" y="207.508" h="-0.305141" id="line126"/>
+  <line w="-0.399978" x="842.013" hilit3D="false" pen="pen85" y="50.771" h="72.8" id="line127"/>
+  <line w="10.9844" x="841.629" hilit3D="false" pen="pen85" y="124.259" h="0.312141" id="line128"/>
+  <line w="-0.250422" x="851.063" hilit3D="false" pen="pen81" y="12.971" h="13.5599" id="line129"/>
+  <line w="6.43958" x="850.413" hilit3D="false" pen="pen81" y="26.371" h="-0.160141" id="line130"/>
+  <line w="-0.000421875" x="917.213" hilit3D="false" y="26.371" h="-8.80014" id="line131"/>
+  <line w="-24.3592" x="941.973" hilit3D="false" y="17.571" h="0.000321875" id="line132"/>
+  <line w="-24.5736" x="941.749" hilit3D="false" y="48.483" h="0.000843875" id="line133"/>
+  <line w="0.0404219" x="917.173" hilit3D="false" y="48.227" h="-13.6559" id="line134"/>
+  <line w="-0.0532219" x="915.613" hilit3D="false" y="124.971" h="-13.3585" id="line135"/>
+  <line w="-26.6" x="941.979" hilit3D="false" y="111.612" h="4.06619e-13" id="line136"/>
+  <line w="0.000465625" x="915.56" hilit3D="false" y="141.513" h="-8.90074" id="line137"/>
+  <line w="-26.6" x="941.979" hilit3D="false" y="141.612" h="4.06619e-13" id="line138"/>
+  <line w="-0.0532219" x="914.613" hilit3D="false" y="206.971" h="-13.3585" id="line139"/>
+  <line w="-0.0532219" x="914.613" hilit3D="false" y="227.971" h="-13.3585" id="line140"/>
+  <line w="-28.6496" x="943.029" hilit3D="false" y="193.635" h="-0.0228594" id="line141"/>
+  <line w="-27.6228" x="942.261" hilit3D="false" y="227.683" h="0.255859" id="line142"/>
+  <line w="-24.3592" x="987.97" hilit3D="false" y="19.571" h="0.000321875" id="line146"/>
+  <line w="-0.000421875" x="988.21" hilit3D="false" y="28.371" h="-8.80014" id="line145"/>
+  <line w="0.0404219" x="988.17" hilit3D="false" y="49.227" h="-13.6559" id="line148"/>
+  <line w="-24.5736" x="987.75" hilit3D="false" y="48.483" h="0.000843875" id="line147"/>
+  <spdtswitch w="39.2492" x="987.66" hilit3D="false" pen="pen74" y="-2.029" h="69.325" id="spdtswitch151" state="false"/>
+  <spdtswitch w="39.2492" x="986.66" hilit3D="false" pen="pen74" y="90.971" h="69.325" id="spdtswitch155" state="false"/>
+  <line w="-0.000421875" x="987.21" hilit3D="false" y="121.371" h="-8.80014" id="line156"/>
+  <line w="-24.3592" x="986.97" hilit3D="false" y="112.571" h="0.000321875" id="line152"/>
+  <line w="-24.5736" x="986.75" hilit3D="false" y="141.483" h="0.000843875" id="line153"/>
+  <line w="0.0404219" x="987.17" hilit3D="false" y="142.227" h="-13.6559" id="line154"/>
+  <spdtswitch w="39.2492" x="987.66" hilit3D="false" pen="pen74" y="174.971" h="69.325" id="spdtswitch160" state="false"/>
+  <line w="-0.000421875" x="988.21" hilit3D="false" y="205.371" h="-8.80014" id="line161"/>
+  <line w="-24.3592" x="987.97" hilit3D="false" y="196.571" h="0.000321875" id="line157"/>
+  <line w="-24.5736" x="987.75" hilit3D="false" y="225.483" h="0.000843875" id="line158"/>
+  <line w="0.0404219" x="988.17" hilit3D="false" y="226.227" h="-13.6559" id="line159"/>
+  <line w="0.0277381" x="1025.65" hilit3D="false" y="124.771" h="30.9963" id="line162"/>
+  <line w="0.1936" x="1026.46" hilit3D="false" y="184.112" h="25.5792" id="line163"/>
+  <rect w="47.4484" x="1003.25" hilit3D="false" y="155.03" h="28.6719" id="rect164"/>
+  <pixmap w="114" x="2" hilit3D="false" y="68" h="112" id="pixmap6" pixmap="SYN/clipart/c_band_antenna.PNG"/>
+  <text w="138" hilit3D="false" x="-11" y="178" h="20" alignment="132" id="text8" outline="false" text="C-Band MisAnt" font="font9"/>
+  <text w="138" hilit3D="false" x="959" y="158" h="20" alignment="132" id="text165" outline="false" text="NAVOMUX" font="font166"/>
+  <line w="38.6156" x="1051.15" hilit3D="false" y="167.331" h="-0.328541" id="line174" font="font166"/>
+  <line w="-0.000421875" x="1139.68" hilit3D="false" y="31.891" h="74.8799" id="line175" font="font166"/>
+  <rect w="47.4484" x="1059.25" hilit3D="false" y="19.03" h="28.6719" id="rect176"/>
+  <line w="33.1778" x="1026.69" hilit3D="false" y="32.244" h="5.9375e-05" id="line177" font="font166"/>
+  <line w="33.1778" x="1106.69" hilit3D="false" y="32.244" h="5.9375e-05" id="line178" font="font166"/>
+  <text w="138" hilit3D="false" x="1014" y="23" h="20" alignment="132" id="text179" outline="false" text="NAVOFILT" font="font166"/>
+  <pictureButton w="100" hilit3D="false" x="510" y="389.96" h="96.08" brush="brush168" replace="false" link="SYN/testCMCU_R.sxl" id="pictureButton155" text="CMCU R" font="font9"/>
+  <text w="80" hilit3D="false" x="527" y="456" h="20" alignment="132" id="text156" annotation="MISREC N Temp" outline="false" text="Text"/>
+  <line w="63.472" x="613" hilit3D="false" pen="pen76" y="51.93" h="0.154" id="line46"/>
+  <pictureButton w="100" hilit3D="false" x="212" y="2" h="100" brush="brush158" replace="false" link="SYN/testMISREC_N.sxl" id="pictureButton0" text="MISREC N" font="font9"/>
+  <text w="80" hilit3D="false" x="509" y="76" h="20" alignment="132" id="text35" annotation="MISREC N Temp" outline="false" text="Text"/>
+  <text w="80" hilit3D="false" x="673" y="227" h="20" alignment="132" id="text157" annotation="MISREC N Temp" outline="false" text="Text"/>
+  <pictureButton w="100" hilit3D="false" x="354" y="388.96" h="98.08" brush="brush167" replace="false" link="SYN/testCMCU_N.sxl" id="pictureButton170" text="CMCU N" font="font9"/>
+  <text w="80" hilit3D="false" x="369" y="456" h="20" alignment="132" id="text169" annotation="MISREC N Temp" outline="false" text="Text"/>
+  <pictureButton w="66.88" hilit3D="false" x="415.56" y="499.96" h="66.08" brush="brush228" replace="false" link="SYN/testPHM_N.sxl" id="pictureButton172" text="PHM N" font="font9"/>
+  <pictureButton w="66.88" hilit3D="false" x="478.56" y="499.96" h="66.08" brush="brush229" replace="false" link="SYN/testPHM_R.sxl" id="pictureButton175" text="PHM R" font="font9"/>
+  <pictureButton w="66.88" hilit3D="false" x="413.56" y="311.96" h="66.08" brush="brush226" replace="false" link="SYN/testRAFS_N.sxl" id="pictureButton176" text="RAFS N" font="font9"/>
+  <pictureButton w="66.88" hilit3D="false" x="477.56" y="311.96" h="66.08" brush="brush227" replace="false" link="SYN/testRAFS_R.sxl" id="pictureButton177" text="RAFS R" font="font9"/>
+  <line w="-24.3195" x="415.48" hilit3D="false" pen="pen211" y="533.798" h="-0.0004" id="line180"/>
+  <line w="-0.016876" x="390.537" hilit3D="false" pen="pen211" y="484.158" h="48.6393" id="line181"/>
+  <line w="-24.3195" x="568.48" hilit3D="false" pen="pen212" y="533.798" h="-0.0004" id="line182"/>
+  <line w="0.0523" x="568.468" hilit3D="false" pen="pen212" y="484.175" h="49.6226" id="line184"/>
+  <line w="-21.7563" x="412.916" hilit3D="false" pen="pen213" y="342.757" h="0.0409692" id="line185"/>
+  <line w="0.0707119" x="391.537" hilit3D="false" pen="pen213" y="343.158" h="45.1964" id="line186"/>
+  <line w="-8e-05" x="559.958" hilit3D="false" pen="pen214" y="343.035" h="47.9234" id="line187"/>
+  <line w="-17.4245" x="559.958" hilit3D="false" pen="pen214" y="343.035" h="-0.032568" id="line188"/>
+  <line w="0.06544" x="451.056" hilit3D="false" pen="pen211" y="581.934" h="-16.8972" id="line189"/>
+  <line w="133.888" x="451.056" hilit3D="false" pen="pen211" y="581.886" h="-0.054" id="line190"/>
+  <line w="-0.22816" x="585.353" hilit3D="false" pen="pen211" y="485.166" h="96.6656" id="line191"/>
+  <line w="0.00032" x="496.06" hilit3D="false" pen="pen212" y="501.141" h="-24.1666" id="line192"/>
+  <line w="-43.6227" x="495.651" hilit3D="false" pen="pen212" y="477.613" h="0.1806" id="line193"/>
+  <line w="55.0341" x="297.966" hilit3D="false" pen="pen102" y="438.114" h="-0.0436" id="line194"/>
+  <line w="-8e-05" x="298.526" hilit3D="false" pen="pen102" y="438.114" h="-149.76" id="line195"/>
+  <line w="-746.766" x="712.097" hilit3D="false" pen="pen102" y="288.558" h="0.0004" id="line196"/>
+  <line w="143.859" x="609.141" hilit3D="false" pen="pen104" y="436.834" h="0.30692" id="line197"/>
+  <line w="0.00048" x="713.752" hilit3D="false" pen="pen102" y="287.903" h="-36.0448" id="line198"/>
+  <line w="0.08224" x="751.681" hilit3D="false" pen="pen104" y="437.653" h="-189.727" id="line199"/>
+  <line w="767.663" x="-15.6632" hilit3D="false" pen="pen104" y="275.451" h="-0.3106" id="line200"/>
+  <line w="0.17862" x="-34.6686" hilit3D="false" pen="pen102" y="-43.0538" h="331.407" id="line201"/>
+  <line w="0.27682" x="-16.6293" hilit3D="false" pen="pen104" y="275.14" h="-303.12" id="line202"/>
+  <line w="724.173" x="-15.4174" hilit3D="false" pen="pen104" y="-26.8336" h="4.65405e-13" id="line203"/>
+  <line w="0.02836" x="708.727" hilit3D="false" pen="pen104" y="-26.8624" h="27.8816" id="line204"/>
+  <line w="-771.096" x="737.427" hilit3D="false" pen="pen102" y="-42.3984" h="-0.0432" id="line205"/>
+  <line w="0.32768" x="738.035" hilit3D="false" pen="pen102" y="-42.4323" h="42.7295" id="line206"/>
+  <line w="4.50048e-07" x="279.877" hilit3D="false" pen="pen104" y="275.294" h="-25.3987" id="line207"/>
+  <line w="-1.392e-07" x="232.259" hilit3D="false" pen="pen102" y="288.289" h="-38.2252" id="line208"/>
+  <line w="-4.5365e-05" x="282.528" hilit3D="false" pen="pen102" y="-43.0745" h="45.08" id="line209"/>
+  <line w="-0.0460749" x="239.528" hilit3D="false" pen="pen104" y="-26.0745" h="27.8601" id="line210"/>
+  <line w="0.206378" x="464.119" hilit3D="false" pen="pen213" y="398.757" h="-22.0255" id="line216"/>
+  <line w="-47.2378" x="511.398" hilit3D="false" pen="pen213" y="398.757" h="0.0400395" id="line218"/>
+  <line w="0.0439801" x="506.791" hilit3D="false" pen="pen214" y="313.831" h="-13.8098" id="line219"/>
+  <line w="-132.152" x="507.398" hilit3D="false" pen="pen214" y="300.757" h="0.0381568" id="line222"/>
+  <line w="-2.25669e-08" x="375.553" hilit3D="false" pen="pen214" y="391.237" h="-91.0164" id="line225"/>
+  <pixmap w="114" x="1089" hilit3D="false" y="107" h="112" id="pixmap170" pixmap="SYN/clipart/navant.png"/>
+  <text w="138" hilit3D="false" x="1075" y="217" h="20" alignment="132" id="text172" outline="false" text="L-Band NavAnt" font="font9"/>
+  <group w="138" hilit3D="false" x="-40" y="370" h="130" scale="1" hidden="true" offsetX="0" offsetY="0" id="group232" clip="false"/>
+  <text w="138" hilit3D="false" x="0" y="110" h="20" alignment="132" id="text231" parent="group232" outline="false" text="SAR Ant" font="font9"/>
+  <pixmap w="72.8899" x="33.5551" hilit3D="false" y="0" h="112" id="pixmap230" parent="group232" pixmap="SYN/clipart/sarant.png"/>
+  <pictureButton w="100" hilit3D="false" x="99" y="312.96" h="98.08" brush="brush167" replace="false" link="SYN/testSART_N.sxl" id="pictureButton233" text="SART N" font="font9"/>
+  <pictureButton w="100" hilit3D="false" x="99" y="451.96" h="98.08" brush="brush167" replace="false" link="SYN/testSART_R.sxl" id="pictureButton234" text="SART R" font="font9"/>
+  <line w="78.3604" x="69" hilit3D="false" pen="pen17" y="425.86" h="0.200593" id="line235"/>
+  <line w="-0.222368" x="148" hilit3D="false" pen="pen17" y="452.94" h="-42.3105" id="line236"/>
+  <line w="118.752" x="179.249" hilit3D="false" pen="pen102" y="438.101" h="-0.0307956" id="line237"/>
+  <line w="-0.00337129" x="178.537" hilit3D="false" pen="pen213" y="438.158" h="14.3432" id="line238"/>
+  <line w="-0.016738" x="119.537" hilit3D="false" pen="pen213" y="290.158" h="22.7711" id="line239"/>
+  <line w="0.108156" x="167.982" hilit3D="false" pen="pen104" y="312.685" h="-35.8514" id="line241"/>
+  <line w="0.0685508" x="642.695" hilit3D="false" pen="pen104" y="598.394" h="-160.468" id="line243"/>
+  <line w="463.495" x="179.505" hilit3D="false" pen="pen104" y="598.919" h="0.222244" id="line245"/>
+  <line w="0.211586" x="178.552" hilit3D="false" pen="pen104" y="598.442" h="-50.516" id="line247"/>
+ </shapes>
+ <transforms/>
+ <dynamics>
+  <param id="param231" name="PMI1001S"/>
+  <param id="param236" name="PMI2001S"/>
+  <param id="param240" name="PNS1228_"/>
+ </dynamics>
+ <connections>
+  <connect dest="brush162" srcProp="output" destProp="r" src="chooser123"/>
+  <connect dest="brush162" srcProp="output" destProp="g" src="chooser124"/>
+  <connect dest="brush162" srcProp="output" destProp="b" src="chooser125"/>
+  <connect dest="chooser123" srcProp="rawValue" destProp="input" src="param123"/>
+  <connect dest="chooser124" srcProp="rawValue" destProp="input" src="param123"/>
+  <connect dest="chooser125" srcProp="rawValue" destProp="input" src="param123"/>
+  <connect dest="brush158" srcProp="output" destProp="r" src="chooser126"/>
+  <connect dest="brush158" srcProp="output" destProp="g" src="chooser127"/>
+  <connect dest="brush158" srcProp="output" destProp="b" src="chooser128"/>
+  <connect dest="chooser126" srcProp="rawValue" destProp="input" src="param126"/>
+  <connect dest="chooser127" srcProp="rawValue" destProp="input" src="param126"/>
+  <connect dest="chooser128" srcProp="rawValue" destProp="input" src="param126"/>
+ </connections>
+</synoptic>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<synoptic xsi:noNamespaceSchemaLocation="http://projects.nl.terma.com/SCHEMAS/SYNOPTICS/synopter.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" editor3D="0" editorVersion="0">
+ <assets>
+  <brush g="170" id="brush3" r="170" a="255" b="255"/>
+ </assets>
+ <shapes>
+  <ledbank w="-526" hilit3D="false" x="563" showLabels="true" y="50.5" h="25" value="0" id="ledbank0" showValue="true" mask="-1" outline="true" showMasked="false"/>
+  <parameterView w="100" hilit3D="false" x="50" y="88" h="24" view="rawValue" id="parameterView4"/>
+  <parameterView w="100" hilit3D="false" x="50" y="138" h="24" view="rawValue" id="parameterView6"/>
+  <parameterView w="100" hilit3D="false" x="50" y="188" h="24" view="rawValue" id="parameterView10"/>
+  <parameterView w="100" hilit3D="false" x="150" y="88" h="24" view="engValue" id="parameterView12"/>
+  <parameterView w="100" hilit3D="false" x="150" y="138" h="24" view="engValue" id="parameterView14"/>
+  <parameterView w="100" hilit3D="false" x="150" y="188" h="24" view="engValue" id="parameterView16"/>
+  <parameterView w="100" hilit3D="false" x="300" y="88" h="24" view="rawValue" id="parameterView17"/>
+  <parameterView w="100" hilit3D="false" x="300" y="138" h="24" view="rawValue" id="parameterView19"/>
+  <parameterView w="100" hilit3D="false" x="300" y="188" h="24" view="rawValue" id="parameterView22"/>
+  <parameterView w="100" hilit3D="false" x="400" y="88" h="24" view="engValue" id="parameterView23"/>
+  <parameterView w="100" hilit3D="false" x="400" y="138" h="24" view="engValue" id="parameterView25"/>
+  <parameterView w="100" hilit3D="false" x="400" y="188" h="24" view="engValue" id="parameterView27"/>
+  <text w="80" hilit3D="false" x="21" y="27" h="20" alignment="132" id="text28" outline="false" text="Heater State"/>
+  <text w="120" hilit3D="false" x="90" y="240" h="20" alignment="132" id="text29" outline="false" text="HTR_CMCU_H1 (24)"/>
+  <text w="150" hilit3D="false" x="325" y="240" h="20" alignment="132" id="text30" outline="false" text="HTR_RAFS1_2_H1 (27)"/>
+  <parameterView w="100" hilit3D="false" x="150" y="338" h="24" view="rawValue" id="parameterView31"/>
+  <parameterView w="100" hilit3D="false" x="250" y="338" h="24" view="engValue" id="parameterView33"/>
+  <text w="80" hilit3D="false" x="60" y="340" h="20" alignment="132" id="text35" outline="false" text="YDF0201X"/>
+  <text w="80" hilit3D="false" x="360" y="340" h="20" alignment="132" id="text36" outline="false" text="PTS0007T"/>
+  <text w="80" hilit3D="false" x="210" y="308" h="20" alignment="132" id="text37" outline="false" text="Limit Checking"/>
+ </shapes>
+ <transforms/>
+ <dynamics>
+  <param id="param1" name="YDF0001S"/>
+  <pictureinfo width="600" x="0" y="0" brush="brush3" height="442" id="pictureinfo2"/>
+  <param id="param5" name="YDF0401X"/>
+  <param id="param7" name="YDF0402X"/>
+  <param id="param11" name="YDF0403X"/>
+  <param id="param13" name="HTS0001T"/>
+  <param id="param15" name="HTS0002T"/>
+  <param id="param17" name="HTS0003T"/>
+  <param id="param18" name="YDF0413X"/>
+  <param id="param20" name="YDF0414X"/>
+  <param id="param21" name="YDF0415X"/>
+  <param id="param24" name="HTS0013T"/>
+  <param id="param26" name="HTS0014T"/>
+  <param id="param28" name="HTS0015T"/>
+  <param id="param32" name="YDF0201X"/>
+  <param id="param34" name="PTS0007T"/>
+ </dynamics>
+ <connections>
+  <connect dest="parameterView22" srcProp="*" src="param21"/>
+  <connect dest="ledbank0" srcProp="rawValue" destProp="value" src="param1"/>
+  <connect dest="parameterView23" srcProp="*" src="param24"/>
+  <connect dest="parameterView25" srcProp="*" src="param26"/>
+  <connect dest="parameterView27" srcProp="*" src="param28"/>
+  <connect dest="parameterView31" srcProp="*" src="param32"/>
+  <connect dest="parameterView33" srcProp="*" src="param34"/>
+  <connect dest="parameterView4" srcProp="*" src="param5"/>
+  <connect dest="parameterView6" srcProp="*" src="param7"/>
+  <connect dest="parameterView10" srcProp="*" src="param11"/>
+  <connect dest="parameterView12" srcProp="*" src="param13"/>
+  <connect dest="parameterView14" srcProp="*" src="param15"/>
+  <connect dest="parameterView16" srcProp="*" src="param17"/>
+  <connect dest="parameterView17" srcProp="*" src="param18"/>
+  <connect dest="parameterView19" srcProp="*" src="param20"/>
+ </connections>
+</synoptic>

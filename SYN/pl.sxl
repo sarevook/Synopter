@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<synoptic xsi:noNamespaceSchemaLocation="http://projects.nl.terma.com/SCHEMAS/SYNOPTICS/synopter.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" editor3D="0" editorVersion="0">
+ <assets>
+  <brush g="255" id="brush1" r="170" a="255" b="255"/>
+  <brush g="255" id="brush95" r="255" a="255" b="255"/>
+  <brush g="0" id="brush144" r="0" a="255" b="0"/>
+  <brush g="214" id="brush265" r="214" a="255" b="214"/>
+  <font fontFamily="MS Shell Dlg 2" pointSize="6" bold="false" id="font347" italic="false"/>
+  <pen width="0" g="170" penStyle="1" id="pen434" r="0" a="255" b="0"/>
+  <brush g="170" id="brush441" r="0" a="255" b="0"/>
+  <pen width="0" g="85" penStyle="1" id="pen471" r="255" a="255" b="127"/>
+  <brush g="170" id="brush473" r="255" a="255" b="255"/>
+  <rotate deg="-90" id="rotate501"/>
+  <pen width="3" g="170" penStyle="1" id="pen505" r="0" a="255" b="255"/>
+ </assets>
+ <shapes>
+  <rrect w="66.44" x="119.78" hilit3D="false" y="226" h="146" rnd="10" brush="brush265" id="rrect314"/>
+  <rrect w="66.44" x="213.78" hilit3D="false" y="226" h="146" rnd="10" brush="brush265" id="rrect312"/>
+  <rrect w="66.44" x="287.78" hilit3D="false" y="225" h="146" rnd="10" brush="brush265" id="rrect310"/>
+  <rrect w="66.44" x="387.78" hilit3D="false" y="144.88" h="310.24" rnd="10" brush="brush265" id="rrect307"/>
+  <rrect w="66.44" x="368.78" hilit3D="false" y="211.152" h="177.696" rnd="10" brush="brush265" id="rrect308"/>
+  <rrect w="373.2" x="570.4" hilit3D="false" y="140.9" h="316.2" rnd="10" brush="brush265" id="rrect264"/>
+  <group w="50" hilit3D="false" x="1026" y="88" h="52" scale="1" hidden="true" offsetX="0" offsetY="0" id="group4" clip="false"/>
+  <rect w="50" x="0" hilit3D="false" y="2" h="48" brush="brush1" id="rect0" parent="group4"/>
+  <text w="50" hilit3D="false" x="0" y="0" h="52" brush="brush1" alignment="132" id="text2" parent="group4" outline="false" text="LRA"/>
+  <group w="50" hilit3D="false" x="615" y="29" h="52" scale="1" hidden="true" offsetX="0" offsetY="0" id="group8" clip="false"/>
+  <rect w="50" x="0" hilit3D="false" y="2" h="48" brush="brush1" id="rect7" parent="group8"/>
+  <text w="50" hilit3D="false" x="0" y="0" h="52" brush="brush1" alignment="132" id="text5" parent="group8" outline="false" text="SART"/>
+  <group w="50" hilit3D="false" x="455" y="29" h="52" scale="1" hidden="true" offsetX="0" offsetY="0" id="group15" clip="false"/>
+  <rect w="50" x="0" hilit3D="false" y="2" h="48" brush="brush1" id="rect9" parent="group15"/>
+  <text w="50" hilit3D="false" x="0" y="0" h="52" brush="brush1" alignment="132" id="text10" parent="group15" outline="false" text="PHM1"/>
+  <group w="50" hilit3D="false" x="455" y="520" h="52" scale="1" hidden="true" offsetX="0" offsetY="0" id="group24" clip="false"/>
+  <rect w="50" x="0" hilit3D="false" y="2" h="48" brush="brush1" id="rect19" parent="group24"/>
+  <text w="50" hilit3D="false" x="0" y="0" h="52" brush="brush1" alignment="132" id="text21" parent="group24" outline="false" text="PHM2"/>
+  <polygon x="695" y="193" brush="brush1" id="polygon25">
+   <point x="0" y="0"/>
+   <point x="30" y="-20"/>
+   <point x="0" y="-39"/>
+  </polygon>
+  <group w="20" hilit3D="false" x="640" y="165" h="16" scale="1" hidden="true" offsetX="0" offsetY="0" id="group38" clip="false"/>
+  <polygon x="5" y="14" brush="brush1" id="polygon32" parent="group38">
+   <point x="0" y="0"/>
+   <point x="15" y="-6"/>
+   <point x="0" y="-13"/>
+  </polygon>
+  <line w="34" x="21" hilit3D="false" y="8" h="0" id="line33" parent="group38"/>
+  <group w="10" hilit3D="false" x="0" y="0" h="16" scale="0.1" hidden="true" offsetX="0" offsetY="0" id="group37" parent="group38" clip="false"/>
+  <line w="150" x="0" hilit3D="false" y="175" h="-175" id="line34" parent="group37"/>
+  <line w="25" x="125" hilit3D="false" y="0" h="0" id="line35" parent="group37"/>
+  <line w="0" x="150" hilit3D="false" y="0" h="25" id="line36" parent="group37"/>
+  <group w="20" hilit3D="false" x="640" y="215" h="16" scale="1" hidden="true" offsetX="0" offsetY="0" id="group39" clip="false"/>
+  <polygon x="5" y="14" brush="brush1" id="polygon44" parent="group39">
+   <point x="0" y="0"/>
+   <point x="15" y="-6"/>
+   <point x="0" y="-13"/>
+  </polygon>
+  <line w="34" x="21" hilit3D="false" y="8" h="0" id="line40" parent="group39"/>
+  <group w="10" hilit3D="false" x="0" y="0" h="16" scale="0.1" hidden="true" offsetX="0" offsetY="0" id="group45" parent="group39" clip="false"/>
+  <line w="150" x="0" hilit3D="false" y="175" h="-175" id="line41" parent="group45"/>
+  <line w="25" x="125" hilit3D="false" y="0" h="0" id="line42" parent="group45"/>
+  <line w="0" x="150" hilit3D="false" y="0" h="25" id="line43" parent="group45"/>
+  <group w="20" hilit3D="false" x="640" y="265" h="16" scale="1" hidden="true" offsetX="0" offsetY="0" id="group46" clip="false"/>
+  <polygon x="5" y="14" brush="brush1" id="polygon51" parent="group46">
+   <point x="0" y="0"/>
+   <point x="15" y="-6"/>
+   <point x="0" y="-13"/>
+  </polygon>
+  <line w="34" x="21" hilit3D="false" y="8" h="0" id="line47" parent="group46"/>
+  <group w="10" hilit3D="false" x="0" y="0" h="16" scale="0.1" hidden="true" offsetX="0" offsetY="0" id="group52" parent="group46" clip="false"/>
+  <line w="150" x="0" hilit3D="false" y="175" h="-175" id="line48" parent="group52"/>
+  <line w="25" x="125" hilit3D="false" y="0" h="0" id="line49" parent="group52"/>
+  <line w="0" x="150" hilit3D="false" y="0" h="25" id="line50" parent="group52"/>
+  <group w="20" hilit3D="false" x="640" y="315" h="16" scale="1" hidden="true" offsetX="0" offsetY="0" id="group59" clip="false"/>
+  <polygon x="5" y="14" brush="brush1" id="polygon55" parent="group59">
+   <point x="0" y="0"/>
+   <point x="15" y="-6"/>
+   <point x="0" y="-13"/>
+  </polygon>
+  <line w="34" x="21" hilit3D="false" y="8" h="0" id="line56" parent="group59"/>
+  <group w="10" hilit3D="false" x="0" y="0" h="16" scale="0.1" hidden="true" offsetX="0" offsetY="0" id="group53" parent="group59" clip="false"/>
+  <line w="150" x="0" hilit3D="false" y="175" h="-175" id="line57" parent="group53"/>
+  <line w="25" x="125" hilit3D="false" y="0" h="0" id="line58" parent="group53"/>
+  <line w="0" x="150" hilit3D="false" y="0" h="25" id="line54" parent="group53"/>
+  <group w="20" hilit3D="false" x="640" y="415" h="16" scale="1" hidden="true" offsetX="0" offsetY="0" id="group73" clip="false"/>
+  <polygon x="5" y="14" brush="brush1" id="polygon69" parent="group73">
+   <point x="0" y="0"/>
+   <point x="15" y="-6"/>
+   <point x="0" y="-13"/>
+  </polygon>
+  <line w="34" x="21" hilit3D="false" y="8" h="0" id="line70" parent="group73"/>
+  <group w="10" hilit3D="false" x="0" y="0" h="16" scale="0.1" hidden="true" offsetX="0" offsetY="0" id="group67" parent="group73" clip="false"/>
+  <line w="150" x="0" hilit3D="false" y="175" h="-175" id="line71" parent="group67"/>
+  <line w="25" x="125" hilit3D="false" y="0" h="0" id="line72" parent="group67"/>
+  <line w="0" x="150" hilit3D="false" y="0" h="25" id="line68" parent="group67"/>
+  <polygon x="606" y="198" brush="brush144" id="polygon154">
+   <point x="0" y="0"/>
+   <point x="5" y="-1.13687e-13"/>
+   <point x="5" y="-2.41884"/>
+  </polygon>
+  <group w="39.9321" hilit3D="false" x="775.034" y="277.999" h="40.0018" scale="1" hidden="true" offsetX="0" offsetY="0" id="group155" clip="false"/>
+  <ellipse w="20.1758" x="9.878" hilit3D="false" y="9.96" h="20.0827" id="ellipse151" parent="group155"/>
+  <arc w="19.9321" x="0" hilit3D="false" y="0" h="20.0018" spanAngle="-1440" startAngle="0" id="arc152" parent="group155"/>
+  <arc w="19.9321" x="20" hilit3D="false" y="20" h="20.0018" spanAngle="-1440" startAngle="2880" id="arc153" parent="group155"/>
+  <polygon x="780" y="398" brush="brush144" id="polygon156">
+   <point x="0" y="0"/>
+   <point x="5" y="0"/>
+   <point x="0" y="-2.3849"/>
+  </polygon>
+  <group w="39.9321" hilit3D="false" x="775.034" y="377.999" h="40.0018" scale="1" hidden="true" offsetX="0" offsetY="0" id="group158" clip="false"/>
+  <ellipse w="20.1758" x="9.878" hilit3D="false" y="9.96" h="20.0827" id="ellipse157" parent="group158"/>
+  <arc w="19.9321" x="0" hilit3D="false" y="0" h="20.0018" spanAngle="-1440" startAngle="0" id="arc159" parent="group158"/>
+  <arc w="19.9321" x="20" hilit3D="false" y="20" h="20.0018" spanAngle="-1440" startAngle="2880" id="arc160" parent="group158"/>
+  <group w="39.9321" hilit3D="false" x="775.034" y="177.999" h="40.0018" scale="1" hidden="true" offsetX="0" offsetY="0" id="group165" clip="false"/>
+  <ellipse w="20.1758" x="9.878" hilit3D="false" y="9.96" h="20.0827" id="ellipse164" parent="group165"/>
+  <arc w="19.9321" x="0" hilit3D="false" y="0" h="20.0018" spanAngle="-1440" startAngle="0" id="arc166" parent="group165"/>
+  <arc w="19.9321" x="20" hilit3D="false" y="20" h="20.0018" spanAngle="-1440" startAngle="2880" id="arc167" parent="group165"/>
+  <polygon x="780" y="298" brush="brush144" id="polygon168">
+   <point x="0" y="0"/>
+   <point x="5" y="0"/>
+   <point x="0" y="-2.3849"/>
+  </polygon>
+  <polygon x="780" y="198" brush="brush144" id="polygon169">
+   <point x="0" y="0"/>
+   <point x="5" y="0"/>
+   <point x="0" y="-2.3849"/>
+  </polygon>
+  <rect w="100" x="826" hilit3D="false" y="248" h="200" brush="brush1" id="rect142"/>
+  <line w="-0.00081484" x="861.347" hilit3D="false" y="317.428" h="62.0756" id="line146"/>
+  <group w="28" hilit3D="false" x="837" y="279" h="38" scale="1" hidden="true" offsetX="0" offsetY="0" id="group106" clip="false"/>
+  <rect w="28" x="0" hilit3D="false" y="0" h="38" brush="brush95" id="rect114" parent="group106"/>
+  <group w="17" hilit3D="false" x="5.5" y="3.5" h="31" scale="1" hidden="true" offsetX="0" offsetY="0" id="group104" parent="group106" clip="false"/>
+  <line w="6" x="8.5" hilit3D="false" y="9.5" h="-5" id="line110" parent="group104"/>
+  <group w="17" hilit3D="false" x="0" y="0" h="31" scale="1" hidden="true" offsetX="0" offsetY="0" id="group101" parent="group104" clip="false"/>
+  <group w="17" hilit3D="false" x="0" y="0" h="20" scale="0.1" hidden="true" offsetX="0" offsetY="0" id="group102" parent="group101" clip="false"/>
+  <arc w="100" x="0" hilit3D="false" y="50" h="100" spanAngle="1920" startAngle="480" id="arc109" parent="group102"/>
+  <arc w="100" x="87" hilit3D="false" y="0" h="100" spanAngle="1920" startAngle="3360" id="arc111" parent="group102"/>
+  <group w="17" hilit3D="false" x="0" y="5" h="20" scale="0.1" hidden="true" offsetX="0" offsetY="0" id="group103" parent="group101" clip="false"/>
+  <arc w="100" x="0" hilit3D="false" y="50" h="100" spanAngle="1920" startAngle="480" id="arc115" parent="group103"/>
+  <arc w="100" x="87" hilit3D="false" y="0" h="100" spanAngle="1920" startAngle="3360" id="arc105" parent="group103"/>
+  <group w="17" hilit3D="false" x="0" y="11" h="20" scale="0.1" hidden="true" offsetX="0" offsetY="0" id="group112" parent="group101" clip="false"/>
+  <arc w="100" x="0" hilit3D="false" y="50" h="100" spanAngle="1920" startAngle="480" id="arc107" parent="group112"/>
+  <arc w="100" x="87" hilit3D="false" y="0" h="100" spanAngle="1920" startAngle="3360" id="arc108" parent="group112"/>
+  <line w="6" x="5.5" hilit3D="false" y="20.5" h="-5" id="line113" parent="group104"/>
+  <line w="-26.8176" x="887.5" hilit3D="false" y="348" h="0" id="line147"/>
+  <group w="28" hilit3D="false" x="837" y="379" h="38" scale="1" hidden="true" offsetX="0" offsetY="0" id="group127" clip="false"/>
+  <rect w="28" x="0" hilit3D="false" y="0" h="38" brush="brush95" id="rect129" parent="group127"/>
+  <group w="17" hilit3D="false" x="5.5" y="3.5" h="31" scale="1" hidden="true" offsetX="0" offsetY="0" id="group124" parent="group127" clip="false"/>
+  <line w="6" x="8.5" hilit3D="false" y="9.5" h="-5" id="line125" parent="group124"/>
+  <group w="17" hilit3D="false" x="0" y="0" h="31" scale="1" hidden="true" offsetX="0" offsetY="0" id="group119" parent="group124" clip="false"/>
+  <group w="17" hilit3D="false" x="0" y="0" h="20" scale="0.1" hidden="true" offsetX="0" offsetY="0" id="group120" parent="group119" clip="false"/>
+  <arc w="100" x="0" hilit3D="false" y="50" h="100" spanAngle="1920" startAngle="480" id="arc126" parent="group120"/>
+  <arc w="100" x="87" hilit3D="false" y="0" h="100" spanAngle="1920" startAngle="3360" id="arc116" parent="group120"/>
+  <group w="17" hilit3D="false" x="0" y="5" h="20" scale="0.1" hidden="true" offsetX="0" offsetY="0" id="group122" parent="group119" clip="false"/>
+  <arc w="100" x="0" hilit3D="false" y="50" h="100" spanAngle="1920" startAngle="480" id="arc117" parent="group122"/>
+  <arc w="100" x="87" hilit3D="false" y="0" h="100" spanAngle="1920" startAngle="3360" id="arc118" parent="group122"/>
+  <group w="17" hilit3D="false" x="0" y="11" h="20" scale="0.1" hidden="true" offsetX="0" offsetY="0" id="group130" parent="group119" clip="false"/>
+  <arc w="100" x="0" hilit3D="false" y="50" h="100" spanAngle="1920" startAngle="480" id="arc121" parent="group130"/>
+  <arc w="100" x="87" hilit3D="false" y="0" h="100" spanAngle="1920" startAngle="3360" id="arc123" parent="group130"/>
+  <line w="6" x="5.5" hilit3D="false" y="20.5" h="-5" id="line128" parent="group124"/>
+  <group w="26" hilit3D="false" x="888" y="329" h="38" scale="1" hidden="true" offsetX="0" offsetY="0" id="group134" clip="false"/>
+  <rect w="26" x="0" hilit3D="false" y="0" h="38" brush="brush95" id="rect131" parent="group134"/>
+  <group w="17" hilit3D="false" x="4.5" y="6" h="28" scale="1" hidden="true" offsetX="0" offsetY="0" id="group135" parent="group134" clip="false"/>
+  <group w="17" hilit3D="false" x="0" y="0" h="20" scale="0.1" hidden="true" offsetX="0" offsetY="0" id="group140" parent="group135" clip="false"/>
+  <arc w="100" x="0" hilit3D="false" y="50" h="100" spanAngle="1920" startAngle="480" id="arc139" parent="group140"/>
+  <arc w="100" x="87" hilit3D="false" y="0" h="100" spanAngle="1920" startAngle="3360" id="arc136" parent="group140"/>
+  <group w="17" hilit3D="false" x="0" y="8" h="20" scale="0.1" hidden="true" offsetX="0" offsetY="0" id="group132" parent="group135" clip="false"/>
+  <arc w="100" x="0" hilit3D="false" y="50" h="100" spanAngle="1920" startAngle="480" id="arc137" parent="group132"/>
+  <arc w="100" x="87" hilit3D="false" y="0" h="100" spanAngle="1920" startAngle="3360" id="arc138" parent="group132"/>
+  <line w="6" x="6.5" hilit3D="false" y="13" h="-9" id="line133" parent="group135"/>
+  <text w="80" hilit3D="false" x="834" y="252" h="20" alignment="132" id="text145" outline="false" text="NAVOMUX"/>
+  <line w="29.978" x="806.022" hilit3D="false" pen="pen434" y="298" h="-0.3" id="line172"/>
+  <line w="30.645" x="805.355" hilit3D="false" pen="pen434" y="398" h="-0.3" id="line173"/>
+  <group w="39.9321" hilit3D="false" x="575.034" y="177.999" h="40.0018" scale="1" hidden="true" offsetX="0" offsetY="0" id="group176" clip="false"/>
+  <ellipse w="20.1758" x="9.878" hilit3D="false" y="9.96" h="20.0827" id="ellipse177" parent="group176"/>
+  <arc w="19.9321" x="0" hilit3D="false" y="0" h="20.0018" spanAngle="-1440" startAngle="0" id="arc174" parent="group176"/>
+  <arc w="19.9321" x="20" hilit3D="false" y="20" h="20.0018" spanAngle="-1440" startAngle="2880" id="arc175" parent="group176"/>
+  <group w="39.9321" hilit3D="false" x="575.034" y="277.999" h="40.0018" scale="1" hidden="true" offsetX="0" offsetY="0" id="group178" clip="false"/>
+  <ellipse w="20.1758" x="9.878" hilit3D="false" y="9.96" h="20.0827" id="ellipse179" parent="group178"/>
+  <arc w="19.9321" x="0" hilit3D="false" y="0" h="20.0018" spanAngle="-1440" startAngle="0" id="arc180" parent="group178"/>
+  <arc w="19.9321" x="20" hilit3D="false" y="20" h="20.0018" spanAngle="-1440" startAngle="2880" id="arc181" parent="group178"/>
+  <group w="39.9321" hilit3D="false" x="575.034" y="377.999" h="40.0018" scale="1" hidden="true" offsetX="0" offsetY="0" id="group182" clip="false"/>
+  <ellipse w="20.1758" x="9.878" hilit3D="false" y="9.96" h="20.0827" id="ellipse185" parent="group182"/>
+  <arc w="19.9321" x="0" hilit3D="false" y="0" h="20.0018" spanAngle="-1440" startAngle="0" id="arc183" parent="group182"/>
+  <arc w="19.9321" x="20" hilit3D="false" y="20" h="20.0018" spanAngle="-1440" startAngle="2880" id="arc184" parent="group182"/>
+  <polygon x="606" y="298" brush="brush144" id="polygon186">
+   <point x="0" y="0"/>
+   <point x="5" y="-1.13687e-13"/>
+   <point x="5" y="-2.41884"/>
+  </polygon>
+  <polygon x="606" y="398" brush="brush144" id="polygon187">
+   <point x="0" y="0"/>
+   <point x="5" y="-1.13687e-13"/>
+   <point x="5" y="-2.41884"/>
+  </polygon>
+  <line w="0" x="595" hilit3D="false" y="173" h="14.5766" id="line188"/>
+  <line w="0" x="595" hilit3D="false" y="273" h="14.5766" id="line189"/>
+  <line w="0" x="596" hilit3D="false" y="373" h="14.5766" id="line190"/>
+  <line w="0" x="595" hilit3D="false" y="209" h="14.5766" id="line191"/>
+  <line w="0" x="595" hilit3D="false" y="308" h="14.5766" id="line192"/>
+  <line w="0" x="596" hilit3D="false" y="408" h="14.5766" id="line193"/>
+  <line w="0" x="795" hilit3D="false" y="174" h="14.5766" id="line194"/>
+  <line w="0" x="796" hilit3D="false" y="208" h="14.5766" id="line195"/>
+  <line w="0" x="795" hilit3D="false" y="308" h="14.5766" id="line196"/>
+  <line w="0" x="795" hilit3D="false" y="408" h="14.5766" id="line197"/>
+  <line w="0" x="795" hilit3D="false" y="274" h="14.5766" id="line198"/>
+  <line w="50" x="595" hilit3D="false" y="173" h="0" id="line200"/>
+  <line w="50" x="595" hilit3D="false" y="273" h="0" id="line201"/>
+  <line w="50" x="595" hilit3D="false" y="373" h="0" id="line202"/>
+  <line w="50" x="595" hilit3D="false" y="223" h="0" id="line204"/>
+  <line w="50" x="595" hilit3D="false" y="323" h="0" id="line205"/>
+  <line w="50" x="596" hilit3D="false" y="423" h="0" id="line206"/>
+  <line w="70" x="725" hilit3D="false" y="173" h="0" id="line207"/>
+  <line w="75" x="720" hilit3D="false" y="223" h="0" id="line208"/>
+  <line w="75" x="720" hilit3D="false" y="273" h="0" id="line209"/>
+  <line w="75" x="720" hilit3D="false" y="323" h="0" id="line210"/>
+  <line w="75" x="720" hilit3D="false" y="373" h="0" id="line211"/>
+  <line w="75" x="720" hilit3D="false" y="423" h="0" id="line212"/>
+  <line w="0" x="795" hilit3D="false" y="373" h="14.5766" id="line213"/>
+  <rect w="100" x="826" hilit3D="false" y="156" h="84" brush="brush1" id="rect141"/>
+  <text w="80" hilit3D="false" x="834" y="219" h="20" alignment="132" id="text144" outline="false" text="NAVOFILT"/>
+  <group w="28" hilit3D="false" x="837" y="179" h="38" scale="1" hidden="true" offsetX="0" offsetY="0" id="group96" clip="false"/>
+  <rect w="28" x="0" hilit3D="false" y="0" h="38" brush="brush95" id="rect94" parent="group96"/>
+  <group w="17" hilit3D="false" x="5.5" y="3.5" h="31" scale="1" hidden="true" offsetX="0" offsetY="0" id="group93" parent="group96" clip="false"/>
+  <line w="6" x="8.5" hilit3D="false" y="9.5" h="-5" id="line90" parent="group93"/>
+  <group w="17" hilit3D="false" x="0" y="0" h="31" scale="1" hidden="true" offsetX="0" offsetY="0" id="group91" parent="group93" clip="false"/>
+  <group w="17" hilit3D="false" x="0" y="0" h="20" scale="0.1" hidden="true" offsetX="0" offsetY="0" id="group77" parent="group91" clip="false"/>
+  <arc w="100" x="0" hilit3D="false" y="50" h="100" spanAngle="1920" startAngle="480" id="arc75" parent="group77"/>
+  <arc w="100" x="87" hilit3D="false" y="0" h="100" spanAngle="1920" startAngle="3360" id="arc76" parent="group77"/>
+  <group w="17" hilit3D="false" x="0" y="5" h="20" scale="0.1" hidden="true" offsetX="0" offsetY="0" id="group78" parent="group91" clip="false"/>
+  <arc w="100" x="0" hilit3D="false" y="50" h="100" spanAngle="1920" startAngle="480" id="arc79" parent="group78"/>
+  <arc w="100" x="87" hilit3D="false" y="0" h="100" spanAngle="1920" startAngle="3360" id="arc80" parent="group78"/>
+  <group w="17" hilit3D="false" x="0" y="11" h="20" scale="0.1" hidden="true" offsetX="0" offsetY="0" id="group81" parent="group91" clip="false"/>
+  <arc w="100" x="0" hilit3D="false" y="50" h="100" spanAngle="1920" startAngle="480" id="arc82" parent="group81"/>
+  <arc w="100" x="87" hilit3D="false" y="0" h="100" spanAngle="1920" startAngle="3360" id="arc83" parent="group81"/>
+  <line w="6" x="5.5" hilit3D="false" y="20.5" h="-5" id="line92" parent="group93"/>
+  <group w="26" hilit3D="false" x="885" y="179" h="38" scale="1" hidden="true" offsetX="0" offsetY="0" id="group100" clip="false"/>
+  <rect w="26" x="0" hilit3D="false" y="0" h="38" brush="brush95" id="rect98" parent="group100"/>
+  <group w="17" hilit3D="false" x="4.5" y="6" h="28" scale="1" hidden="true" offsetX="0" offsetY="0" id="group99" parent="group100" clip="false"/>
+  <group w="17" hilit3D="false" x="0" y="0" h="20" scale="0.1" hidden="true" offsetX="0" offsetY="0" id="group84" parent="group99" clip="false"/>
+  <arc w="100" x="0" hilit3D="false" y="50" h="100" spanAngle="1920" startAngle="480" id="arc89" parent="group84"/>
+  <arc w="100" x="87" hilit3D="false" y="0" h="100" spanAngle="1920" startAngle="3360" id="arc85" parent="group84"/>
+  <group w="17" hilit3D="false" x="0" y="8" h="20" scale="0.1" hidden="true" offsetX="0" offsetY="0" id="group88" parent="group99" clip="false"/>
+  <arc w="100" x="0" hilit3D="false" y="50" h="100" spanAngle="1920" startAngle="480" id="arc86" parent="group88"/>
+  <arc w="100" x="87" hilit3D="false" y="0" h="100" spanAngle="1920" startAngle="3360" id="arc87" parent="group88"/>
+  <line w="6" x="6.5" hilit3D="false" y="13" h="-9" id="line97" parent="group99"/>
+  <group w="19.208" hilit3D="false" x="753.396" y="163.04" h="19.92" scale="1" hidden="true" offsetX="0" offsetY="0" id="group223" clip="false"/>
+  <rect w="18.744" x="0" hilit3D="false" y="0" h="19.92" brush="brush95" id="rect217" parent="group223"/>
+  <line w="16.836" x="0.372" hilit3D="false" y="4.96" h="0" id="line214" parent="group223"/>
+  <polygon x="13.372" y="5.96" brush="brush144" id="polygon215" parent="group223">
+   <point x="0" y="0"/>
+   <point x="5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="6.372" y="15.96" brush="brush144" id="polygon216" parent="group223">
+   <point x="0" y="0"/>
+   <point x="-5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <line w="16.836" x="2.372" hilit3D="false" y="14.96" h="0" id="line219" parent="group223"/>
+  <line w="5" x="6.872" hilit3D="false" y="12.46" h="5" id="line220" parent="group223"/>
+  <group w="19.208" hilit3D="false" x="754.396" y="213.04" h="19.92" scale="1" hidden="true" offsetX="0" offsetY="0" id="group229" clip="false"/>
+  <rect w="18.744" x="0" hilit3D="false" y="0" h="19.92" brush="brush95" id="rect224" parent="group229"/>
+  <line w="16.836" x="0.372" hilit3D="false" y="4.96" h="0" id="line230" parent="group229"/>
+  <polygon x="13.372" y="5.96" brush="brush144" id="polygon226" parent="group229">
+   <point x="0" y="0"/>
+   <point x="5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="6.372" y="15.96" brush="brush144" id="polygon228" parent="group229">
+   <point x="0" y="0"/>
+   <point x="-5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <line w="16.836" x="2.372" hilit3D="false" y="14.96" h="0" id="line225" parent="group229"/>
+  <line w="5" x="6.872" hilit3D="false" y="12.46" h="5" id="line227" parent="group229"/>
+  <group w="19.208" hilit3D="false" x="754.396" y="263.04" h="19.92" scale="1" hidden="true" offsetX="0" offsetY="0" id="group236" clip="false"/>
+  <rect w="18.744" x="0" hilit3D="false" y="0" h="19.92" brush="brush95" id="rect231" parent="group236"/>
+  <line w="16.836" x="0.372" hilit3D="false" y="4.96" h="0" id="line237" parent="group236"/>
+  <polygon x="13.372" y="5.96" brush="brush144" id="polygon233" parent="group236">
+   <point x="0" y="0"/>
+   <point x="5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="6.372" y="15.96" brush="brush144" id="polygon235" parent="group236">
+   <point x="0" y="0"/>
+   <point x="-5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <line w="16.836" x="2.372" hilit3D="false" y="14.96" h="0" id="line232" parent="group236"/>
+  <line w="5" x="6.872" hilit3D="false" y="12.46" h="5" id="line234" parent="group236"/>
+  <group w="19.208" hilit3D="false" x="755.396" y="313.04" h="19.92" scale="1" hidden="true" offsetX="0" offsetY="0" id="group244" clip="false"/>
+  <rect w="18.744" x="0" hilit3D="false" y="0" h="19.92" brush="brush95" id="rect242" parent="group244"/>
+  <line w="16.836" x="0.372" hilit3D="false" y="4.96" h="0" id="line239" parent="group244"/>
+  <polygon x="13.372" y="5.96" brush="brush144" id="polygon240" parent="group244">
+   <point x="0" y="0"/>
+   <point x="5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="6.372" y="15.96" brush="brush144" id="polygon241" parent="group244">
+   <point x="0" y="0"/>
+   <point x="-5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <line w="16.836" x="2.372" hilit3D="false" y="14.96" h="0" id="line243" parent="group244"/>
+  <line w="5" x="6.872" hilit3D="false" y="12.46" h="5" id="line238" parent="group244"/>
+  <group w="19.208" hilit3D="false" x="755.396" y="363.04" h="19.92" scale="1" hidden="true" offsetX="0" offsetY="0" id="group249" clip="false"/>
+  <rect w="18.744" x="0" hilit3D="false" y="0" h="19.92" brush="brush95" id="rect250" parent="group249"/>
+  <line w="16.836" x="0.372" hilit3D="false" y="4.96" h="0" id="line246" parent="group249"/>
+  <polygon x="13.372" y="5.96" brush="brush144" id="polygon247" parent="group249">
+   <point x="0" y="0"/>
+   <point x="5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="6.372" y="15.96" brush="brush144" id="polygon248" parent="group249">
+   <point x="0" y="0"/>
+   <point x="-5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <line w="16.836" x="2.372" hilit3D="false" y="14.96" h="0" id="line251" parent="group249"/>
+  <line w="5" x="6.872" hilit3D="false" y="12.46" h="5" id="line245" parent="group249"/>
+  <group w="19.208" hilit3D="false" x="756.396" y="413.04" h="19.92" scale="1" hidden="true" offsetX="0" offsetY="0" id="group253" clip="false"/>
+  <rect w="18.744" x="0" hilit3D="false" y="0" h="19.92" brush="brush95" id="rect257" parent="group253"/>
+  <line w="16.836" x="0.372" hilit3D="false" y="4.96" h="0" id="line254" parent="group253"/>
+  <polygon x="13.372" y="5.96" brush="brush144" id="polygon255" parent="group253">
+   <point x="0" y="0"/>
+   <point x="5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="6.372" y="15.96" brush="brush144" id="polygon256" parent="group253">
+   <point x="0" y="0"/>
+   <point x="-5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <line w="16.836" x="2.372" hilit3D="false" y="14.96" h="0" id="line258" parent="group253"/>
+  <line w="5" x="6.872" hilit3D="false" y="12.46" h="5" id="line252" parent="group253"/>
+  <group w="20" hilit3D="false" x="640" y="364.5" h="16" scale="1" hidden="true" offsetX="0" offsetY="0" id="group66" clip="false"/>
+  <polygon x="5" y="14" brush="brush1" id="polygon62" parent="group66">
+   <point x="0" y="0"/>
+   <point x="15" y="-6"/>
+   <point x="0" y="-13"/>
+  </polygon>
+  <line w="34" x="21" hilit3D="false" y="8" h="0" id="line63" parent="group66"/>
+  <group w="10" hilit3D="false" x="0" y="0" h="16" scale="0.1" hidden="true" offsetX="0" offsetY="0" id="group60" parent="group66" clip="false"/>
+  <line w="150" x="0" hilit3D="false" y="175" h="-175" id="line64" parent="group60"/>
+  <line w="25" x="125" hilit3D="false" y="0" h="0" id="line65" parent="group60"/>
+  <line w="0" x="150" hilit3D="false" y="0" h="25" id="line61" parent="group60"/>
+  <polygon x="695" y="243" brush="brush1" id="polygon259">
+   <point x="0" y="0"/>
+   <point x="30" y="-20"/>
+   <point x="0" y="-39"/>
+  </polygon>
+  <polygon x="695" y="293" brush="brush1" id="polygon260">
+   <point x="0" y="0"/>
+   <point x="30" y="-20"/>
+   <point x="0" y="-39"/>
+  </polygon>
+  <polygon x="695" y="343" brush="brush1" id="polygon261">
+   <point x="0" y="0"/>
+   <point x="30" y="-20"/>
+   <point x="0" y="-39"/>
+  </polygon>
+  <polygon x="695" y="393" brush="brush1" id="polygon262">
+   <point x="0" y="0"/>
+   <point x="30" y="-20"/>
+   <point x="-5.68434e-14" y="-40"/>
+  </polygon>
+  <polygon x="695" y="443" brush="brush1" id="polygon263">
+   <point x="0" y="0"/>
+   <point x="30" y="-20"/>
+   <point x="-5.68434e-14" y="-40"/>
+  </polygon>
+  <line w="32.343" x="805.657" hilit3D="false" pen="pen434" y="198" h="0" id="line170"/>
+  <group w="51" hilit3D="false" x="126.5" y="234" h="48.96" scale="1" hidden="true" offsetX="0" offsetY="0" id="group297" clip="false"/>
+  <rect w="50" x="1" hilit3D="false" y="0" h="48" brush="brush1" id="rect291" parent="group297"/>
+  <text w="50" hilit3D="false" x="1" y="0.04" h="19.92" brush="brush1" alignment="132" id="text292" parent="group297" outline="false" text="MISREC"/>
+  <text w="50" hilit3D="false" x="0" y="29.04" h="19.92" brush="brush1" alignment="132" id="text293" parent="group297" outline="false" text="N"/>
+  <group w="51" hilit3D="false" x="126.5" y="315.52" h="48.96" scale="1" hidden="true" offsetX="0" offsetY="0" id="group298" clip="false"/>
+  <rect w="50" x="1" hilit3D="false" y="0" h="48" brush="brush1" id="rect294" parent="group298"/>
+  <text w="50" hilit3D="false" x="1" y="0.04" h="19.92" brush="brush1" alignment="132" id="text295" parent="group298" outline="false" text="MISREC"/>
+  <text w="50" hilit3D="false" x="0" y="29.04" h="19.92" brush="brush1" alignment="132" id="text296" parent="group298" outline="false" text="R"/>
+  <group w="51" hilit3D="false" x="221.5" y="234" h="48.96" scale="1" hidden="true" offsetX="0" offsetY="0" id="group299" clip="false"/>
+  <rect w="50" x="1" hilit3D="false" y="0" h="48" brush="brush1" id="rect287" parent="group299"/>
+  <text w="50" hilit3D="false" x="1" y="0.04" h="19.92" brush="brush1" alignment="132" id="text285" parent="group299" outline="false" text="CSU"/>
+  <text w="50" hilit3D="false" x="0" y="29.04" h="19.92" brush="brush1" alignment="132" id="text286" parent="group299" outline="false" text="N"/>
+  <group w="51" hilit3D="false" x="374.5" y="250.52" h="48.96" scale="1" hidden="true" offsetX="0" offsetY="0" id="group303" clip="false"/>
+  <rect w="50" x="1" hilit3D="false" y="0" h="48" brush="brush1" id="rect276" parent="group303"/>
+  <text w="50" hilit3D="false" x="1" y="0.04" h="19.92" brush="brush1" alignment="132" id="text277" parent="group303" outline="false" text="FGUU"/>
+  <text w="50" hilit3D="false" x="0" y="29.04" h="19.92" brush="brush1" alignment="132" id="text278" parent="group303" outline="false" text="N"/>
+  <group w="51" hilit3D="false" x="374.5" y="302" h="48.96" scale="1" hidden="true" offsetX="0" offsetY="0" id="group304" clip="false"/>
+  <rect w="50" x="1" hilit3D="false" y="0" h="48" brush="brush1" id="rect273" parent="group304"/>
+  <text w="50" hilit3D="false" x="1" y="0.04" h="19.92" brush="brush1" alignment="132" id="text274" parent="group304" outline="false" text="FGUU"/>
+  <text w="50" hilit3D="false" x="0" y="29.04" h="19.92" brush="brush1" alignment="132" id="text275" parent="group304" outline="false" text="R"/>
+  <group w="51" hilit3D="false" x="396" y="396.52" h="48.96" scale="1" hidden="true" offsetX="0" offsetY="0" id="group305" clip="false"/>
+  <rect w="50" x="1" hilit3D="false" y="0" h="48" brush="brush1" id="rect270" parent="group305"/>
+  <text w="50" hilit3D="false" x="1" y="0.04" h="19.92" brush="brush1" alignment="132" id="text271" parent="group305" outline="false" text="CMCU"/>
+  <text w="50" hilit3D="false" x="0" y="29.04" h="19.92" brush="brush1" alignment="132" id="text272" parent="group305" outline="false" text="R"/>
+  <group w="50" hilit3D="false" x="245" y="449.52" h="48.96" scale="1" hidden="true" offsetX="0" offsetY="0" id="group325" clip="false"/>
+  <rect w="50" x="0" hilit3D="false" y="0" h="48" brush="brush1" id="rect320" parent="group325"/>
+  <text w="50" hilit3D="false" x="0" y="0.04" h="19.92" brush="brush1" alignment="132" id="text321" parent="group325" outline="false" text="RTU"/>
+  <text w="37" hilit3D="false" x="7.5" y="29.04" h="19.92" brush="brush1" alignment="132" id="text322" parent="group325" outline="false" text="N/R"/>
+  <group w="80" hilit3D="false" x="945" y="28" h="58" scale="1" hidden="true" offsetX="0" offsetY="0" id="group338" clip="false"/>
+  <ellipse w="60" x="10" hilit3D="false" y="0" h="58" brush="brush1" id="ellipse332" parent="group338"/>
+  <text w="80" hilit3D="false" x="0" y="8" h="20" alignment="132" id="text333" parent="group338" outline="false" text="SAR"/>
+  <text w="80" hilit3D="false" x="0" y="24" h="20" alignment="132" id="text335" parent="group338" outline="false" text="Antenna"/>
+  <group w="83" hilit3D="false" x="26" y="206" h="58" scale="1" hidden="true" offsetX="0" offsetY="0" id="group340" clip="false"/>
+  <ellipse w="60" x="11" hilit3D="false" y="0" h="58" brush="brush1" id="ellipse326" parent="group340"/>
+  <text w="80" hilit3D="false" x="0" y="6" h="20" alignment="132" id="text327" parent="group340" outline="false" text="C-BAND"/>
+  <group w="81" hilit3D="false" x="2" y="18" h="30" scale="1" hidden="true" offsetX="0" offsetY="0" id="group330" parent="group340" clip="false"/>
+  <text w="80" hilit3D="false" x="0" y="0" h="20" alignment="132" id="text328" parent="group330" outline="false" text="Mission"/>
+  <text w="80" hilit3D="false" x="1" y="10" h="20" alignment="132" id="text329" parent="group330" outline="false" text="Antenna"/>
+  <group w="55" hilit3D="false" x="38.5" y="266" h="10" scale="1" hidden="true" offsetX="0" offsetY="0" id="group348" clip="false"/>
+  <polyLine x="0" y="10" id="polyLine346" parent="group348">
+   <point x="0" y="0"/>
+   <point x="10" y="-10"/>
+   <point x="45" y="-10"/>
+   <point x="55" y="0"/>
+  </polyLine>
+  <text w="46.376" hilit3D="false" x="4.624" y="4.68" h="5.32" alignment="132" id="text345" parent="group348" outline="false" text="COUPLER" font="font347"/>
+  <group w="55" hilit3D="false" x="478.5" y="270" h="10" scale="1" hidden="true" offsetX="0" offsetY="0" id="group350" clip="false"/>
+  <polyLine x="0" y="10" id="polyLine349" parent="group350">
+   <point x="0" y="0"/>
+   <point x="10" y="-10"/>
+   <point x="45" y="-10"/>
+   <point x="55" y="0"/>
+  </polyLine>
+  <text w="46.376" hilit3D="false" x="4.624" y="4.68" h="5.32" alignment="132" id="text351" parent="group350" outline="false" text="COUPLER" font="font347"/>
+  <group w="55" hilit3D="false" x="476.5" y="303" h="10" scale="1" hidden="true" offsetX="0" offsetY="0" id="group352" clip="false"/>
+  <polyLine x="0" y="10" id="polyLine353" parent="group352">
+   <point x="0" y="0"/>
+   <point x="10" y="-10"/>
+   <point x="45" y="-10"/>
+   <point x="55" y="0"/>
+  </polyLine>
+  <text w="46.376" hilit3D="false" x="4.624" y="4.68" h="5.32" alignment="132" id="text354" parent="group352" outline="false" text="COUPLER" font="font347"/>
+  <group w="55" hilit3D="false" x="476" y="344" h="10" scale="1" hidden="true" offsetX="0" offsetY="0" id="group355" clip="false"/>
+  <polyLine x="0" y="10" id="polyLine356" parent="group355">
+   <point x="0" y="0"/>
+   <point x="10" y="-10"/>
+   <point x="45" y="-10"/>
+   <point x="55" y="0"/>
+  </polyLine>
+  <text w="46.376" hilit3D="false" x="4.624" y="4.68" h="5.32" alignment="132" id="text357" parent="group355" outline="false" text="COUPLER" font="font347"/>
+  <line w="0.000408" x="152.969" hilit3D="false" y="282.396" h="32.604" id="line358"/>
+  <polygon x="154" y="287" brush="brush144" id="polygon359">
+   <point x="0" y="0"/>
+   <point x="-1" y="-5"/>
+   <point x="-2" y="0"/>
+  </polygon>
+  <polygon x="154" y="310" brush="brush144" id="polygon360">
+   <point x="0" y="0"/>
+   <point x="-1" y="5"/>
+   <point x="-2" y="0"/>
+  </polygon>
+  <polyLine x="153" y="300" brush="brush144" id="polyLine361">
+   <point x="0" y="0"/>
+   <point x="-88" y="0"/>
+   <point x="-88" y="-22.8471"/>
+  </polyLine>
+  <line w="43.5163" x="178.242" hilit3D="false" y="245" h="0" id="line362"/>
+  <line w="43.5163" x="178.242" hilit3D="false" y="270" h="0" id="line363"/>
+  <line w="43.5163" x="178.242" hilit3D="false" y="325" h="0" id="line364"/>
+  <line w="43.5163" x="178.242" hilit3D="false" y="355" h="0" id="line365"/>
+  <polygon x="216" y="246" brush="brush144" id="polygon366">
+   <point x="0" y="0"/>
+   <point x="5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="182" y="271" brush="brush144" id="polygon367">
+   <point x="0" y="0"/>
+   <point x="-5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="216" y="326" brush="brush144" id="polygon368">
+   <point x="0" y="0"/>
+   <point x="5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="184" y="356" brush="brush144" id="polygon369">
+   <point x="0" y="0"/>
+   <point x="-5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="291" y="321" brush="brush144" id="polygon378">
+   <point x="0" y="0"/>
+   <point x="5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="291" y="323" brush="brush144" id="polygon379">
+   <point x="0" y="0"/>
+   <point x="5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="291" y="325" brush="brush144" id="polygon381">
+   <point x="0" y="0"/>
+   <point x="5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="291" y="327" brush="brush144" id="polygon383">
+   <point x="0" y="0"/>
+   <point x="5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <line w="23.9347" x="271.065" hilit3D="false" y="326.207" h="-2.44249e-14" id="line385"/>
+  <line w="23.264" x="271.393" hilit3D="false" y="323.913" h="0.0872" id="line384"/>
+  <line w="23.5921" x="271.065" hilit3D="false" y="321.947" h="0.05288" id="line382"/>
+  <line w="23.5917" x="271.065" hilit3D="false" y="320" h="0" id="line380"/>
+  <line w="25.7387" x="271.065" hilit3D="false" y="351" h="-1.39888e-14" id="line386"/>
+  <line w="25.7387" x="271.065" hilit3D="false" y="353" h="-1.39888e-14" id="line387"/>
+  <line w="25.7387" x="271.065" hilit3D="false" y="355" h="-1.39888e-14" id="line388"/>
+  <polygon x="276" y="356" brush="brush144" id="polygon389">
+   <point x="0" y="0"/>
+   <point x="-5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="276" y="354" brush="brush144" id="polygon390">
+   <point x="0" y="0"/>
+   <point x="-5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="276" y="352" brush="brush144" id="polygon391">
+   <point x="0" y="0"/>
+   <point x="-5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="277" y="273" brush="brush144" id="polygon396">
+   <point x="0" y="0"/>
+   <point x="-5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="277" y="271" brush="brush144" id="polygon400">
+   <point x="0" y="0"/>
+   <point x="-5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="277" y="269" brush="brush144" id="polygon401">
+   <point x="0" y="0"/>
+   <point x="-5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <line w="25.7387" x="272.065" hilit3D="false" y="272" h="-1.39888e-14" id="line399"/>
+  <line w="25.7387" x="272.065" hilit3D="false" y="270" h="-1.39888e-14" id="line398"/>
+  <line w="25.7387" x="272.065" hilit3D="false" y="268" h="-1.39888e-14" id="line397"/>
+  <group w="24.641" hilit3D="false" x="272.359" y="239" h="8" scale="1" hidden="true" offsetX="0" offsetY="0" id="group410" clip="false"/>
+  <line w="22.9533" x="0.345" hilit3D="false" y="1" h="0" id="line370" parent="group410"/>
+  <line w="22.9533" x="0.345" hilit3D="false" y="2.993" h="0.00672" id="line371" parent="group410"/>
+  <line w="22.2983" x="0" hilit3D="false" y="4.959" h="0.04092" id="line372" parent="group410"/>
+  <line w="23.607" x="0.838" hilit3D="false" y="7" h="-1.39888e-14" id="line373" parent="group410"/>
+  <polygon x="19.641" y="2" brush="brush144" id="polygon374" parent="group410">
+   <point x="0" y="0"/>
+   <point x="5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="19.641" y="4" brush="brush144" id="polygon375" parent="group410">
+   <point x="0" y="0"/>
+   <point x="5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="19.641" y="6" brush="brush144" id="polygon376" parent="group410">
+   <point x="0" y="0"/>
+   <point x="5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="19.641" y="8" brush="brush144" id="polygon377" parent="group410">
+   <point x="0" y="0"/>
+   <point x="5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <group w="24.641" hilit3D="false" x="347.68" y="258" h="8" scale="1" hidden="true" offsetX="0" offsetY="0" id="group419" clip="false"/>
+  <line w="22.9533" x="0.345" hilit3D="false" y="1" h="0" id="line412" parent="group419"/>
+  <line w="22.9533" x="0.345" hilit3D="false" y="2.993" h="0.00672" id="line414" parent="group419"/>
+  <line w="22.2983" x="0" hilit3D="false" y="4.959" h="0.04092" id="line416" parent="group419"/>
+  <line w="23.607" x="0.838" hilit3D="false" y="7" h="-1.39888e-14" id="line418" parent="group419"/>
+  <polygon x="19.641" y="2" brush="brush144" id="polygon411" parent="group419">
+   <point x="0" y="0"/>
+   <point x="5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="19.641" y="4" brush="brush144" id="polygon413" parent="group419">
+   <point x="0" y="0"/>
+   <point x="5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="19.641" y="6" brush="brush144" id="polygon415" parent="group419">
+   <point x="0" y="0"/>
+   <point x="5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="19.641" y="8" brush="brush144" id="polygon417" parent="group419">
+   <point x="0" y="0"/>
+   <point x="5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <group w="24.641" hilit3D="false" x="347.68" y="329" h="8" scale="1" hidden="true" offsetX="0" offsetY="0" id="group423" clip="false"/>
+  <line w="22.9533" x="0.345" hilit3D="false" y="1" h="0" id="line428" parent="group423"/>
+  <line w="22.9533" x="0.345" hilit3D="false" y="2.993" h="0.00672" id="line420" parent="group423"/>
+  <line w="22.2983" x="0" hilit3D="false" y="4.959" h="0.04092" id="line421" parent="group423"/>
+  <line w="23.607" x="0.838" hilit3D="false" y="7" h="-1.39888e-14" id="line422" parent="group423"/>
+  <polygon x="19.641" y="2" brush="brush144" id="polygon424" parent="group423">
+   <point x="0" y="0"/>
+   <point x="5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="19.641" y="4" brush="brush144" id="polygon425" parent="group423">
+   <point x="0" y="0"/>
+   <point x="5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="19.641" y="6" brush="brush144" id="polygon426" parent="group423">
+   <point x="0" y="0"/>
+   <point x="5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="19.641" y="8" brush="brush144" id="polygon427" parent="group423">
+   <point x="0" y="0"/>
+   <point x="5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="352" y="341" brush="brush144" id="polygon429">
+   <point x="0" y="0"/>
+   <point x="-5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <line w="25.7387" x="347.065" hilit3D="false" y="340" h="-1.39888e-14" id="line430"/>
+  <polygon x="353" y="270" brush="brush144" id="polygon431">
+   <point x="0" y="0"/>
+   <point x="-5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <line w="25.7387" x="348.065" hilit3D="false" y="269" h="-1.39888e-14" id="line432"/>
+  <line w="150" x="435" hilit3D="false" pen="pen434" y="298.14" h="1.36557e-14" id="line433"/>
+  <polyLine x="585" pen="pen434" y="398.1" id="polyLine435">
+   <point x="0" y="0"/>
+   <point x="-35" y="0.16"/>
+   <point x="-35" y="-58.1"/>
+   <point x="-150" y="-58.1"/>
+  </polyLine>
+  <polyLine x="435" pen="pen434" y="265" id="polyLine436">
+   <point x="0" y="0"/>
+   <point x="115" y="0"/>
+   <point x="115" y="-67.06"/>
+   <point x="150" y="-67.06"/>
+  </polyLine>
+  <line w="0" x="410" hilit3D="false" pen="pen434" y="205" h="44" id="line437"/>
+  <line w="0" x="409" hilit3D="false" pen="pen434" y="350" h="46" id="line439"/>
+  <polygon x="410" pen="pen434" y="355" brush="brush441" id="polygon440">
+   <point x="0" y="0"/>
+   <point x="-1" y="-5"/>
+   <point x="-2" y="0"/>
+  </polygon>
+  <polygon x="411" pen="pen434" y="245" brush="brush441" id="polygon442">
+   <point x="0" y="0"/>
+   <point x="-1" y="5"/>
+   <point x="-2" y="0"/>
+  </polygon>
+  <polyLine x="465" pen="pen434" y="130" brush="brush441" id="polyLine443">
+   <point x="0" y="0"/>
+   <point x="0" y="35"/>
+   <point x="-20" y="35"/>
+  </polyLine>
+  <polygon x="451" pen="pen434" y="166" brush="brush441" id="polygon444">
+   <point x="0" y="0"/>
+   <point x="-5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polyLine x="490" pen="pen434" y="521.323" brush="brush441" id="polyLine445">
+   <point x="0" y="0"/>
+   <point x="0" y="-111.323"/>
+   <point x="-42" y="-111.323"/>
+  </polyLine>
+  <polygon x="452" pen="pen434" y="436" brush="brush441" id="polygon446">
+   <point x="0" y="0"/>
+   <point x="-5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polyLine x="446.36" pen="pen434" y="430" brush="brush441" id="polyLine447">
+   <point x="0" y="0"/>
+   <point x="23.64" y="0"/>
+   <point x="23.64" y="-293.1"/>
+  </polyLine>
+  <polygon x="452" pen="pen434" y="431" brush="brush441" id="polygon449">
+   <point x="0" y="0"/>
+   <point x="-5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polyLine x="465" pen="pen434" y="471.22" brush="brush441" id="polyLine450">
+   <point x="0" y="0"/>
+   <point x="5.68434e-14" y="-301.22"/>
+   <point x="-20" y="-301.22"/>
+  </polyLine>
+  <polygon x="451" pen="pen434" y="171" brush="brush441" id="polygon452">
+   <point x="0" y="0"/>
+   <point x="-5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polyLine x="495" pen="pen434" y="521.22" brush="brush441" id="polyLine454">
+   <point x="0" y="0"/>
+   <point x="0" y="-326.22"/>
+   <point x="-50" y="-326.22"/>
+  </polyLine>
+  <polyLine x="445" pen="pen434" y="190" brush="brush441" id="polyLine456">
+   <point x="0" y="0"/>
+   <point x="50" y="2.84217e-14"/>
+   <point x="50" y="-110"/>
+  </polyLine>
+  <group w="50" hilit3D="false" x="455" y="463" h="52" scale="1" hidden="true" offsetX="0" offsetY="0" id="group23" clip="false"/>
+  <rect w="50" x="0" hilit3D="false" y="2" h="48" brush="brush1" id="rect20" parent="group23"/>
+  <text w="50" hilit3D="false" x="0" y="0" h="52" brush="brush1" alignment="132" id="text18" parent="group23" outline="false" text="RAFS2"/>
+  <polygon x="452" pen="pen434" y="196" brush="brush441" id="polygon457">
+   <point x="0" y="0"/>
+   <point x="-5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="452" pen="pen434" y="191" brush="brush441" id="polygon458">
+   <point x="0" y="0"/>
+   <point x="-5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polyLine x="446.36" pen="pen434" y="405" brush="brush441" id="polyLine459">
+   <point x="0" y="0"/>
+   <point x="43.64" y="0"/>
+   <point x="43.64" y="-326.1"/>
+  </polyLine>
+  <group w="50" hilit3D="false" x="455" y="87" h="52" scale="1" hidden="true" offsetX="0" offsetY="0" id="group16" clip="false"/>
+  <rect w="50" x="0" hilit3D="false" y="2" h="48" brush="brush1" id="rect12" parent="group16"/>
+  <text w="50" hilit3D="false" x="0" y="0" h="52" brush="brush1" alignment="132" id="text14" parent="group16" outline="false" text="RAFS1"/>
+  <polyLine x="470" pen="pen434" y="465" id="polyLine460">
+   <point x="0" y="0"/>
+   <point x="0" y="-30"/>
+   <point x="-21.04" y="-30"/>
+  </polyLine>
+  <polygon x="452" pen="pen434" y="406" brush="brush441" id="polygon461">
+   <point x="0" y="0"/>
+   <point x="-5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="452" pen="pen434" y="411" brush="brush441" id="polygon463">
+   <point x="0" y="0"/>
+   <point x="-5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polyLine x="448.36" pen="pen434" y="420" id="polyLine464">
+   <point x="0" y="0"/>
+   <point x="76.64" y="0"/>
+   <point x="76.64" y="-355"/>
+   <point x="166.64" y="-355"/>
+  </polyLine>
+  <polyLine x="446.36" pen="pen434" y="180" id="polyLine465">
+   <point x="0" y="0"/>
+   <point x="73.64" y="0"/>
+   <point x="73.64" y="-120"/>
+   <point x="168.64" y="-120"/>
+  </polyLine>
+  <polygon x="610" pen="pen434" y="61" id="polygon466">
+   <point x="0" y="0"/>
+   <point x="5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <polygon x="610" pen="pen434" y="66" id="polygon467">
+   <point x="0" y="0"/>
+   <point x="5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <line w="287" x="665" hilit3D="false" pen="pen434" y="65" h="0" id="line468"/>
+  <polygon x="950" pen="pen434" y="66" brush="brush441" id="polygon469">
+   <point x="0" y="0"/>
+   <point x="5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <line w="290" x="665" hilit3D="false" pen="pen471" y="45" h="0" id="line470"/>
+  <polygon x="670" pen="pen471" y="46" brush="brush473" id="polygon472">
+   <point x="0" y="0"/>
+   <point x="-5" y="-1"/>
+   <point x="0" y="-2"/>
+  </polygon>
+  <group w="55" hilit3D="false" x="817.5" y="47" h="10" scale="1" hidden="true" offsetX="0" offsetY="0" id="group476" clip="false"/>
+  <polyLine x="0" y="10" id="polyLine475" parent="group476">
+   <point x="0" y="0"/>
+   <point x="10" y="-10"/>
+   <point x="45" y="-10"/>
+   <point x="55" y="0"/>
+  </polyLine>
+  <text w="46.376" hilit3D="false" x="4.624" y="4.68" h="5.32" alignment="132" id="text477" parent="group476" outline="false" text="COUPLER" font="font347"/>
+  <group w="55" hilit3D="false" x="817.5" y="70" h="10" scale="1" hidden="true" offsetX="0" offsetY="0" id="group480" clip="false"/>
+  <polyLine x="0" y="10" id="polyLine481" parent="group480">
+   <point x="0" y="0"/>
+   <point x="10" y="-10"/>
+   <point x="45" y="-10"/>
+   <point x="55" y="0"/>
+  </polyLine>
+  <text w="46.376" hilit3D="false" x="4.624" y="4.68" h="5.32" alignment="132" id="text483" parent="group480" outline="false" text="COUPLER" font="font347"/>
+  <polyLine x="397" pen="pen434" y="410" id="polyLine484">
+   <point x="0" y="0"/>
+   <point x="-232" y="0"/>
+   <point x="-232" y="-45"/>
+  </polyLine>
+  <polygon x="166" pen="pen434" y="370" brush="brush441" id="polygon485">
+   <point x="0" y="0"/>
+   <point x="-1" y="-5"/>
+   <point x="-2" y="0"/>
+  </polygon>
+  <polyLine x="396.25" pen="pen434" y="190" id="polyLine486">
+   <point x="0" y="0"/>
+   <point x="-231.25" y="0"/>
+   <point x="-231.25" y="42.692"/>
+  </polyLine>
+  <polygon x="166" pen="pen434" y="228" brush="brush441" id="polygon487">
+   <point x="0" y="0"/>
+   <point x="-1" y="5"/>
+   <point x="-2" y="0"/>
+  </polygon>
+  <group w="51" hilit3D="false" x="393.5" y="157.52" h="48.96" scale="1" hidden="true" offsetX="0" offsetY="0" id="group306" clip="false"/>
+  <rect w="50" x="1" hilit3D="false" y="0" h="48" brush="brush1" id="rect266" parent="group306"/>
+  <text w="50" hilit3D="false" x="1" y="0.04" h="19.92" brush="brush1" alignment="132" id="text267" parent="group306" outline="false" text="CMCU"/>
+  <text w="50" hilit3D="false" x="0" y="29.04" h="19.92" brush="brush1" alignment="132" id="text269" parent="group306" outline="false" text="N"/>
+  <rect w="54" x="1025" hilit3D="false" y="146" h="304" brush="brush1" id="rect488"/>
+  <rect w="36" x="1034" hilit3D="false" y="153" h="132" brush="brush265" id="rect489"/>
+  <rect w="36" x="1034" hilit3D="false" y="297" h="144" brush="brush265" id="rect490"/>
+  <line w="120" x="912" hilit3D="false" pen="pen434" y="199" h="0" id="line491"/>
+  <line w="119.603" x="912.893" hilit3D="false" pen="pen434" y="347.86" h="-1.36557e-14" id="line492"/>
+  <group w="55" hilit3D="false" x="956.5" y="203" h="10" scale="1" hidden="true" offsetX="0" offsetY="0" id="group495" clip="false"/>
+  <polyLine x="0" y="10" id="polyLine493" parent="group495">
+   <point x="0" y="0"/>
+   <point x="10" y="-10"/>
+   <point x="45" y="-10"/>
+   <point x="55" y="0"/>
+  </polyLine>
+  <text w="46.376" hilit3D="false" x="4.624" y="4.68" h="5.32" alignment="132" id="text494" parent="group495" outline="false" text="COUPLER" font="font347"/>
+  <group w="55" hilit3D="false" x="954.5" y="353" h="10" scale="1" hidden="true" offsetX="0" offsetY="0" id="group497" clip="false"/>
+  <polyLine x="0" y="10" id="polyLine496" parent="group497">
+   <point x="0" y="0"/>
+   <point x="10" y="-10"/>
+   <point x="45" y="-10"/>
+   <point x="55" y="0"/>
+  </polyLine>
+  <text w="46.376" hilit3D="false" x="4.624" y="4.68" h="5.32" alignment="132" id="text498" parent="group497" outline="false" text="COUPLER" font="font347"/>
+  <text w="80" hilit3D="false" x="1012" y="209" h="20" alignment="132" id="text499" outline="false" text="L Upper Band"/>
+  <text w="80" hilit3D="false" x="1013" y="362" h="20" alignment="132" id="text500" outline="false" text="L Lower Band"/>
+  <rect w="100" x="45" hilit3D="false" y="449" h="100" brush="brush473" id="rect502"/>
+  <text w="80" hilit3D="false" x="55" y="488" h="20" brush="brush473" alignment="132" id="text503" outline="false" text="Platform"/>
+  <polyLine x="225" pen="pen505" y="546" id="polyLine504">
+   <point x="0" y="0"/>
+   <point x="-27" y="0"/>
+   <point x="-27" y="-525"/>
+   <point x="528" y="-525"/>
+  </polyLine>
+  <line w="150" x="200" hilit3D="false" pen="pen505" y="300" h="0" id="line506"/>
+  <line w="47" x="198" hilit3D="false" pen="pen505" y="470" h="0" id="line507"/>
+  <line w="48.5" x="146.5" hilit3D="false" pen="pen505" y="499" h="0" id="line508"/>
+  <line w="-0.15832" x="262.139" hilit3D="false" pen="pen505" y="283.329" h="14.5444" id="line509"/>
+  <line w="-0.00044" x="336.607" hilit3D="false" pen="pen505" y="281.869" h="16.2626" id="line510"/>
+  <group w="51" hilit3D="false" x="296.5" y="234" h="48.96" scale="1" hidden="true" offsetX="0" offsetY="0" id="group301" clip="false"/>
+  <rect w="50" x="1" hilit3D="false" y="0" h="48" brush="brush1" id="rect279" parent="group301"/>
+  <text w="50" hilit3D="false" x="1" y="0.04" h="19.92" brush="brush1" alignment="132" id="text280" parent="group301" outline="false" text="NSGU"/>
+  <text w="50" hilit3D="false" x="0" y="29.04" h="19.92" brush="brush1" alignment="132" id="text281" parent="group301" outline="false" text="N"/>
+  <line w="-0.01696" x="231.665" hilit3D="false" pen="pen505" y="300" h="15" id="line511"/>
+  <group w="51" hilit3D="false" x="220" y="315.52" h="48.96" scale="1" hidden="true" offsetX="0" offsetY="0" id="group300" clip="false"/>
+  <rect w="50" x="1" hilit3D="false" y="0" h="48" brush="brush1" id="rect288" parent="group300"/>
+  <text w="50" hilit3D="false" x="1" y="0.04" h="19.92" brush="brush1" alignment="132" id="text289" parent="group300" outline="false" text="CSU"/>
+  <text w="50" hilit3D="false" x="0" y="29.04" h="19.92" brush="brush1" alignment="132" id="text290" parent="group300" outline="false" text="R"/>
+  <line w="-0.01696" x="308.665" hilit3D="false" pen="pen505" y="300" h="15" id="line512"/>
+  <group w="51" hilit3D="false" x="296" y="315.52" h="48.96" scale="1" hidden="true" offsetX="0" offsetY="0" id="group302" clip="false"/>
+  <rect w="50" x="1" hilit3D="false" y="0" h="48" brush="brush1" id="rect284" parent="group302"/>
+  <text w="50" hilit3D="false" x="1" y="0.04" h="19.92" brush="brush1" alignment="132" id="text282" parent="group302" outline="false" text="NSGU"/>
+  <text w="50" hilit3D="false" x="0" y="29.04" h="19.92" brush="brush1" alignment="132" id="text283" parent="group302" outline="false" text="R"/>
+ </shapes>
+ <transforms>
+  <apply trans="rotate501" id="text499"/>
+  <apply trans="rotate501" id="text500"/>
+ </transforms>
+ <dynamics>
+  <pictureinfo width="1311" title="Galileo FOC Payload" x="0" y="0" height="1107" id="pictureinfo143" mnemonic="PL"/>
+  <pictureinfo width="1311" title="Galileo FOC Payload" x="0" y="0" height="1107" id="pictureinfo309" mnemonic="PL"/>
+ </dynamics>
+ <connections/>
+</synoptic>

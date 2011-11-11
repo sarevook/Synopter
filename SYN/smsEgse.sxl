@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<synoptic xsi:noNamespaceSchemaLocation="http://projects.nl.terma.com/SCHEMAS/SYNOPTICS/synopter.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" editor3D="0" editorVersion="0">
+ <assets>
+  <brush g="197" id="brush15" r="197" a="255" b="197"/>
+  <brush g="150" id="brush18" r="150" a="255" b="150"/>
+  <pen width="5.5" g="0" penStyle="1" id="pen23" r="0" a="255" b="0"/>
+  <brush g="100" id="brush31" r="100" a="255" b="100"/>
+  <brush gradient="linearGradient56" g="170" id="brush39" r="255" a="255" b="255"/>
+  <linearGradient direction="0" id="linearGradient56">
+   <gradientStop g="255" position="0" r="255" a="255" b="255"/>
+   <gradientStop g="10" position="1" r="10" a="255" b="80"/>
+  </linearGradient>
+  <brush g="255" id="brush43" r="0" a="255" b="0"/>
+  <brush g="0" id="brush52" r="154" a="255" b="0"/>
+  <pen width="4" g="0" penStyle="1" id="pen54" r="255" a="255" b="0"/>
+  <brush g="0" id="brush60" r="0" a="255" b="255"/>
+  <pen width="4" g="0" penStyle="1" id="pen63" r="0" a="255" b="255"/>
+  <rotate deg="270" id="rotate107"/>
+  <font fontFamily="MS Shell Dlg 2" pointSize="10" bold="true" id="font108" italic="false"/>
+  <font fontFamily="MS Shell Dlg 2" pointSize="7" bold="false" id="font137" italic="true"/>
+  <brush g="71" id="brush138" r="71" a="255" b="71"/>
+  <font fontFamily="MS Shell Dlg 2" pointSize="10" bold="true" id="font143" italic="true"/>
+  <brush g="255" id="brush115" r="255" a="255" b="255"/>
+  <pen width="0" g="0" penStyle="1" id="pen172" r="0" a="255" b="0"/>
+  <pen width="5" g="0" penStyle="3" id="pen173" r="0" a="255" b="0"/>
+ </assets>
+ <shapes>
+  <line w="444.125" x="300" hilit3D="false" pen="pen23" y="983" h="0" id="line158" annotation="Clock Chiller Power"/>
+  <line w="573.125" x="175" hilit3D="false" pen="pen23" y="964" h="0" id="line159" annotation="TWTA Chiller Power"/>
+  <rrect w="25" x="1037.5" hilit3D="false" y="1019" h="25" rnd="50" brush="brush18" id="rrect20" annotation="rackWheel"/>
+  <rrect w="25" x="1237.5" hilit3D="false" y="1018" h="25" rnd="50" brush="brush18" id="rrect21" annotation="rackWheel"/>
+  <line w="76.5" x="948.5" hilit3D="false" pen="pen23" y="1011" h="0" id="line156" annotation="FE Rack Power"/>
+  <polyLine x="800" pen="pen23" y="550" id="polyLine155" annotation="SAPS Harness">
+   <point x="0" y="0"/>
+   <point x="0" y="-350"/>
+   <point x="-200" y="-350"/>
+  </polyLine>
+  <group w="431" hilit3D="false" x="599" y="105.5" h="889" scale="1" hidden="true" offsetX="0" offsetY="0" id="group154" clip="false"/>
+  <polyLine x="427" pen="pen23" y="850" id="polyLine151" parent="group154">
+   <point x="0" y="0"/>
+   <point x="-26" y="0"/>
+   <point x="-26" y="-800"/>
+   <point x="-426" y="-800"/>
+  </polyLine>
+  <polyLine x="426" pen="pen23" y="864" id="polyLine150" parent="group154">
+   <point x="0" y="0"/>
+   <point x="-37" y="-1"/>
+   <point x="-37" y="-800"/>
+   <point x="-426" y="-800"/>
+  </polyLine>
+  <polyLine x="428" pen="pen23" y="878" id="polyLine152" parent="group154">
+   <point x="0" y="0"/>
+   <point x="-50" y="-1"/>
+   <point x="-49" y="-802"/>
+   <point x="-427" y="-802"/>
+  </polyLine>
+  <polyLine x="427" pen="pen23" y="889" id="polyLine153" parent="group154">
+   <point x="0" y="0"/>
+   <point x="-61" y="-1"/>
+   <point x="-61" y="-800"/>
+   <point x="-426" y="-800"/>
+  </polyLine>
+  <polyLine x="430" pen="pen23" y="800" id="polyLine135" parent="group154">
+   <point x="0" y="0"/>
+   <point x="-26" y="0"/>
+   <point x="-26" y="-800"/>
+   <point x="-426" y="-800"/>
+  </polyLine>
+  <polyLine x="429" pen="pen23" y="814" id="polyLine145" parent="group154">
+   <point x="0" y="0"/>
+   <point x="-37" y="-1"/>
+   <point x="-37" y="-800"/>
+   <point x="-426" y="-800"/>
+  </polyLine>
+  <polyLine x="431" pen="pen23" y="828" id="polyLine146" parent="group154">
+   <point x="0" y="0"/>
+   <point x="-50" y="-1"/>
+   <point x="-49" y="-802"/>
+   <point x="-427" y="-802"/>
+  </polyLine>
+  <polyLine x="430" pen="pen23" y="839" id="polyLine147" parent="group154">
+   <point x="0" y="0"/>
+   <point x="-61" y="-1"/>
+   <point x="-61" y="-800"/>
+   <point x="-426" y="-800"/>
+  </polyLine>
+  <arc w="50" x="300" hilit3D="false" pen="pen63" y="186" h="27" spanAngle="2880" startAngle="-1440" id="arc105" annotation="Valve Return"/>
+  <arc w="50" x="198" hilit3D="false" pen="pen63" y="100" h="64" spanAngle="2880" startAngle="-1440" id="arc104" annotation="Valve Return"/>
+  <arc w="50" x="120" hilit3D="false" pen="pen63" y="70" h="40" spanAngle="2880" startAngle="-1440" id="arc102" annotation="Valve Return"/>
+  <polyLine x="215" pen="pen54" y="300" id="polyLine95" annotation="Hot Return">
+   <point x="0" y="0"/>
+   <point x="115" y="0"/>
+   <point x="114" y="40"/>
+   <point x="135" y="40"/>
+  </polyLine>
+  <polyLine x="213" pen="pen54" y="270" id="polyLine94" annotation="Hot Return">
+   <point x="0" y="0"/>
+   <point x="165" y="0"/>
+   <point x="165" y="18"/>
+   <point x="188" y="18"/>
+  </polyLine>
+  <polyLine x="62" pen="pen54" y="70" id="polyLine91" annotation="Hot Return">
+   <point x="0" y="0"/>
+   <point x="318" y="-1"/>
+   <point x="319" y="18"/>
+   <point x="337" y="18"/>
+  </polyLine>
+  <polyLine x="62" pen="pen54" y="100" id="polyLine92" annotation="Hot Return">
+   <point x="0" y="0"/>
+   <point x="273" y="0"/>
+   <point x="273" y="39"/>
+   <point x="288" y="38"/>
+  </polyLine>
+  <polyLine x="64" pen="pen54" y="129" id="polyLine93" annotation="Hot Return">
+   <point x="0" y="0"/>
+   <point x="251" y="0"/>
+   <point x="252" y="56"/>
+   <point x="336" y="57"/>
+  </polyLine>
+  <polyLine x="264" pen="pen63" y="428" brush="brush39" id="polyLine79" annotation="Coolant">
+   <point x="0" y="0"/>
+   <point x="36" y="1"/>
+   <point x="36" y="-16"/>
+   <point x="150" y="-16"/>
+  </polyLine>
+  <polyLine x="264" pen="pen63" y="400" brush="brush39" id="polyLine89" annotation="Coolant">
+   <point x="0" y="0"/>
+   <point x="36" y="0"/>
+   <point x="36" y="-35"/>
+   <point x="86" y="-35"/>
+  </polyLine>
+  <polyLine x="265" pen="pen63" y="363" brush="brush39" id="polyLine90" annotation="Coolant">
+   <point x="0" y="0"/>
+   <point x="22" y="1"/>
+   <point x="21" y="-51"/>
+   <point x="135" y="-52"/>
+  </polyLine>
+  <polyLine x="453" pen="pen23" y="905" id="polyLine48" annotation="Dual DVI2">
+   <point x="0" y="0"/>
+   <point x="167" y="0"/>
+   <point x="200" y="-111"/>
+  </polyLine>
+  <polyLine x="453" pen="pen23" y="894" id="polyLine47" annotation="Dual DVI1">
+   <point x="0" y="0"/>
+   <point x="25" y="0"/>
+   <point x="50" y="-100"/>
+  </polyLine>
+  <polyLine x="114" pen="pen63" y="230" brush="brush39" id="polyLine85" annotation="Coolant">
+   <point x="0" y="0"/>
+   <point x="136" y="-1"/>
+   <point x="136" y="-17"/>
+   <point x="286" y="-17"/>
+  </polyLine>
+  <line w="0" x="250" hilit3D="false" pen="pen63" y="452" h="348" brush="brush52" id="line66"/>
+  <line w="2" x="200" hilit3D="false" pen="pen54" y="350" h="450" brush="brush52" id="line57"/>
+  <rect w="250" x="1025" hilit3D="false" y="25" h="1005" brush="brush15" id="rect17" annotation="SMS FE Rack"/>
+  <rect w="200" x="1050" hilit3D="false" y="50" h="50" brush="brush18" id="rect0" annotation="2U blank"/>
+  <rect w="200" x="1050" hilit3D="false" y="150" h="25" brush="brush18" id="rect1" annotation="1U blank"/>
+  <rect w="200" x="1050" hilit3D="false" y="100" h="50" brush="brush15" id="rect2" annotation="MILFE"/>
+  <rect w="200" x="1050" hilit3D="false" y="175" h="150" brush="brush15" id="rect3" annotation="DFE"/>
+  <rect w="200" x="1050" hilit3D="false" y="325" h="25" brush="brush18" id="rect4" annotation="1U blank"/>
+  <rect w="200" x="1050" hilit3D="false" y="350" h="75" brush="brush15" id="rect5" annotation="PFE Platform-3"/>
+  <rect w="200" x="1050" hilit3D="false" y="500" h="25" brush="brush18" id="rect6" annotation="1U blank"/>
+  <rect w="200" x="1050" hilit3D="false" y="425" h="75" brush="brush15" id="rect7" annotation="Agilent PSU-3"/>
+  <rect w="200" x="1050" hilit3D="false" y="525" h="75" brush="brush15" id="rect9" annotation="PFE Platform-2"/>
+  <rect w="200" x="1050" hilit3D="false" y="675" h="25" brush="brush18" id="rect10" annotation="1U blank"/>
+  <rect w="200" x="1050" hilit3D="false" y="600" h="75" brush="brush15" id="rect8" annotation="Agilent PSU-2"/>
+  <rect w="200" x="1050" hilit3D="false" y="700" h="75" brush="brush15" id="rect12" annotation="PFE Platform-1"/>
+  <rect w="200" x="1050" hilit3D="false" y="850" h="25" brush="brush18" id="rect13" annotation="1U blank"/>
+  <rect w="200" x="1050" hilit3D="false" y="775" h="75" brush="brush15" id="rect11" annotation="Agilent PSU-1"/>
+  <rrect w="150" x="403" hilit3D="false" pen="pen23" y="594" h="100" rnd="10" brush="brush15" id="rrect22" annotation="screen1"/>
+  <rrect w="150" x="553" hilit3D="false" pen="pen23" y="594" h="100" rnd="10" brush="brush15" id="rrect24" annotation="screen2"/>
+  <rrect w="150" x="553" hilit3D="false" pen="pen23" y="694" h="100" rnd="10" brush="brush15" id="rrect26" annotation="screen3"/>
+  <rrect w="150" x="403" hilit3D="false" pen="pen23" y="694" h="100" rnd="10" brush="brush15" id="rrect29" annotation="screen4"/>
+  <polygon x="503" pen="pen23" y="845" brush="brush31" id="polygon35" annotation="stand">
+   <point x="0" y="0"/>
+   <point x="100" y="0"/>
+   <point x="75" y="-25"/>
+   <point x="75" y="-50"/>
+   <point x="25" y="-50"/>
+   <point x="25" y="-25"/>
+  </polygon>
+  <rrect w="25" x="37.5" hilit3D="false" y="987.5" h="25" rnd="50" brush="brush18" id="rrect52" annotation="rackWheel"/>
+  <rrect w="25" x="137.5" hilit3D="false" y="987.5" h="25" rnd="50" brush="brush18" id="rrect53" annotation="rackWheel"/>
+  <rrect w="25" x="215" hilit3D="false" y="987.25" h="25" rnd="50" brush="brush18" id="rrect42" annotation="rackWheel"/>
+  <rrect w="25" x="265" hilit3D="false" y="987.25" h="25" rnd="50" brush="brush18" id="rrect43" annotation="rackWheel"/>
+  <group w="100" hilit3D="false" x="177" y="662.5" h="75" scale="1" hidden="true" offsetX="0" offsetY="0" id="group47" annotation="ELOTOUCH PC" clip="false"/>
+  <polygon x="0" pen="pen23" y="75" brush="brush31" id="polygon46" parent="group47" annotation="stand">
+   <point x="0" y="0"/>
+   <point x="100" y="0"/>
+   <point x="75" y="-25"/>
+   <point x="75" y="-50"/>
+   <point x="25" y="-50"/>
+   <point x="25" y="-25"/>
+  </polygon>
+  <rrect w="75" x="12.5" hilit3D="false" pen="pen23" y="0" h="50" rnd="10" brush="brush15" id="rrect45" parent="group47" annotation="screen1"/>
+  <line w="0" x="50" hilit3D="false" pen="pen54" y="150" h="650" brush="brush52" id="line53" annotation="Hot Return"/>
+  <line w="0" x="100" hilit3D="false" pen="pen63" y="250" h="550" brush="brush52" id="line61" annotation="Cold Outward"/>
+  <group w="100" hilit3D="false" x="21" y="662.5" h="75" scale="1" hidden="true" offsetX="0" offsetY="0" id="group50" annotation="ELOTOUCH PC" clip="false"/>
+  <polygon x="0" pen="pen23" y="75" brush="brush31" id="polygon48" parent="group50" annotation="stand">
+   <point x="0" y="0"/>
+   <point x="100" y="0"/>
+   <point x="75" y="-25"/>
+   <point x="75" y="-50"/>
+   <point x="25" y="-50"/>
+   <point x="25" y="-25"/>
+  </polygon>
+  <rrect w="75" x="12.5" hilit3D="false" pen="pen23" y="0" h="50" rnd="10" brush="brush15" id="rrect49" parent="group50" annotation="screen1"/>
+  <rect w="26" x="237" hilit3D="false" y="350" h="100" brush="brush60" id="rect64" annotation="Cold Manifold"/>
+  <rect w="100" x="400" hilit3D="false" y="178" h="44" brush="brush39" id="rect81" annotation="ColdPlate"/>
+  <rect w="100" x="400" hilit3D="false" y="278" h="44" brush="brush39" id="rect82" annotation="ColdPlate"/>
+  <polyLine x="114" pen="pen63" y="200" brush="brush39" id="polyLine86" annotation="Coolant">
+   <point x="0" y="0"/>
+   <point x="86" y="0"/>
+   <point x="86" y="-36"/>
+   <point x="236" y="-36"/>
+  </polyLine>
+  <rect w="100" x="350" hilit3D="false" y="128" h="44" brush="brush39" id="rect80" annotation="ColdPlate"/>
+  <polyLine x="112" pen="pen63" y="165" brush="brush39" id="polyLine87" annotation="Coolant">
+   <point x="0" y="0"/>
+   <point x="22" y="1"/>
+   <point x="21" y="-54"/>
+   <point x="288" y="-54"/>
+  </polyLine>
+  <rect w="26" x="87" hilit3D="false" y="150" h="100" brush="brush60" id="rect58" annotation="Cold Manifold"/>
+  <rect w="100" x="350" hilit3D="false" y="328" h="44" brush="brush39" id="rect83" annotation="ColdPlate"/>
+  <rect w="26" x="37" hilit3D="false" y="50" h="100" brush="brush52" id="rect51" annotation="Hot Manifold"/>
+  <rect w="100" x="400" hilit3D="false" y="78" h="44" brush="brush39" id="rect68" annotation="ColdPlate"/>
+  <polygon x="250" y="250" id="polygon96" font="font108">
+   <point x="0" y="0"/>
+   <point x="300" y="0"/>
+   <point x="350" y="-200"/>
+   <point x="50" y="-200"/>
+  </polygon>
+  <polygon x="300" y="450" id="polygon97">
+   <point x="0" y="0"/>
+   <point x="300" y="0"/>
+   <point x="250" y="-200"/>
+   <point x="-50" y="-200"/>
+  </polygon>
+  <polygon x="600" y="450" id="polygon98">
+   <point x="0" y="0"/>
+   <point x="50" y="-200"/>
+   <point x="0" y="-400"/>
+   <point x="-50" y="-200"/>
+  </polygon>
+  <polyLine x="213" pen="pen54" y="332" id="polyLine99" annotation="Hot Return">
+   <point x="0" y="0"/>
+   <point x="102" y="0"/>
+   <point x="104" y="58"/>
+   <point x="187" y="58"/>
+  </polyLine>
+  <rect w="100" x="400" hilit3D="false" y="378" h="44" brush="brush39" id="rect84" annotation="ColdPlate"/>
+  <pictureButton w="100" hilit3D="false" x="1064" y="112.5" h="24" brush="brush18" replace="true" link="MILFE.sxl" id="pictureButton130" text="MILFE"/>
+  <pictureButton w="100" hilit3D="false" x="1061" y="188" h="24" brush="brush18" replace="true" link="DFE.scl" id="pictureButton131" text="DFE"/>
+  <pictureButton w="100" hilit3D="false" x="1060" y="364" h="24" brush="brush18" replace="true" link="PFEPF3.sxl" id="pictureButton132" text="PFE_PF 3"/>
+  <pictureButton w="100" hilit3D="false" x="1060" y="537.5" h="24" brush="brush18" replace="true" link="PFEPF2.sxl" id="pictureButton133" text="PFE_PF 2"/>
+  <pictureButton w="100" hilit3D="false" x="1060" y="712.5" h="24" brush="brush18" replace="true" link="PFEPF1.sxl" id="pictureButton134" text="PFE_PF 1"/>
+  <svg w="38" x="7" hilit3D="false" y="6" h="30" svgFile=":images/tmark.svg" id="svg135"/>
+  <rect w="26" x="187" hilit3D="false" y="250" h="100" brush="brush52" id="rect55" annotation="Hot Manifold"/>
+  <group w="100" hilit3D="false" x="350" y="850" h="200" scale="1" hidden="true" offsetX="0" offsetY="0" id="group139" annotation="WS Lenovo DS20" clip="false"/>
+  <rect w="100" x="0" hilit3D="false" pen="pen23" y="0" h="200" brush="brush138" id="rect30" parent="group139" annotation="WS Lenovo DS20"/>
+  <text w="86" hilit3D="false" x="7" y="1" pen="pen54" h="22" alignment="129" id="text136" parent="group139" outline="false" text="Lenovo" font="font137"/>
+  <rrect w="25" x="765" hilit3D="false" y="1012.25" h="25" rnd="50" brush="brush18" id="rrect40" annotation="rackWheel"/>
+  <rrect w="25" x="912" hilit3D="false" y="1012.25" h="25" rnd="50" brush="brush18" id="rrect41" annotation="rackWheel"/>
+  <text w="80" hilit3D="false" x="1192" y="27" pen="pen63" h="20" alignment="132" id="text142" outline="false" text="SSBV" font="font143"/>
+  <rrect w="25" x="767.5" hilit3D="false" y="737.5" h="25" rnd="50" brush="brush18" id="rrect132" annotation="rackWheel"/>
+  <rrect w="25" x="910.5" hilit3D="false" y="737.5" h="25" rnd="50" brush="brush18" id="rrect133" annotation="rackWheel"/>
+  <group w="200" hilit3D="false" x="750" y="548" h="204" scale="1" hidden="true" offsetX="0" offsetY="0" id="group140" annotation="SAPS" clip="false"/>
+  <rect w="200" x="0" hilit3D="false" y="0" h="204" brush="brush15" id="rect127" parent="group140" annotation="SAPS rack"/>
+  <text w="150" hilit3D="false" x="25" y="4" pen="pen63" h="20" alignment="132" id="text128" parent="group140" outline="false" text="Galileo FOC - SAPS"/>
+  <rect w="150" x="25" hilit3D="false" y="77" h="100" id="rect130" parent="group140"/>
+  <rect w="150" x="25" hilit3D="false" y="25" h="54" id="rect131" parent="group140"/>
+  <rrect w="58" x="109" hilit3D="false" y="39" h="26" rnd="10" id="rrect136" parent="group140"/>
+  <rect w="20" x="140" hilit3D="false" pen="pen23" y="45" h="14" brush="brush60" id="rect137" parent="group140"/>
+  <group w="200" hilit3D="false" x="750" y="800" h="226" scale="1" hidden="true" offsetX="0" offsetY="0" id="group141" annotation="APC UPS" clip="false"/>
+  <rect w="200" x="0" hilit3D="false" pen="pen23" y="1" h="225" brush="brush138" id="rect32" parent="group141" annotation="UPS AMC"/>
+  <rect w="50" x="125" hilit3D="false" pen="pen23" y="110" h="25" brush="brush43" id="rect42" parent="group141" annotation="UPS AMC"/>
+  <rect w="200" x="0" hilit3D="false" pen="pen23" y="0" h="100" brush="brush138" id="rect100" parent="group141" annotation="UPS AMC"/>
+  <text w="80" hilit3D="false" x="10" y="102" pen="pen54" h="20" alignment="129" id="text140" parent="group141" outline="false" text="APC" font="font108"/>
+  <group w="150" hilit3D="false" x="25" y="800" h="200" scale="1" hidden="true" offsetX="0" offsetY="0" id="group144" annotation="AB30" clip="false"/>
+  <rect w="150" x="0" hilit3D="false" pen="pen23" y="0" h="200" brush="brush15" id="rect54" parent="group144" annotation="AB30 Chiller"/>
+  <line w="150" x="0" hilit3D="false" y="50" h="0" id="line118" parent="group144"/>
+  <rect w="100" x="25" hilit3D="false" pen="pen23" y="75" h="100" brush="brush31" id="rect113" parent="group144"/>
+  <ellipse w="20" x="15" hilit3D="false" y="15" h="22" brush="brush115" id="ellipse114" parent="group144"/>
+  <rrect w="28" x="75" hilit3D="false" y="17" h="18" rnd="25" id="rrect117" parent="group144"/>
+  <rect w="24" x="113" hilit3D="false" y="16" h="22" brush="brush31" id="rect138" parent="group144"/>
+  <group w="200" hilit3D="false" x="1050" y="875" h="125" scale="1" hidden="true" offsetX="0" offsetY="0" id="group176" annotation="MITU" clip="false"/>
+  <rect w="200" x="0" hilit3D="false" y="0" h="125" brush="brush15" id="rect18" parent="group176" annotation="MITU"/>
+  <line w="300" x="-600" hilit3D="false" pen="pen23" y="125" h="0" id="line157" parent="group176"/>
+  <line w="30" x="35" hilit3D="false" pen="pen54" y="47" h="0" id="line166" parent="group176"/>
+  <rect w="100" x="79" hilit3D="false" y="45" h="30" brush="brush115" id="rect160" parent="group176"/>
+  <line w="69" x="81" hilit3D="false" pen="pen54" y="47" h="0" id="line167" parent="group176"/>
+  <rect w="30" x="108" hilit3D="false" pen="pen23" y="15" h="20" brush="brush138" id="rect162" parent="group176"/>
+  <rect w="32" x="146" hilit3D="false" pen="pen23" y="15" h="20" brush="brush138" id="rect163" parent="group176"/>
+  <line w="60" x="90" hilit3D="false" pen="pen173" y="55" h="0" id="line170" parent="group176"/>
+  <rect w="32" x="34" hilit3D="false" y="45" h="30" brush="brush115" id="rect165" parent="group176"/>
+  <text w="50" hilit3D="false" x="9" y="15" pen="pen173" h="20" alignment="132" id="text174" parent="group176" outline="false" text="MIU5000"/>
+  <ellipse w="20" x="154" hilit3D="false" y="49" h="20" brush="brush15" id="ellipse161" parent="group176"/>
+  <ellipse w="20" x="76" hilit3D="false" pen="pen54" y="15" h="20" brush="brush52" id="ellipse164" parent="group176"/>
+  <line w="20" x="40" hilit3D="false" pen="pen173" y="55" h="0" id="line169" parent="group176"/>
+  <group w="100" hilit3D="false" x="200" y="800" h="200" scale="1" hidden="true" offsetX="0" offsetY="0" id="group157" annotation="Kodiak" clip="false"/>
+  <rect w="100" x="0" hilit3D="false" pen="pen23" y="0" h="200" brush="brush15" id="rect44" parent="group157" annotation="Kodiak Chiller"/>
+  <text w="80" hilit3D="false" x="-27" y="40" pen="pen63" h="20" brush="brush15" alignment="132" id="text106" parent="group157" annotation="LYTRON" outline="false" text="LYTRON" font="font108"/>
+  <line w="0" x="30" hilit3D="false" pen="pen23" y="22" h="57" id="line109" parent="group157" font="font108"/>
+  <rect w="50" x="50" hilit3D="false" pen="pen23" y="0" h="25" brush="brush31" id="rect110" parent="group157"/>
+  <rect w="100" x="0" hilit3D="false" pen="pen23" y="100" h="25" brush="brush31" id="rect117" parent="group157"/>
+  <rect w="100" x="0" hilit3D="false" pen="pen23" y="125" h="25" brush="brush31" id="rect122" parent="group157"/>
+  <rect w="100" x="0" hilit3D="false" pen="pen23" y="149" h="25" brush="brush31" id="rect123" parent="group157"/>
+  <line w="100" x="0" hilit3D="false" pen="pen23" y="113" h="0" id="line125" parent="group157" font="font108"/>
+  <line w="100" x="0" hilit3D="false" pen="pen23" y="137" h="0" id="line126" parent="group157" font="font108"/>
+  <line w="100" x="0" hilit3D="false" pen="pen23" y="162" h="0" id="line127" parent="group157" font="font108"/>
+ </shapes>
+ <transforms>
+  <apply trans="rotate107" id="text106"/>
+ </transforms>
+ <dynamics>
+  <pictureinfo width="1300" title="Galileo FOC Payload SMS EGSE" x="9" y="0" brush="brush39" height="1077" id="pictureinfo34"/>
+ </dynamics>
+ <connections/>
+</synoptic>

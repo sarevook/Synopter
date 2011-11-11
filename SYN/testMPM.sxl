@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<synoptic xsi:noNamespaceSchemaLocation="http://projects.nl.terma.com/SCHEMAS/SYNOPTICS/synopter.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" editor3D="0" editorVersion="0">
+ <assets>
+  <font fontFamily="MS Shell Dlg 2" pointSize="11" bold="true" id="font60" italic="false"/>
+  <font fontFamily="MS Shell Dlg 2" pointSize="36" bold="false" id="font61" italic="false"/>
+  <brush g="255" id="brush33" r="255" a="255" b="255"/>
+  <brush g="255" id="brush34" r="255" a="255" b="127"/>
+  <linearGradient direction="1" id="linearGradient38">
+   <gradientStop g="200" position="0" r="100" a="200" b="200"/>
+   <gradientStop g="0" position="1" r="0" a="255" b="0"/>
+  </linearGradient>
+  <brush gradient="linearGradient38" g="200" id="brush39" r="200" a="222" b="200"/>
+  <pen width="0" g="200" penStyle="1" id="pen40" r="170" a="255" b="50"/>
+ </assets>
+ <shapes>
+  <text w="245.57" hilit3D="false" x="-50.785" y="-11.9995" h="70.4937" alignment="132" id="text48" outline="false" text="MPM" font="font61"/>
+  <group w="276" hilit3D="false" x="12" y="48" h="442" scale="1" hidden="true" offsetX="0" offsetY="0" id="group52" clip="false"/>
+  <rect w="268" x="0" hilit3D="false" y="0" h="442" brush="brush33" id="rect54" parent="group52"/>
+  <led w="42.1985" x="16.9008" hilit3D="false" y="13.0554" h="49.8893" id="led71" parent="group52" annotation="Status" state="false"/>
+  <text w="84" hilit3D="false" x="66" y="36" h="-24" alignment="132" id="text32" parent="group52" outline="false" text="E5" font="font60"/>
+  <led w="42.1985" x="143.901" hilit3D="false" y="11.0554" h="49.8893" id="led70" parent="group52" annotation="Arc" state="false"/>
+  <text w="84" hilit3D="false" x="192" y="37" h="-24" alignment="132" id="text72" parent="group52" outline="false" text="ARC" font="font60"/>
+  <group w="240" hilit3D="false" x="14" y="369" h="66" scale="1" hidden="true" offsetX="0" offsetY="0" id="group45" parent="group52" clip="false"/>
+  <text w="108.039" hilit3D="false" x="115.981" y="2" h="20" alignment="132" id="text54" parent="group45" outline="false" text="Current" font="font60"/>
+  <parameterbox hilit3D="false" id="parameterbox52" parent="group45" showValidity="false" annotation="E5 Current" w="240" x="0" y="0" showMonitoringState="true" showEngineeringValue="true" showReceivedTime="true" showSource="false" showMonitoringDescription="true" h="66" showGenerationTime="false" showUnit="false" showDestination="false" showRawValue="false"/>
+  <group w="240" hilit3D="false" x="14" y="296" h="66" scale="1" hidden="true" offsetX="0" offsetY="0" id="group46" parent="group52" clip="false"/>
+  <text w="108.039" hilit3D="false" x="115.981" y="6" h="20" alignment="132" id="text47" parent="group46" outline="false" text="Op Level" font="font60"/>
+  <parameterbox hilit3D="false" id="parameterbox48" parent="group46" showValidity="false" annotation="E5 Power" w="240" x="0" y="0" showMonitoringState="true" showEngineeringValue="true" showReceivedTime="true" showSource="false" showMonitoringDescription="true" h="66" showGenerationTime="false" showUnit="false" showDestination="false" showRawValue="false"/>
+  <group w="240" hilit3D="false" x="14" y="219" h="66" scale="1" hidden="true" offsetX="0" offsetY="0" id="group47" parent="group52" clip="false"/>
+  <parameterbox hilit3D="false" id="parameterbox45" parent="group47" showValidity="false" annotation="E5 Gain" w="240" x="0" y="0" showMonitoringState="true" showEngineeringValue="true" showReceivedTime="true" showSource="false" showMonitoringDescription="true" h="66" showGenerationTime="false" showUnit="false" showDestination="false" showRawValue="false"/>
+  <text w="108.039" hilit3D="false" x="115.981" y="2" h="20" alignment="132" id="text51" parent="group47" outline="false" text="Gain" font="font60"/>
+  <group w="240" hilit3D="false" x="14" y="142" h="66" scale="1" hidden="true" offsetX="0" offsetY="0" id="group48" parent="group52" clip="false"/>
+  <text w="108.039" hilit3D="false" x="115.981" y="0" h="20" alignment="132" id="text44" parent="group48" outline="false" text="Anode Voltage" font="font60"/>
+  <parameterbox hilit3D="false" id="parameterbox42" parent="group48" showValidity="false" annotation="E5 Anode Voltage" w="240" x="0" y="0" showMonitoringState="true" showEngineeringValue="true" showReceivedTime="true" showSource="false" showMonitoringDescription="true" h="66" showGenerationTime="false" showUnit="false" showDestination="false" showRawValue="false"/>
+  <group w="240" hilit3D="false" x="14" y="69" h="66" scale="1" hidden="true" offsetX="0" offsetY="0" id="group49" parent="group52" clip="false"/>
+  <text w="108.039" hilit3D="false" x="115.981" y="2" h="20" alignment="132" id="text50" parent="group49" outline="false" text="Helix Current" font="font60"/>
+  <parameterbox hilit3D="false" id="parameterbox40" parent="group49" showValidity="false" annotation="E5 Helix Current" w="240" x="0" y="0" showMonitoringState="true" showEngineeringValue="true" showReceivedTime="true" showSource="false" showMonitoringDescription="true" h="66" showGenerationTime="false" showUnit="false" showDestination="false" showRawValue="false"/>
+  <rect w="294" x="281" hilit3D="false" y="48" h="366" brush="brush33" id="rect39"/>
+  <text w="125.999" hilit3D="false" x="359.001" y="54" h="26" alignment="132" id="text58" outline="false" text="TRP TEMP" font="font60"/>
+  <parameterbox w="240" showGenerationTime="false" hilit3D="false" x="302" y="88" showMonitoringState="true" showSource="false" h="66" showRawValue="true" showValidity="false" showUnit="false" showEngineeringValue="false" showMonitoringDescription="false" id="parameterbox55" annotation="Temp 1" showReceivedTime="true" showDestination="false"/>
+  <text w="108.039" hilit3D="false" x="422.981" y="89" h="20" alignment="132" id="text56" outline="false" text="TWTA" font="font60"/>
+  <parameterbox w="240" showGenerationTime="false" hilit3D="false" x="305" y="167" showMonitoringState="true" showSource="false" h="66" showRawValue="true" showValidity="false" showUnit="false" showEngineeringValue="false" showMonitoringDescription="false" id="parameterbox59" annotation="Temp 2" showReceivedTime="true" showDestination="false"/>
+  <text w="108.039" hilit3D="false" x="424.981" y="167" h="20" alignment="132" id="text60" outline="false" text="LCAMP" font="font60"/>
+  <parameterbox w="240" showGenerationTime="false" hilit3D="false" x="301" y="250" showMonitoringState="true" showSource="false" h="66" showRawValue="true" showValidity="false" showUnit="false" showEngineeringValue="false" showMonitoringDescription="false" id="parameterbox62" annotation="Temp 3" showReceivedTime="true" showDestination="false"/>
+  <text w="108.039" hilit3D="false" x="421.981" y="251" h="20" alignment="132" id="text63" outline="false" text="OMUX" font="font60"/>
+  <parameterbox w="240" showGenerationTime="false" hilit3D="false" x="300" y="330" showMonitoringState="true" showSource="false" h="66" showRawValue="true" showValidity="false" showUnit="false" showEngineeringValue="false" showMonitoringDescription="false" id="parameterbox65" annotation="Temp 4" showReceivedTime="true" showDestination="false"/>
+  <text w="108.039" hilit3D="false" x="420.981" y="331" h="20" alignment="132" id="text66" outline="false" text="ATTEN" font="font60"/>
+ </shapes>
+ <transforms/>
+ <dynamics>
+  <param id="param73" annotation="E5 Helix Current" name="PTW1015I"/>
+  <param id="param74" annotation="E5 Anode Volt" name="PTW1011U"/>
+  <param id="param75" annotation="E5 Current" name="PTW1013I"/>
+  <param id="param76" annotation="E5 Gain" name="PTW1014_"/>
+  <param id="param77" annotation="E5 Power" name="PTW1016W"/>
+  <param id="param78" annotation="E5 Status" name="PTW1017S"/>
+  <param id="param79" annotation="E5 Arc St" name="PTW1012S"/>
+  <param id="param80" annotation="Temp1" name="YHH0032T"/>
+  <param id="param81" annotation="Temp 2" name="YHH0033T"/>
+  <param id="param82" annotation="Temp 3" name="YHH0034T"/>
+  <param id="param83" annotation="Temp 4" name="YHH0035T"/>
+ </dynamics>
+ <connections>
+  <connect dest="parameterbox40" srcProp="*" src="param73"/>
+  <connect dest="parameterbox42" srcProp="*" src="param74"/>
+  <connect dest="parameterbox45" srcProp="*" src="param76"/>
+  <connect dest="parameterbox48" srcProp="*" src="param77"/>
+  <connect dest="parameterbox52" srcProp="*" src="param75"/>
+  <connect dest="parameterbox55" srcProp="*" src="param80"/>
+  <connect dest="parameterbox59" srcProp="*" src="param81"/>
+  <connect dest="parameterbox62" srcProp="*" src="param82"/>
+  <connect dest="parameterbox65" srcProp="*" src="param83"/>
+  <connect dest="led70" srcProp="rawValue" destProp="state" src="param79"/>
+  <connect dest="led71" srcProp="rawValue" destProp="state" src="param78"/>
+ </connections>
+</synoptic>

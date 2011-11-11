@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<synoptic xsi:noNamespaceSchemaLocation="http://projects.nl.terma.com/SCHEMAS/SYNOPTICS/synopter.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" editor3D="0" editorVersion="1117" >
+ <assets>
+  <brush g="200" id="brush2" r="0" a="255" b="0" />
+  <rotate deg="100" id="rotate5" />
+ </assets>
+ <slots>
+  <interface value="100" id="interface4" name="rotation" />
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="((arg0%101)/100)*255" id="expression6" annotation="colour" arg0="100" arg1="0" arg2="0" arg3="0" />
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="((arg0%101)/100)*180" id="expression7" annotation="angle" arg0="0" arg1="0" arg2="0" arg3="0" />
+ </slots>
+ <shapes>
+  <ellipse w="40" x="30" hilit3D="false" y="30" h="40" brush="brush2" id="ellipse1" />
+  <text w="100" hilit3D="false" x="0" y="0" h="20" alignment="132" id="text3" text="GYRO" />
+  <line w="60" x="20" hilit3D="false" y="20" h="60" id="line6" />
+ </shapes>
+ <transforms>
+  <apply trans="rotate5" id="line6" />
+ </transforms>
+ <connections>
+  <connect dest="expression6" srcProp="intValue" destProp="arg0" src="interface4" />
+  <connect dest="expression7" srcProp="intValue" destProp="arg0" src="interface4" />
+  <connect dest="brush2" srcProp="value" destProp="a" src="expression6" />
+  <connect dest="rotate5" srcProp="value" destProp="deg" src="expression7" />
+ </connections>
+</synoptic>

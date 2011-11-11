@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<synoptic xsi:noNamespaceSchemaLocation="http://projects.nl.terma.com/SCHEMAS/SYNOPTICS/synopter.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" editor3D="0" editorVersion="0" >
+ <assets>
+  <brush g="170" id="brush1" r="170" a="255" b="255" />
+  <brush g="170" id="brush6" r="255" a="255" b="255" />
+ </assets>
+ <slots>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="-(arg0*16)" id="expression2" arg0="145" arg1="0" arg2="0" arg3="0" />
+  <interface value="145" id="interface3" name="pieAngle" />
+ </slots>
+ <shapes>
+  <ellipse w="100" x="0" hilit3D="false" y="0" h="100" brush="brush6" id="ellipse5" />
+  <pie w="100" x="0" hilit3D="false" y="0" h="100" spanAngle="-2320" brush="brush1" startAngle="1440" id="pie0" />
+ </shapes>
+ <transforms/>
+ <connections>
+  <connect dest="expression2" srcProp="value" destProp="arg0" src="interface3" />
+  <connect dest="pie0" srcProp="value" destProp="spanAngle" src="expression2" />
+ </connections>
+</synoptic>

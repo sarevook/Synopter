@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<synoptic xsi:noNamespaceSchemaLocation="http://projects.nl.terma.com/SCHEMAS/SYNOPTICS/synopter.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" editor3D="0" editorVersion="1117" >
+ <assets>
+  <brush g="255" id="brush2" r="255" a="255" b="0" />
+ </assets>
+ <slots>
+  <interface id="interface3" annotation="sun acquired" name="current" />
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="((arg0%101)/100)*255" id="expression4" arg0="0" arg1="0" arg2="0" arg3="0" />
+ </slots>
+ <shapes>
+  <ellipse w="40" x="30" hilit3D="false" y="30" h="40" brush="brush2" id="ellipse1" />
+  <text w="100" hilit3D="false" x="0" y="0" h="20" alignment="132" id="text3" text="SS" />
+ </shapes>
+ <transforms/>
+ <connections>
+  <connect dest="expression4" srcProp="intValue" destProp="arg0" src="interface3" />
+  <connect dest="brush2" srcProp="value" destProp="a" src="expression4" />
+ </connections>
+</synoptic>

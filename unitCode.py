@@ -93,4 +93,59 @@ fonts = asset.font
 for font in fonts:
     print font.id
     
+def getChoosers(start_id, units):
+   
+   choosers = ""
+   for unit in units:
+      chooser = """  <chooser defaultValue="*DEFAULT*" id="chooser{1}" annotation="{0} Color R">
+   <pattern wildCard="false" regexp="0" value="200" minimal="false"/>
+   <pattern wildCard="false" regexp="1" value="0" minimal="false"/>
+  </chooser>
+  <chooser defaultValue="*DEFAULT*" id="chooser{2}" annotation="{0} Color G">
+   <pattern wildCard="false" regexp="0" value="0" minimal="false"/>
+   <pattern wildCard="false" regexp="1" value="150" minimal="false"/>
+  </chooser>
+  <chooser defaultValue="*DEFAULT*" id="chooser{3}" annotation="{0} Color B">
+   <pattern wildCard="false" regexp="25" minimal="false"/>
+   <pattern wildCard="false" regexp="1" value="50" minimal="false"/>
+  </chooser>"""
+      chooser = chooser.format(unit, str(start_id), str(start_id+1), str(start_id+2))
+      choosers += chooser + "\n"
+      start_id += 3
+   return choosers
+
+def getBrush(name):
+   global synoptyc
+   asset = synoptyc.assets
+   brushes = asset.brush
+   for brush in brushes:
+      if(brush.annotation==name):
+         return brush.id
+   
+def getConnections(start_id, units):
+   connections = ""
+   
+   for unit in units:
+      connection = """  <connect dest="{0}" srcProp="output" destProp="r" src="chooser{1}"/>
+  <connect dest="{0}" srcProp="output" destProp="g" src="chooser{2}"/>
+  <connect dest="{0}" srcProp="output" destProp="b" src="chooser{3}"/>
+  <connect dest="chooser{1}" srcProp="rawValue" destProp="input" src="param{1}"/>
+  <connect dest="chooser{2}" srcProp="rawValue" destProp="input" src="param{1}"/>
+  <connect dest="chooser{3}" srcProp="rawValue" destProp="input" src="param{1}"/>"""
+      connection = connection.format(getBrush(unit), str(start_id), str(start_id+1), str(start_id+2))
+      connections += connection + "\n"
+      start_id += 3
+   return connections
+  
+    
+
+print(getChoosers(123, ["NSGU N Unit", "MISREC N Unit"]))
+
+print(getConnections(123, ["NSGU N Unit", "MISREC N Unit"]))
+
+
+    
+    
+    
+    
     

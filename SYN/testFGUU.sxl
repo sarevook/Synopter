@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<synoptic xsi:noNamespaceSchemaLocation="http://projects.nl.terma.com/SCHEMAS/SYNOPTICS/synopter.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" editor3D="0" editorVersion="0">
+ <assets>
+  <font fontFamily="MS Shell Dlg 2" pointSize="11" bold="true" id="font60" italic="false"/>
+  <font fontFamily="MS Shell Dlg 2" pointSize="36" bold="false" id="font61" italic="false"/>
+  <brush g="255" id="brush33" r="255" a="255" b="255"/>
+  <brush g="255" id="brush34" r="255" a="255" b="127"/>
+  <linearGradient direction="1" id="linearGradient38">
+   <gradientStop g="200" position="0" r="100" a="200" b="200"/>
+   <gradientStop g="0" position="1" r="0" a="255" b="0"/>
+  </linearGradient>
+  <brush gradient="linearGradient38" g="200" id="brush39" r="200" a="222" b="200"/>
+  <pen width="0" g="200" penStyle="1" id="pen40" r="170" a="255" b="50"/>
+ </assets>
+ <shapes>
+  <rect w="294" x="253" hilit3D="false" y="51" h="298" brush="brush33" id="rect39"/>
+  <text w="245.57" hilit3D="false" x="-22.785" y="-11.9995" h="70.4937" alignment="132" id="text48" outline="false" text="FGUU" font="font61"/>
+  <rect w="216" x="42" hilit3D="false" y="49" h="302" brush="brush33" id="rect54"/>
+  <led w="42.1985" x="52.901" hilit3D="false" y="75.0554" h="49.8893" id="led71" state="false"/>
+  <text w="80" hilit3D="false" x="110" y="54" h="20" alignment="132" id="text72" outline="false" text="Status" font="font60"/>
+  <commandbutton w="100" x="100" hilit3D="false" y="188" h="24" arguments="fguuStatus.tcl" id="commandbutton29" font="font60" text="Get Status"/>
+  <led w="42.1985" x="165.901" hilit3D="false" y="75.0554" h="49.8893" id="led43" state="false"/>
+  <text w="56" hilit3D="false" x="201" y="90" h="20" alignment="132" id="text31" outline="false" text="EPC2" font="font60"/>
+  <text w="80" hilit3D="false" x="75" y="90" h="20" alignment="132" id="text32" outline="false" text="EPC1" font="font60"/>
+  <parameterbox w="202" showGenerationTime="false" hilit3D="false" x="49" y="251" showMonitoringState="true" showSource="false" h="56" showRawValue="true" showValidity="false" showUnit="false" showEngineeringValue="true" showMonitoringDescription="false" id="parameterbox42" showReceivedTime="false" showDestination="false"/>
+  <text w="108.039" hilit3D="false" x="141.981" y="251" h="20" alignment="132" id="text50" outline="false" text="Switch Status" font="font60"/>
+  <led w="42.1985" x="59.901" hilit3D="false" y="125.055" h="49.8893" id="led35" state="false"/>
+  <text w="106" hilit3D="false" x="97" y="140" h="20" alignment="132" id="text36" outline="false" text="Normal Strap" font="font60"/>
+  <commandbutton w="98" x="293" hilit3D="false" y="303" h="26" arguments="fguuFetchSTM.tcl" id="commandbutton28" font="font60" text="Fetch STM"/>
+  <commandbutton w="100" x="400" hilit3D="false" y="303" h="26" arguments="fguuConfig.tcl" id="commandbutton30" font="font60" text="Configure"/>
+  <text w="108.039" hilit3D="false" x="395.981" y="58" h="20" alignment="132" id="text58" outline="false" text="EPC1 Current" font="font60"/>
+  <parameterbox w="249.28" showGenerationTime="false" hilit3D="false" x="275.36" y="55" showMonitoringState="true" showSource="false" h="54" showRawValue="false" showValidity="false" showUnit="false" showEngineeringValue="true" showMonitoringDescription="false" id="parameterbox37" showReceivedTime="true" showDestination="false"/>
+  <text w="108.039" hilit3D="false" x="382.641" y="113" h="20" alignment="132" id="text44" outline="false" text="E5 OP Level" font="font60"/>
+  <parameterbox w="249.28" showGenerationTime="false" hilit3D="false" x="275.36" y="111" showMonitoringState="true" showSource="false" h="56" showRawValue="false" showValidity="false" showUnit="false" showEngineeringValue="true" showMonitoringDescription="false" id="parameterbox45" showReceivedTime="true" showDestination="false"/>
+  <parameterbox w="249.28" showGenerationTime="false" hilit3D="false" x="275.36" y="173" showMonitoringState="true" showSource="false" h="54" showRawValue="false" showValidity="false" showUnit="false" showEngineeringValue="true" showMonitoringDescription="false" id="parameterbox36" showReceivedTime="true" showDestination="false"/>
+  <parameterbox w="249.28" showGenerationTime="false" hilit3D="false" x="277.36" y="230" showMonitoringState="true" showSource="false" h="52" showRawValue="false" showValidity="false" showUnit="false" showEngineeringValue="true" showMonitoringDescription="false" id="parameterbox39" showReceivedTime="true" showDestination="false"/>
+  <text w="108.039" hilit3D="false" x="384.641" y="178" h="20" alignment="132" id="text47" outline="false" text="E6 OP Level" font="font60"/>
+  <text w="108.039" hilit3D="false" x="383.981" y="227" h="20" alignment="132" id="text49" outline="false" text="L1 OP Level" font="font60"/>
+  <commandbutton w="98" x="101" hilit3D="false" y="215" h="24" arguments="fguuCrossStrap.tcl" id="commandbutton38" font="font60" text="Set Strap"/>
+  <commandbutton w="98" x="101" hilit3D="false" y="313" h="28" arguments="fguuOn.tcl" id="commandbutton39" font="font60" text="On/Off"/>
+ </shapes>
+ <transforms/>
+ <dynamics>
+  <param id="param28" annotation="Switch Status" name="PFG3001S"/>
+  <param id="param29" annotation="EPC1 ST" name="PFG1001S"/>
+  <param id="param30" annotation="EPC2 ST" name="PFG2001S"/>
+  <param id="param31" annotation="Resistor Status" name="PFG3000S"/>
+  <param id="param32" annotation="EPC1 current" name="PFG1002I"/>
+  <param id="param33" annotation="E5 OP" name="PFG1006W"/>
+  <param id="param34" annotation="E6 OP" name="PFG1012W"/>
+  <param id="param37" annotation="L1 OP" name="PFG1018W"/>
+ </dynamics>
+ <connections>
+  <connect dest="parameterbox42" srcProp="*" src="param31"/>
+  <connect dest="parameterbox45" srcProp="*" src="param33"/>
+  <connect dest="led71" srcProp="engValue" destProp="state" src="param29"/>
+  <connect dest="led35" srcProp="engValue" destProp="state" src="param28"/>
+  <connect dest="parameterbox36" srcProp="*" src="param34"/>
+  <connect dest="parameterbox37" srcProp="*" src="param32"/>
+  <connect dest="parameterbox39" srcProp="*" src="param37"/>
+  <connect dest="led43" srcProp="engValue" destProp="state" src="param30"/>
+ </connections>
+</synoptic>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<synoptic xsi:noNamespaceSchemaLocation="http://projects.nl.terma.com/SCHEMAS/SYNOPTICS/synopter.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" editor3D="0" editorVersion="0">
+ <assets>
+  <brush g="10" id="brush1" r="10" a="50" b="100"/>
+  <pen width="1" g="10" penStyle="1" id="pen19" r="10" a="255" b="10"/>
+  <font fontFamily="MS Shell Dlg 2" pointSize="36" bold="false" id="font40" italic="false"/>
+  <brush g="255" id="brush41" r="255" a="255" b="255"/>
+  <linearGradient direction="1" id="linearGradient50">
+   <gradientStop g="150" position="0" r="150" a="200" b="255"/>
+   <gradientStop g="0" position="1" r="0" a="255" b="0"/>
+  </linearGradient>
+  <pen width="0" g="255" penStyle="1" id="pen58" r="170" a="255" b="0"/>
+  <font fontFamily="MS Shell Dlg 2" pointSize="11" bold="true" id="font59" italic="false"/>
+  <brush g="255" id="brush52" r="255" a="255" b="127"/>
+  <brush gradient="linearGradient50" g="60" id="brush53" r="60" a="255" b="60"/>
+  <font fontFamily="MS Shell Dlg 2" pointSize="11" bold="true" id="font58" italic="false"/>
+ </assets>
+ <slots>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0)" id="expression33" annotation="Volt" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0)*(0.25)" id="expression37" annotation="Current" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0)*(16/8.19)-273.15" id="expression39" annotation="EPC" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0)*(16/8.19)-273.15" id="expression41" annotation="BP" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="arg0" id="expression38" annotation="mode" arg0="0" arg1="1" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0)*10/4095" id="expression48" annotation="VMON" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0)*10/4095" id="expression45" annotation="VMON" arg0="0" arg1="0" arg2="0" arg3="0"/>
+ </slots>
+ <shapes>
+  <text w="245.57" hilit3D="false" x="15.215" y="47.753" h="70.4937" alignment="132" id="text39" outline="false" text="NSGU P" font="font40"/>
+  <group w="136" hilit3D="false" x="462" y="375" h="90" scale="1" hidden="true" offsetX="0" offsetY="0" id="group55" clip="false"/>
+  <rrect w="136" x="0" hilit3D="false" y="0" h="90" rnd="10" brush="brush53" id="rrect57" parent="group55"/>
+  <text w="90" hilit3D="false" x="38" y="26" pen="pen58" h="20" alignment="129" id="text50" parent="group55" annotation="NSGU FE V" outline="false" text="0" font="font59"/>
+  <text w="90" hilit3D="false" x="38" y="55" pen="pen58" h="20" alignment="129" id="text51" parent="group55" annotation="NSGU FE I" outline="false" text="0" font="font59"/>
+  <text w="30" hilit3D="false" x="0" y="55" pen="pen58" h="20" alignment="132" id="text55" parent="group55" outline="false" text="I" font="font59"/>
+  <text w="24" hilit3D="false" x="3" y="25" pen="pen58" h="20" alignment="132" id="text56" parent="group55" outline="false" text="V" font="font59"/>
+  <text w="112" hilit3D="false" x="12" y="5" h="20" alignment="132" id="text52" parent="group55" outline="false" text="PFE Module 5" font="font59"/>
+  <rect w="124" x="452" hilit3D="false" y="108" h="244" brush="brush41" id="rect49"/>
+  <led w="50" x="488" hilit3D="false" y="122" h="56" id="led36" state="false"/>
+  <text w="80" hilit3D="false" x="475" y="252" h="20" alignment="132" id="text41" annotation="mode" outline="true" text="0"/>
+  <commandbutton w="100" x="465" hilit3D="false" y="178" h="24" arguments="nsguOn" id="commandbutton56" font="font59" text="On/Off"/>
+  <commandbutton w="100" x="464" hilit3D="false" y="225" h="24" arguments="nsguModeTrans" id="commandbutton59" font="font59" text="Mode"/>
+  <commandbutton w="118" x="455" hilit3D="false" y="298" h="24" arguments="nsguProtocolReset" id="commandbutton55" font="font59" text="Protocol Reset"/>
+  <rect w="138" x="315" hilit3D="false" y="109" h="402" brush="brush41" id="rect50"/>
+  <parameterbox w="260" showGenerationTime="false" hilit3D="false" x="57" y="110" showMonitoringState="true" showSource="false" h="100" showRawValue="true" showValidity="false" showUnit="false" brush="brush41" showEngineeringValue="true" showMonitoringDescription="true" id="parameterbox4" showReceivedTime="true" showDestination="false"/>
+  <parameterbox w="260" showGenerationTime="true" hilit3D="false" x="56" y="210" showMonitoringState="true" showSource="false" h="100" showRawValue="true" showValidity="false" showUnit="false" brush="brush41" showEngineeringValue="true" showMonitoringDescription="true" id="parameterbox5" showReceivedTime="true" showDestination="false"/>
+  <text w="102" hilit3D="false" x="340" y="150" h="20" brush="brush52" alignment="129" id="text38" annotation="EPC Temp" outline="false" text="-273.15"/>
+  <text w="98" hilit3D="false" x="342" y="250" h="20" brush="brush52" alignment="129" id="text40" annotation="BP Temp" outline="false" text="-273.15"/>
+  <text w="80" hilit3D="false" x="348" y="123" pen="pen19" h="20" alignment="132" id="text45" outline="false" text="EPC Temp" font="font59"/>
+  <text w="80" hilit3D="false" x="348" y="323" pen="pen19" h="20" alignment="68" id="text46" outline="false" text="PM V3.3" font="font59"/>
+  <parameterbox w="260" showGenerationTime="false" hilit3D="false" x="57" y="310" showMonitoringState="true" showSource="false" h="100" showRawValue="true" showValidity="false" showUnit="false" brush="brush41" showEngineeringValue="true" showMonitoringDescription="true" id="parameterbox38" showReceivedTime="true" showDestination="false"/>
+  <text w="102" hilit3D="false" x="338" y="354" h="20" brush="brush52" alignment="129" id="text47" annotation="PM v" outline="false" text="0"/>
+  <text w="80" hilit3D="false" x="347" y="230" pen="pen19" h="20" alignment="132" id="text49" outline="false" text="BP Temp" font="font59"/>
+  <parameterbox w="260" showGenerationTime="false" hilit3D="false" x="57" y="411" showMonitoringState="true" showSource="false" h="100" showRawValue="true" showValidity="false" showUnit="false" brush="brush41" showEngineeringValue="true" showMonitoringDescription="true" id="parameterbox43" showReceivedTime="true" showDestination="false"/>
+  <text w="106" hilit3D="false" x="337" y="463" h="20" brush="brush52" alignment="129" id="text44" annotation="SGEN" outline="false" text="0"/>
+  <text w="80" hilit3D="false" x="348" y="429" pen="pen19" h="20" alignment="68" id="text48" outline="false" text="SGEN V2.5" font="font59"/>
+ </shapes>
+ <transforms/>
+ <dynamics>
+  <pictureinfo width="827" title="Test NSGU Synoptic" x="0" y="0" brush="brush1" height="545" id="pictureinfo0" mnemonic="SYN2"/>
+  <param id="param6" annotation="PSG5001U" name="PSG5001U"/>
+  <param id="param7" annotation="PSG5002I" name="PSG5002I"/>
+  <param id="param8" annotation="EPC Temp" name="PSG4046X"/>
+  <param id="param9" annotation="BP Temp" name="PSG4047X"/>
+  <param id="param47" annotation="Mode" name="PSG4045X"/>
+  <param id="param39" annotation="PM V" name="PSG4048X"/>
+  <param id="param49" annotation="SGEN V" name="PSG4052X"/>
+  <param id="param53" name="PFE_PLF_LIM5_Voltage"/>
+  <param id="param54" name="PFE_PLF_LIM5_Current"/>
+  <param id="param51" name="YDF0701U"/>
+ </dynamics>
+ <connections>
+  <connect dest="parameterbox43" srcProp="*" src="param49"/>
+  <connect dest="expression41" srcProp="rawValue" destProp="arg0" src="param9"/>
+  <connect dest="expression45" srcProp="rawValue" destProp="arg0" src="param49"/>
+  <connect dest="expression48" srcProp="rawValue" destProp="arg0" src="param39"/>
+  <connect dest="text38" srcProp="value" destProp="text" src="expression39"/>
+  <connect dest="text40" srcProp="value" destProp="text" src="expression41"/>
+  <connect dest="text41" srcProp="value" destProp="text" src="expression38"/>
+  <connect dest="text44" srcProp="value" destProp="text" src="expression45"/>
+  <connect dest="text47" srcProp="value" destProp="text" src="expression48"/>
+  <connect dest="parameterbox4" srcProp="*" src="param8"/>
+  <connect dest="parameterbox5" srcProp="*" src="param9"/>
+  <connect dest="led36" srcProp="rawValue" destProp="state" src="param51"/>
+  <connect dest="text50" srcProp="rawValue" destProp="text" src="param53"/>
+  <connect dest="text51" srcProp="rawValue" destProp="text" src="param54"/>
+  <connect dest="parameterbox38" srcProp="*" src="param39"/>
+  <connect dest="expression37" srcProp="rawValue" destProp="arg0" src="param7"/>
+  <connect dest="expression38" srcProp="rawValue" destProp="arg0" src="param47"/>
+  <connect dest="expression39" srcProp="rawValue" destProp="arg0" src="param8"/>
+ </connections>
+</synoptic>

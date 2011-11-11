@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<synoptic xsi:noNamespaceSchemaLocation="http://projects.nl.terma.com/SCHEMAS/SYNOPTICS/synopter.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" editor3D="0" editorVersion="1117" >
+ <assets>
+  <brush g="30" id="brush1" r="68" a="255" b="16" />
+  <pen width="4.5" g="85" penStyle="1" id="pen10" r="255" a="255" b="0" />
+ </assets>
+ <slots>
+  <interface id="interface5" annotation="thruster on" name="on" />
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0%100)*255" id="expression11" annotation="alpha of flames" arg0="1" arg1="0" arg2="0" arg3="0" />
+ </slots>
+ <shapes>
+  <rect w="50" x="25" hilit3D="false" y="0" h="50" brush="brush1" id="rect0" />
+  <polygon x="25" y="100" brush="brush1" id="polygon2" >
+   <point x="0" y="0" />
+   <point x="50" y="0" />
+   <point x="35" y="-50" />
+   <point x="15" y="-50" />
+  </polygon>
+  <led w="20" x="50" hilit3D="false" y="0" h="20" id="led3" annotation="LED" state="false" />
+  <arc w="100" x="1" hilit3D="false" pen="pen10" y="49" h="100" spanAngle="780" startAngle="-1840" id="arc7" annotation="flame out" />
+  <arc w="80" x="11" hilit3D="false" pen="pen10" y="59" h="80" spanAngle="1100" startAngle="-2020" id="arc8" annotation="flame middle" />
+  <arc w="60" x="21" hilit3D="false" pen="pen10" y="69" h="60" spanAngle="1800" startAngle="-2340" id="arc9" annotation="flame in" />
+ </shapes>
+ <transforms/>
+ <connections>
+  <connect dest="pen10" srcProp="value" destProp="a" src="expression11" />
+  <connect dest="expression11" srcProp="intValue" destProp="arg0" src="interface5" />
+  <connect dest="led3" srcProp="boolValue" destProp="state" src="interface5" />
+ </connections>
+</synoptic>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<synoptic xsi:noNamespaceSchemaLocation="http://projects.nl.terma.com/SCHEMAS/SYNOPTICS/synopter.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" editor3D="0" editorVersion="0">
+ <assets>
+  <brush g="10" id="brush1" r="10" a="50" b="100"/>
+  <pen width="1" g="10" penStyle="1" id="pen19" r="10" a="255" b="10"/>
+  <font fontFamily="MS Shell Dlg 2" pointSize="36" bold="false" id="font40" italic="false"/>
+  <brush g="255" id="brush41" r="255" a="255" b="255"/>
+  <brush gradient="linearGradient50" g="200" id="brush42" r="200" a="222" b="200"/>
+  <linearGradient direction="1" id="linearGradient50">
+   <gradientStop g="150" position="0" r="150" a="200" b="255"/>
+   <gradientStop g="0" position="1" r="0" a="255" b="0"/>
+  </linearGradient>
+  <pen width="0" g="200" penStyle="1" id="pen58" r="170" a="255" b="0"/>
+  <font fontFamily="MS Shell Dlg 2" pointSize="11" bold="true" id="font59" italic="false"/>
+  <brush g="255" id="brush52" r="255" a="255" b="127"/>
+ </assets>
+ <shapes>
+  <text w="245.57" hilit3D="false" x="27.215" y="40.827" h="70.4937" alignment="132" id="text69" outline="false" text="CMCU" font="font40"/>
+  <rect w="141.207" x="49.3965" hilit3D="false" y="101" h="260" brush="brush41" id="rect65"/>
+  <text w="80" hilit3D="false" x="99" y="125" pen="pen19" h="22" alignment="132" id="text80" outline="false" text="Status" font="font59"/>
+  <led w="48.0001" x="56.9999" hilit3D="false" y="112.001" h="53.9993" id="led74" state="false"/>
+  <rrect w="123.448" x="55.822" hilit3D="false" y="259.086" h="81.828" rnd="10" brush="brush42" id="rrect67"/>
+  <text w="77.2591" hilit3D="false" x="85.835" y="313" pen="pen58" h="20" alignment="129" id="text57" annotation="NSGU FE V" outline="false" text="0" font="font59"/>
+  <text w="81.1567" hilit3D="false" x="84.887" y="290" pen="pen58" h="20" alignment="129" id="text59" annotation="NSGU FE I" outline="false" text="0" font="font59"/>
+  <text w="30" hilit3D="false" x="52.465" y="312" pen="pen58" h="20" alignment="132" id="text63" outline="false" text="I" font="font59"/>
+  <text w="24" hilit3D="false" x="54.465" y="290" pen="pen58" h="20" alignment="132" id="text64" outline="false" text="V" font="font59"/>
+  <text w="100.182" hilit3D="false" x="64.546" y="265.042" h="20" alignment="132" id="text61" outline="false" text="PFE Module 6" font="font59"/>
+  <rect w="280.001" x="188.999" hilit3D="false" y="100" h="262.001" brush="brush41" id="rect72"/>
+  <text w="137.306" hilit3D="false" x="299.346" y="140.032" pen="pen19" h="19.9358" alignment="68" id="text83" outline="false" text="ATM Current" font="font59"/>
+  <text w="107.751" hilit3D="false" x="311.248" y="201" pen="pen19" h="20" alignment="132" id="text86" outline="false" text="ATM Voltage" font="font59"/>
+  <text w="108.039" hilit3D="false" x="310.98" y="265" pen="pen19" h="20" alignment="132" id="text82" outline="false" text="ATM Temp" font="font59"/>
+  <parameterbox w="230" showGenerationTime="false" hilit3D="false" x="206" y="136" showMonitoringState="true" showSource="false" h="54" showRawValue="false" showValidity="false" showUnit="false" showEngineeringValue="true" showMonitoringDescription="false" id="parameterbox43" showReceivedTime="true" showDestination="false"/>
+  <parameterbox w="232" showGenerationTime="false" hilit3D="false" x="205" y="200" showMonitoringState="true" showSource="false" h="54" showRawValue="false" showValidity="false" showUnit="false" showEngineeringValue="true" showMonitoringDescription="false" id="parameterbox45" showReceivedTime="true" showDestination="false"/>
+  <parameterbox w="238" showGenerationTime="false" hilit3D="false" x="203" y="262" showMonitoringState="true" showSource="false" h="54" showRawValue="false" showValidity="false" showUnit="false" showEngineeringValue="true" showMonitoringDescription="false" id="parameterbox46" showReceivedTime="true" showDestination="false"/>
+  <text w="150" hilit3D="false" x="225" y="113" h="20" alignment="132" id="text48" outline="false" text="ATM" font="font59"/>
+  <commandbutton w="100" x="62" hilit3D="false" y="176" h="24" arguments="cmcuOn" id="commandbutton33" font="font59" text="ON/OFF"/>
+  <commandbutton w="100" x="62" hilit3D="false" y="202" h="24" id="commandbutton34" font="font59" text="Config"/>
+  <commandbutton w="100" x="63" hilit3D="false" y="227" h="24" id="commandbutton35" font="font59" text="Log TM"/>
+ </shapes>
+ <transforms/>
+ <dynamics>
+  <param id="param70" annotation="Status" name="PCM1001S"/>
+  <param id="param71" annotation="ATM Current" name="PCM1002I"/>
+  <param id="param72" annotation="ATM Voltage" name="PCM1003U"/>
+  <param id="param73" annotation="ATM Temp" name="PCM1004T"/>
+  <param id="param74" name="PFE_PLF_LIM6_Current"/>
+  <param id="param75" name="PFE_PLF_LIM6_Voltage"/>
+ </dynamics>
+ <connections>
+  <connect dest="led74" srcProp="rawValue" destProp="state" src="param70"/>
+  <connect dest="text57" srcProp="engValue" destProp="text" src="param74"/>
+  <connect dest="text59" srcProp="engValue" destProp="text" src="param75"/>
+  <connect dest="parameterbox43" srcProp="*" src="param71"/>
+  <connect dest="parameterbox45" srcProp="*" src="param72"/>
+  <connect dest="parameterbox46" srcProp="*" src="param73"/>
+ </connections>
+</synoptic>

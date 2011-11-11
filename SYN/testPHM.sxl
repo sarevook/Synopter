@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<synoptic xsi:noNamespaceSchemaLocation="http://projects.nl.terma.com/SCHEMAS/SYNOPTICS/synopter.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" editor3D="0" editorVersion="0">
+ <assets>
+  <font fontFamily="MS Shell Dlg 2" pointSize="11" bold="true" id="font60" italic="false"/>
+  <font fontFamily="MS Shell Dlg 2" pointSize="36" bold="false" id="font61" italic="false"/>
+  <brush g="255" id="brush33" r="255" a="255" b="255"/>
+  <brush g="255" id="brush34" r="255" a="255" b="127"/>
+  <linearGradient direction="1" id="linearGradient38">
+   <gradientStop g="200" position="0" r="100" a="200" b="200"/>
+   <gradientStop g="0" position="1" r="0" a="255" b="0"/>
+  </linearGradient>
+  <brush gradient="linearGradient38" g="200" id="brush39" r="200" a="222" b="200"/>
+  <pen width="0" g="200" penStyle="1" id="pen40" r="170" a="255" b="50"/>
+ </assets>
+ <shapes>
+  <rect w="227.396" x="186.302" hilit3D="false" y="49.6173" h="268.246" brush="brush33" id="rect39"/>
+  <text w="245.57" hilit3D="false" x="20.2915" y="-14.9995" h="70.4937" alignment="132" id="text48" outline="false" text="PHM" font="font61"/>
+  <rect w="197.396" x="-12.396" hilit3D="false" y="49.6173" h="268.246" brush="brush33" id="rect54"/>
+  <text w="135.571" hilit3D="false" x="5.5165" y="222.433" h="19.1344" alignment="68" id="text41" outline="false" text="PHM Current" font="font60"/>
+  <led w="42.1985" x="28.9008" hilit3D="false" y="75.0554" h="49.8893" id="led71" state="false"/>
+  <text w="80" hilit3D="false" x="60" y="55" h="20" alignment="132" id="text72" outline="false" text="Status" font="font60"/>
+  <parameterbox w="174" showGenerationTime="false" hilit3D="false" x="13" y="245" showMonitoringState="true" showSource="false" h="64" showRawValue="false" showValidity="false" showUnit="false" showEngineeringValue="true" showMonitoringDescription="false" id="parameterbox36" showReceivedTime="true" showDestination="false"/>
+  <commandbutton w="100" x="25" hilit3D="false" y="127" h="24" arguments="phmOn" id="commandbutton28" font="font60" text="On/Off"/>
+  <commandbutton w="100" x="24" hilit3D="false" y="157" h="24" id="commandbutton29" font="font60" text="Config"/>
+  <commandbutton w="100" x="25" hilit3D="false" y="188" h="24" id="commandbutton30" font="font60" text="Log TM"/>
+  <text w="80" hilit3D="false" x="216.662" y="108.74" h="20" alignment="132" id="text56" outline="false" text="Stay ON" font="font60"/>
+  <led w="42.1985" x="234.562" hilit3D="false" y="60.0554" h="49.8893" id="led43" state="false"/>
+  <text w="110.039" hilit3D="false" x="201.641" y="226" h="20" alignment="132" id="text44" outline="false" text="Ion Voltage" font="font60"/>
+  <text w="108.039" hilit3D="false" x="201.641" y="144" h="20" alignment="132" id="text58" outline="false" text="Ion Current" font="font60"/>
+  <parameterbox w="190" showGenerationTime="false" hilit3D="false" x="207.36" y="167" showMonitoringState="true" showSource="false" h="60" showRawValue="false" showValidity="false" showUnit="false" showEngineeringValue="true" showMonitoringDescription="false" id="parameterbox37" showReceivedTime="true" showDestination="false"/>
+  <parameterbox w="192" showGenerationTime="false" hilit3D="false" x="206.36" y="247" showMonitoringState="true" showSource="false" h="60" showRawValue="false" showValidity="false" showUnit="false" showEngineeringValue="true" showMonitoringDescription="false" id="parameterbox38" showReceivedTime="true" showDestination="false"/>
+ </shapes>
+ <transforms/>
+ <dynamics>
+  <param id="param62" annotation="PHM Current" name="PPH1005I"/>
+  <param id="param63" annotation="Ion Current" name="PPH1004I"/>
+  <param id="param64" annotation="Status PHM" name="PPH1001S"/>
+  <param id="param65" annotation="Stay Status" name="PPH1002S"/>
+  <param id="param67" annotation="Ion Voltage" name="PPH1003U"/>
+  <param id="param68" name="PFE_PLF_LIM1_Voltage"/>
+  <param id="param69" name="PFE_PLF_LIM1_Current"/>
+ </dynamics>
+ <connections>
+  <connect dest="led43" srcProp="rawValue" destProp="state" src="param65"/>
+  <connect dest="parameterbox36" srcProp="*" src="param62"/>
+  <connect dest="parameterbox37" srcProp="*" src="param63"/>
+  <connect dest="parameterbox38" srcProp="*" src="param67"/>
+  <connect dest="led71" srcProp="rawValue" destProp="state" src="param64"/>
+ </connections>
+</synoptic>

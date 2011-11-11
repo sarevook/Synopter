@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<synoptic xsi:noNamespaceSchemaLocation="http://projects.nl.terma.com/SCHEMAS/SYNOPTICS/synopter.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" editor3D="0" editorVersion="0">
+ <assets>
+  <font fontFamily="Verdana" pointSize="10" bold="true" id="font001" italic="false"/>
+  <font fontFamily="Verdana" pointSize="28" bold="true" id="font002" italic="false"/>
+  <font fontFamily="Courier New" pointSize="10" bold="true" id="font003" italic="false"/>
+  <brush g="255" id="brush001" r="255" a="255" b="255"/>
+  <brush g="171" id="brush002" r="138" a="255" b="231"/>
+  <brush g="0" id="brush003" r="255" a="255" b="0"/>
+  <brush g="0" id="brush004" r="0" a="255" b="0"/>
+  <brush g="222" id="brush005" r="222" a="255" b="222"/>
+ </assets>
+ <slots>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0 > 7)" id="expression100" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0 == 4 || arg0 == 5 || arg0 == 6 || arg0 == 7 || arg0 == 12 || arg0 == 13 || arg0 == 14 || arg0 == 15)" id="expression101" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0 == 2 || arg0 == 3 || arg0 == 6 || arg0 == 7 || arg0 == 10 || arg0 == 11 || arg0 == 14 || arg0 == 15)" id="expression102" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0 == 1 || arg0 == 3 || arg0 == 5 || arg0 == 7 || arg0 == 9 || arg0 == 11 || arg0 == 13 || arg0 == 15 )" id="expression103" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0 > 7)" id="expression200" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0 == 4 || arg0 == 5 || arg0 == 6 || arg0 == 7 || arg0 == 12 || arg0 == 13 || arg0 == 14 || arg0 == 15)" id="expression201" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0 == 2 || arg0 == 3 || arg0 == 6 || arg0 == 7 || arg0 == 10 || arg0 == 11 || arg0 == 14 || arg0 == 15)" id="expression202" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0 == 1 || arg0 == 3 || arg0 == 5 || arg0 == 7 || arg0 == 9 || arg0 == 11 || arg0 == 13 || arg0 == 15 )" id="expression203" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0 > 7)" id="expression300" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0 == 4 || arg0 == 5 || arg0 == 6 || arg0 == 7 || arg0 == 12 || arg0 == 13 || arg0 == 14 || arg0 == 15)" id="expression301" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0 == 2 || arg0 == 3 || arg0 == 6 || arg0 == 7 || arg0 == 10 || arg0 == 11 || arg0 == 14 || arg0 == 15)" id="expression302" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0 == 1 || arg0 == 3 || arg0 == 5 || arg0 == 7 || arg0 == 9 || arg0 == 11 || arg0 == 13 || arg0 == 15 )" id="expression303" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0 > 7)" id="expression400" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0 == 4 || arg0 == 5 || arg0 == 6 || arg0 == 7 || arg0 == 12 || arg0 == 13 || arg0 == 14 || arg0 == 15)" id="expression401" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0 == 2 || arg0 == 3 || arg0 == 6 || arg0 == 7 || arg0 == 10 || arg0 == 11 || arg0 == 14 || arg0 == 15)" id="expression402" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0 == 1 || arg0 == 3 || arg0 == 5 || arg0 == 7 || arg0 == 9 || arg0 == 11 || arg0 == 13 || arg0 == 15 )" id="expression403" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0 > 7)" id="expression800" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0 == 4 || arg0 == 5 || arg0 == 6 || arg0 == 7 || arg0 == 12 || arg0 == 13 || arg0 == 14 || arg0 == 15)" id="expression801" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0 == 2 || arg0 == 3 || arg0 == 6 || arg0 == 7 || arg0 == 10 || arg0 == 11 || arg0 == 14 || arg0 == 15)" id="expression802" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0 == 1 || arg0 == 3 || arg0 == 5 || arg0 == 7 || arg0 == 9 || arg0 == 11 || arg0 == 13 || arg0 == 15 )" id="expression803" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0 > 7)" id="expression900" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0 == 4 || arg0 == 5 || arg0 == 6 || arg0 == 7 || arg0 == 12 || arg0 == 13 || arg0 == 14 || arg0 == 15)" id="expression901" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0 == 2 || arg0 == 3 || arg0 == 6 || arg0 == 7 || arg0 == 10 || arg0 == 11 || arg0 == 14 || arg0 == 15)" id="expression902" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0 == 1 || arg0 == 3 || arg0 == 5 || arg0 == 7 || arg0 == 9 || arg0 == 11 || arg0 == 13 || arg0 == 15 )" id="expression903" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="int(arg0/2048)" id="expression1000" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="int(arg0/1024) - (int(arg0 / 2048) * 2)" id="expression1001" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="int((arg0-int(arg0/1024)*1024) / 32)" id="expression1002" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="int(arg0 - int(arg0/32)*32)" id="expression1003" arg0="0" arg1="0" arg2="0" arg3="0"/>
+  <interface value="0" id="interface1" name="InterfaceOne"/>
+  <interface value="0" id="interface2" name="InterfaceTwo"/>
+ </slots>
+ <shapes>
+  <rect w="930" x="45" hilit3D="false" y="20" h="700" brush="brush005" id="rect000"/>
+  <text w="464" hilit3D="false" x="280" y="20" h="75" alignment="132" id="text000" outline="false" text="RTU Commanding" font="font002"/>
+  <group w="230" hilit3D="false" x="60" y="276" h="270" scale="1" hidden="true" offsetX="0" offsetY="0" id="group100" clip="false"/>
+  <rect w="230" x="0" hilit3D="false" y="0" h="270" brush="brush002" id="rect1000" parent="group100"/>
+  <text w="80" hilit3D="false" x="75" y="10" h="20" alignment="132" id="text1000" parent="group100" outline="false" text="RTU" font="font001"/>
+  <text w="130" hilit3D="false" x="50" y="40" h="20" alignment="132" id="text1001" parent="group100" outline="false" text="Last Command" font="font001"/>
+  <text w="90" hilit3D="false" x="17" y="70" h="20" alignment="132" id="text1002" parent="group100" outline="false" text="RT Address" font="font001"/>
+  <text w="90" hilit3D="false" x="120" y="70" h="20" alignment="132" id="text1003" parent="group100" outline="true" text="0" font="font003"/>
+  <text w="90" hilit3D="false" x="17" y="100" h="20" alignment="132" id="text1004" parent="group100" outline="false" text="Transmit" font="font001"/>
+  <text w="90" hilit3D="false" x="120" y="100" h="20" alignment="132" id="text1005" parent="group100" outline="true" text="0" font="font003"/>
+  <text w="90" hilit3D="false" x="17" y="130" h="20" alignment="132" id="text1006" parent="group100" outline="false" text="Sub Address" font="font001"/>
+  <text w="90" hilit3D="false" x="120" y="130" h="20" alignment="132" id="text1007" parent="group100" outline="true" text="0" font="font003"/>
+  <text w="90" hilit3D="false" x="17" y="160" h="20" alignment="132" id="text1008" parent="group100" outline="false" text="Num. Words" font="font001"/>
+  <text w="90" hilit3D="false" x="120" y="160" h="20" alignment="132" id="text1009" parent="group100" outline="true" text="0" font="font003"/>
+  <text w="90" hilit3D="false" x="17" y="190" h="20" alignment="132" id="text1010" parent="group100" outline="false" text="Word #1" font="font001"/>
+  <text w="90" hilit3D="false" x="120" y="190" h="20" alignment="132" id="text1011" parent="group100" outline="true" text="0x00000000" font="font003"/>
+  <text w="90" hilit3D="false" x="17" y="220" h="20" alignment="132" id="text1012" parent="group100" outline="false" text="Word #2" font="font001"/>
+  <text w="90" hilit3D="false" x="120" y="220" h="20" alignment="132" id="text1013" parent="group100" outline="true" text="0x00000000" font="font003"/>
+  <group w="80" hilit3D="false" x="290" y="168" h="486" scale="1" hidden="true" offsetX="0" offsetY="0" id="group101" clip="false"/>
+  <polyLine x="0" y="243" id="polyLine001" parent="group101">
+   <point x="0" y="0"/>
+   <point x="40" y="0"/>
+   <point x="40" y="-240"/>
+   <point x="80" y="-240"/>
+  </polyLine>
+  <polyLine x="0" y="243" id="polyLine002" parent="group101">
+   <point x="0" y="0"/>
+   <point x="38" y="0"/>
+   <point x="38" y="-180"/>
+   <point x="80" y="-180"/>
+  </polyLine>
+  <polyLine x="0" y="243" id="polyLine003" parent="group101">
+   <point x="0" y="0"/>
+   <point x="36" y="0"/>
+   <point x="36" y="-120"/>
+   <point x="80" y="-120"/>
+  </polyLine>
+  <polyLine x="0" y="243" id="polyLine004" parent="group101">
+   <point x="0" y="0"/>
+   <point x="34" y="0"/>
+   <point x="34" y="-60"/>
+   <point x="80" y="-60"/>
+  </polyLine>
+  <polyLine x="0" y="243" id="polyLine005" parent="group101">
+   <point x="0" y="0"/>
+   <point x="32" y="0"/>
+   <point x="32" y="0"/>
+   <point x="80" y="0"/>
+  </polyLine>
+  <polyLine x="0" y="243" id="polyLine006" parent="group101">
+   <point x="0" y="0"/>
+   <point x="34" y="0"/>
+   <point x="34" y="60"/>
+   <point x="80" y="60"/>
+  </polyLine>
+  <polyLine x="0" y="243" id="polyLine007" parent="group101">
+   <point x="0" y="0"/>
+   <point x="36" y="0"/>
+   <point x="36" y="120"/>
+   <point x="80" y="120"/>
+  </polyLine>
+  <polyLine x="0" y="243" id="polyLine008" parent="group101">
+   <point x="0" y="0"/>
+   <point x="38" y="0"/>
+   <point x="38" y="180"/>
+   <point x="80" y="180"/>
+  </polyLine>
+  <polyLine x="0" y="243" id="polyLine009" parent="group101">
+   <point x="0" y="0"/>
+   <point x="40" y="0"/>
+   <point x="40" y="240"/>
+   <point x="80" y="240"/>
+  </polyLine>
+  <polygon x="80" y="3" brush="brush004" id="polygon001" parent="group101">
+   <point x="0" y="0"/>
+   <point x="-5" y="3"/>
+   <point x="-5" y="-3"/>
+   <point x="0" y="0"/>
+  </polygon>
+  <polygon x="80" y="63" brush="brush004" id="polygon002" parent="group101">
+   <point x="0" y="0"/>
+   <point x="-5" y="3"/>
+   <point x="-5" y="-3"/>
+   <point x="0" y="0"/>
+  </polygon>
+  <polygon x="80" y="123" brush="brush004" id="polygon003" parent="group101">
+   <point x="0" y="0"/>
+   <point x="-5" y="3"/>
+   <point x="-5" y="-3"/>
+   <point x="0" y="0"/>
+  </polygon>
+  <polygon x="80" y="183" brush="brush004" id="polygon004" parent="group101">
+   <point x="0" y="0"/>
+   <point x="-5" y="3"/>
+   <point x="-5" y="-3"/>
+   <point x="0" y="0"/>
+  </polygon>
+  <polygon x="80" y="243" brush="brush004" id="polygon005" parent="group101">
+   <point x="0" y="0"/>
+   <point x="-5" y="3"/>
+   <point x="-5" y="-3"/>
+   <point x="0" y="0"/>
+  </polygon>
+  <polygon x="80" y="303" brush="brush004" id="polygon006" parent="group101">
+   <point x="0" y="0"/>
+   <point x="-5" y="3"/>
+   <point x="-5" y="-3"/>
+   <point x="0" y="0"/>
+  </polygon>
+  <polygon x="80" y="363" brush="brush004" id="polygon007" parent="group101">
+   <point x="0" y="0"/>
+   <point x="-5" y="3"/>
+   <point x="-5" y="-3"/>
+   <point x="0" y="0"/>
+  </polygon>
+  <polygon x="80" y="423" brush="brush004" id="polygon008" parent="group101">
+   <point x="0" y="0"/>
+   <point x="-5" y="3"/>
+   <point x="-5" y="-3"/>
+   <point x="0" y="0"/>
+  </polygon>
+  <polygon x="80" y="483" brush="brush004" id="polygon009" parent="group101">
+   <point x="0" y="0"/>
+   <point x="-5" y="3"/>
+   <point x="-5" y="-3"/>
+   <point x="0" y="0"/>
+  </polygon>
+  <group w="586" hilit3D="false" x="371" y="120" h="582" scale="1" hidden="true" offsetX="0" offsetY="0" id="group103" clip="false"/>
+  <rect w="586" x="0" hilit3D="false" y="0" h="582" brush="brush002" id="rect001" parent="group103"/>
+  <group w="550" hilit3D="false" x="3" y="27" h="50" scale="1" hidden="true" offsetX="0" offsetY="0" id="group001" parent="group103" annotation="MAIN" clip="false"/>
+  <rect w="120" x="80" hilit3D="false" y="0" h="50" brush="brush001" id="rect101" parent="group001"/>
+  <rect w="30" x="200" hilit3D="false" y="0" h="50" brush="brush001" id="rect102" parent="group001"/>
+  <rect w="30" x="230" hilit3D="false" y="0" h="50" brush="brush001" id="rect103" parent="group001"/>
+  <rect w="30" x="260" hilit3D="false" y="0" h="50" brush="brush001" id="rect104" parent="group001"/>
+  <rect w="30" x="290" hilit3D="false" y="0" h="50" brush="brush001" id="rect105" parent="group001"/>
+  <rect w="30" x="320" hilit3D="false" y="0" h="50" brush="brush001" id="rect106" parent="group001"/>
+  <rect w="30" x="350" hilit3D="false" y="0" h="50" brush="brush001" id="rect107" parent="group001"/>
+  <rect w="30" x="380" hilit3D="false" y="0" h="50" brush="brush001" id="rect108" parent="group001"/>
+  <rect w="30" x="410" hilit3D="false" y="0" h="50" brush="brush001" id="rect109" parent="group001"/>
+  <rect w="30" x="440" hilit3D="false" y="0" h="50" brush="brush001" id="rect110" parent="group001"/>
+  <rect w="30" x="470" hilit3D="false" y="0" h="50" brush="brush001" id="rect111" parent="group001"/>
+  <rect w="30" x="500" hilit3D="false" y="0" h="50" brush="brush001" id="rect112" parent="group001"/>
+  <rect w="30" x="530" hilit3D="false" y="0" h="50" brush="brush001" id="rect113" parent="group001"/>
+  <text w="480" hilit3D="false" x="80" y="0" h="20" alignment="136" id="text100" parent="group001" outline="false" text="        SEQNUM         BY  ME                         RP   RB" font="font001"/>
+  <text w="70" hilit3D="false" x="10" y="15" h="20" alignment="132" id="text101" parent="group001" outline="false" text="MAIN" font="font001"/>
+  <led w="10" x="90" hilit3D="false" y="30" h="10" brush="brush003" id="led100" parent="group001" state="false"/>
+  <led w="10" x="120" hilit3D="false" y="30" h="10" brush="brush003" id="led101" parent="group001" state="false"/>
+  <led w="10" x="150" hilit3D="false" y="30" h="10" brush="brush003" id="led102" parent="group001" state="false"/>
+  <led w="10" x="180" hilit3D="false" y="30" h="10" brush="brush003" id="led103" parent="group001" state="false"/>
+  <led w="10" x="210" hilit3D="false" y="30" h="10" brush="brush003" id="led104" parent="group001" state="false"/>
+  <led w="10" x="240" hilit3D="false" y="30" h="10" brush="brush003" id="led105" parent="group001" state="false"/>
+  <led w="10" x="270" hilit3D="false" y="30" h="10" brush="brush003" id="led106" parent="group001" state="false"/>
+  <led w="10" x="300" hilit3D="false" y="30" h="10" brush="brush003" id="led107" parent="group001" state="false"/>
+  <led w="10" x="330" hilit3D="false" y="30" h="10" brush="brush003" id="led108" parent="group001" state="false"/>
+  <led w="10" x="360" hilit3D="false" y="30" h="10" brush="brush003" id="led109" parent="group001" state="false"/>
+  <led w="10" x="390" hilit3D="false" y="30" h="10" brush="brush003" id="led110" parent="group001" state="false"/>
+  <led w="10" x="420" hilit3D="false" y="30" h="10" brush="brush003" id="led111" parent="group001" state="false"/>
+  <led w="10" x="450" hilit3D="false" y="30" h="10" brush="brush003" id="led112" parent="group001" state="false"/>
+  <led w="10" x="480" hilit3D="false" y="30" h="10" brush="brush003" id="led113" parent="group001" state="false"/>
+  <led w="10" x="510" hilit3D="false" y="30" h="10" brush="brush003" id="led114" parent="group001" state="false"/>
+  <led w="10" x="540" hilit3D="false" y="30" h="10" brush="brush003" id="led115" parent="group001" state="false"/>
+  <group w="550" hilit3D="false" x="3" y="87" h="50" scale="1" hidden="true" offsetX="0" offsetY="0" id="group002" parent="group103" annotation="ATM0" clip="false"/>
+  <rect w="120" x="80" hilit3D="false" y="0" h="50" brush="brush001" id="rect201" parent="group002"/>
+  <rect w="30" x="200" hilit3D="false" y="0" h="50" brush="brush001" id="rect202" parent="group002"/>
+  <rect w="30" x="230" hilit3D="false" y="0" h="50" brush="brush001" id="rect203" parent="group002"/>
+  <rect w="30" x="260" hilit3D="false" y="0" h="50" brush="brush001" id="rect204" parent="group002"/>
+  <rect w="30" x="290" hilit3D="false" y="0" h="50" brush="brush001" id="rect205" parent="group002"/>
+  <rect w="30" x="320" hilit3D="false" y="0" h="50" brush="brush001" id="rect206" parent="group002"/>
+  <rect w="30" x="350" hilit3D="false" y="0" h="50" brush="brush001" id="rect207" parent="group002"/>
+  <rect w="30" x="380" hilit3D="false" y="0" h="50" brush="brush001" id="rect208" parent="group002"/>
+  <rect w="30" x="410" hilit3D="false" y="0" h="50" brush="brush001" id="rect209" parent="group002"/>
+  <rect w="30" x="440" hilit3D="false" y="0" h="50" brush="brush001" id="rect210" parent="group002"/>
+  <rect w="30" x="470" hilit3D="false" y="0" h="50" brush="brush001" id="rect211" parent="group002"/>
+  <rect w="30" x="500" hilit3D="false" y="0" h="50" brush="brush001" id="rect212" parent="group002"/>
+  <rect w="30" x="530" hilit3D="false" y="0" h="50" brush="brush001" id="rect213" parent="group002"/>
+  <text w="480" hilit3D="false" x="80" y="0" h="20" alignment="136" id="text200" parent="group002" outline="false" text="        SEQNUM         BY  ME                         RP   RB  CE   TO   NC  NB   NF" font="font001"/>
+  <text w="70" hilit3D="false" x="10" y="15" h="20" alignment="132" id="text201" parent="group002" outline="false" text="ATM0" font="font001"/>
+  <led w="10" x="90" hilit3D="false" y="30" h="10" brush="brush003" id="led200" parent="group002" state="false"/>
+  <led w="10" x="120" hilit3D="false" y="30" h="10" brush="brush003" id="led201" parent="group002" state="false"/>
+  <led w="10" x="150" hilit3D="false" y="30" h="10" brush="brush003" id="led202" parent="group002" state="false"/>
+  <led w="10" x="180" hilit3D="false" y="30" h="10" brush="brush003" id="led203" parent="group002" state="false"/>
+  <led w="10" x="210" hilit3D="false" y="30" h="10" brush="brush003" id="led204" parent="group002" state="false"/>
+  <led w="10" x="240" hilit3D="false" y="30" h="10" brush="brush003" id="led205" parent="group002" state="false"/>
+  <led w="10" x="270" hilit3D="false" y="30" h="10" brush="brush003" id="led206" parent="group002" state="false"/>
+  <led w="10" x="300" hilit3D="false" y="30" h="10" brush="brush003" id="led207" parent="group002" state="false"/>
+  <led w="10" x="330" hilit3D="false" y="30" h="10" brush="brush003" id="led208" parent="group002" state="false"/>
+  <led w="10" x="360" hilit3D="false" y="30" h="10" brush="brush003" id="led209" parent="group002" state="false"/>
+  <led w="10" x="390" hilit3D="false" y="30" h="10" brush="brush003" id="led210" parent="group002" state="false"/>
+  <led w="10" x="420" hilit3D="false" y="30" h="10" brush="brush003" id="led211" parent="group002" state="false"/>
+  <led w="10" x="450" hilit3D="false" y="30" h="10" brush="brush003" id="led212" parent="group002" state="false"/>
+  <led w="10" x="480" hilit3D="false" y="30" h="10" brush="brush003" id="led213" parent="group002" state="false"/>
+  <led w="10" x="510" hilit3D="false" y="30" h="10" brush="brush003" id="led214" parent="group002" state="false"/>
+  <led w="10" x="540" hilit3D="false" y="30" h="10" brush="brush003" id="led215" parent="group002" state="false"/>
+  <group w="550" hilit3D="false" x="3" y="147" h="50" scale="1" hidden="true" offsetX="0" offsetY="0" id="group003" parent="group103" annotation="ATM1" clip="false"/>
+  <rect w="120" x="80" hilit3D="false" y="0" h="50" brush="brush001" id="rect301" parent="group003"/>
+  <rect w="30" x="200" hilit3D="false" y="0" h="50" brush="brush001" id="rect302" parent="group003"/>
+  <rect w="30" x="230" hilit3D="false" y="0" h="50" brush="brush001" id="rect303" parent="group003"/>
+  <rect w="30" x="260" hilit3D="false" y="0" h="50" brush="brush001" id="rect304" parent="group003"/>
+  <rect w="30" x="290" hilit3D="false" y="0" h="50" brush="brush001" id="rect305" parent="group003"/>
+  <rect w="30" x="320" hilit3D="false" y="0" h="50" brush="brush001" id="rect306" parent="group003"/>
+  <rect w="30" x="350" hilit3D="false" y="0" h="50" brush="brush001" id="rect307" parent="group003"/>
+  <rect w="30" x="380" hilit3D="false" y="0" h="50" brush="brush001" id="rect308" parent="group003"/>
+  <rect w="30" x="410" hilit3D="false" y="0" h="50" brush="brush001" id="rect309" parent="group003"/>
+  <rect w="30" x="440" hilit3D="false" y="0" h="50" brush="brush001" id="rect310" parent="group003"/>
+  <rect w="30" x="470" hilit3D="false" y="0" h="50" brush="brush001" id="rect311" parent="group003"/>
+  <rect w="30" x="500" hilit3D="false" y="0" h="50" brush="brush001" id="rect312" parent="group003"/>
+  <rect w="30" x="530" hilit3D="false" y="0" h="50" brush="brush001" id="rect313" parent="group003"/>
+  <text w="480" hilit3D="false" x="80" y="0" h="20" alignment="136" id="text300" parent="group003" outline="false" text="        SEQNUM         BY  ME                         RP   RB  CE   TO   NC  NB   NF" font="font001"/>
+  <text w="70" hilit3D="false" x="10" y="15" h="20" alignment="132" id="text301" parent="group003" outline="false" text="ATM1" font="font001"/>
+  <led w="10" x="90" hilit3D="false" y="30" h="10" brush="brush003" id="led300" parent="group003" state="false"/>
+  <led w="10" x="120" hilit3D="false" y="30" h="10" brush="brush003" id="led301" parent="group003" state="false"/>
+  <led w="10" x="150" hilit3D="false" y="30" h="10" brush="brush003" id="led302" parent="group003" state="false"/>
+  <led w="10" x="180" hilit3D="false" y="30" h="10" brush="brush003" id="led303" parent="group003" state="false"/>
+  <led w="10" x="210" hilit3D="false" y="30" h="10" brush="brush003" id="led304" parent="group003" state="false"/>
+  <led w="10" x="240" hilit3D="false" y="30" h="10" brush="brush003" id="led305" parent="group003" state="false"/>
+  <led w="10" x="270" hilit3D="false" y="30" h="10" brush="brush003" id="led306" parent="group003" state="false"/>
+  <led w="10" x="300" hilit3D="false" y="30" h="10" brush="brush003" id="led307" parent="group003" state="false"/>
+  <led w="10" x="330" hilit3D="false" y="30" h="10" brush="brush003" id="led308" parent="group003" state="false"/>
+  <led w="10" x="360" hilit3D="false" y="30" h="10" brush="brush003" id="led309" parent="group003" state="false"/>
+  <led w="10" x="390" hilit3D="false" y="30" h="10" brush="brush003" id="led310" parent="group003" state="false"/>
+  <led w="10" x="420" hilit3D="false" y="30" h="10" brush="brush003" id="led311" parent="group003" state="false"/>
+  <led w="10" x="450" hilit3D="false" y="30" h="10" brush="brush003" id="led312" parent="group003" state="false"/>
+  <led w="10" x="480" hilit3D="false" y="30" h="10" brush="brush003" id="led313" parent="group003" state="false"/>
+  <led w="10" x="510" hilit3D="false" y="30" h="10" brush="brush003" id="led314" parent="group003" state="false"/>
+  <led w="10" x="540" hilit3D="false" y="30" h="10" brush="brush003" id="led315" parent="group003" state="false"/>
+  <group w="550" hilit3D="false" x="3" y="207" h="50" scale="1" hidden="true" offsetX="0" offsetY="0" id="group004" parent="group103" annotation="BTM" clip="false"/>
+  <rect w="120" x="80" hilit3D="false" y="0" h="50" brush="brush001" id="rect401" parent="group004"/>
+  <rect w="30" x="200" hilit3D="false" y="0" h="50" brush="brush001" id="rect402" parent="group004"/>
+  <rect w="30" x="230" hilit3D="false" y="0" h="50" brush="brush001" id="rect403" parent="group004"/>
+  <rect w="30" x="260" hilit3D="false" y="0" h="50" brush="brush001" id="rect404" parent="group004"/>
+  <rect w="30" x="290" hilit3D="false" y="0" h="50" brush="brush001" id="rect405" parent="group004"/>
+  <rect w="30" x="320" hilit3D="false" y="0" h="50" brush="brush001" id="rect406" parent="group004"/>
+  <rect w="30" x="350" hilit3D="false" y="0" h="50" brush="brush001" id="rect407" parent="group004"/>
+  <rect w="30" x="380" hilit3D="false" y="0" h="50" brush="brush001" id="rect408" parent="group004"/>
+  <rect w="30" x="410" hilit3D="false" y="0" h="50" brush="brush001" id="rect409" parent="group004"/>
+  <rect w="30" x="440" hilit3D="false" y="0" h="50" brush="brush001" id="rect410" parent="group004"/>
+  <rect w="30" x="470" hilit3D="false" y="0" h="50" brush="brush001" id="rect411" parent="group004"/>
+  <rect w="30" x="500" hilit3D="false" y="0" h="50" brush="brush001" id="rect412" parent="group004"/>
+  <rect w="30" x="530" hilit3D="false" y="0" h="50" brush="brush001" id="rect413" parent="group004"/>
+  <text w="480" hilit3D="false" x="80" y="0" h="20" alignment="136" id="text400" parent="group004" outline="false" text="        SEQNUM         BY  ME                         RP   RB  CE   TO   NC  NB   NF" font="font001"/>
+  <text w="70" hilit3D="false" x="10" y="15" h="20" alignment="132" id="text401" parent="group004" outline="false" text="BTM" font="font001"/>
+  <led w="10" x="90" hilit3D="false" y="30" h="10" brush="brush003" id="led400" parent="group004" state="false"/>
+  <led w="10" x="120" hilit3D="false" y="30" h="10" brush="brush003" id="led401" parent="group004" state="false"/>
+  <led w="10" x="150" hilit3D="false" y="30" h="10" brush="brush003" id="led402" parent="group004" state="false"/>
+  <led w="10" x="180" hilit3D="false" y="30" h="10" brush="brush003" id="led403" parent="group004" state="false"/>
+  <led w="10" x="210" hilit3D="false" y="30" h="10" brush="brush003" id="led404" parent="group004" state="false"/>
+  <led w="10" x="240" hilit3D="false" y="30" h="10" brush="brush003" id="led405" parent="group004" state="false"/>
+  <led w="10" x="270" hilit3D="false" y="30" h="10" brush="brush003" id="led406" parent="group004" state="false"/>
+  <led w="10" x="300" hilit3D="false" y="30" h="10" brush="brush003" id="led407" parent="group004" state="false"/>
+  <led w="10" x="330" hilit3D="false" y="30" h="10" brush="brush003" id="led408" parent="group004" state="false"/>
+  <led w="10" x="360" hilit3D="false" y="30" h="10" brush="brush003" id="led409" parent="group004" state="false"/>
+  <led w="10" x="390" hilit3D="false" y="30" h="10" brush="brush003" id="led410" parent="group004" state="false"/>
+  <led w="10" x="420" hilit3D="false" y="30" h="10" brush="brush003" id="led411" parent="group004" state="false"/>
+  <led w="10" x="450" hilit3D="false" y="30" h="10" brush="brush003" id="led412" parent="group004" state="false"/>
+  <led w="10" x="480" hilit3D="false" y="30" h="10" brush="brush003" id="led413" parent="group004" state="false"/>
+  <led w="10" x="510" hilit3D="false" y="30" h="10" brush="brush003" id="led414" parent="group004" state="false"/>
+  <led w="10" x="540" hilit3D="false" y="30" h="10" brush="brush003" id="led415" parent="group004" state="false"/>
+  <group w="550" hilit3D="false" x="3" y="267" h="50" scale="1" hidden="true" offsetX="0" offsetY="0" id="group005" parent="group103" annotation="HLC0" clip="false"/>
+  <rect w="120" x="80" hilit3D="false" y="0" h="50" brush="brush001" id="rect501" parent="group005"/>
+  <rect w="30" x="200" hilit3D="false" y="0" h="50" brush="brush001" id="rect502" parent="group005"/>
+  <rect w="30" x="230" hilit3D="false" y="0" h="50" brush="brush001" id="rect503" parent="group005"/>
+  <rect w="30" x="260" hilit3D="false" y="0" h="50" brush="brush001" id="rect504" parent="group005"/>
+  <rect w="30" x="290" hilit3D="false" y="0" h="50" brush="brush001" id="rect505" parent="group005"/>
+  <rect w="30" x="320" hilit3D="false" y="0" h="50" brush="brush001" id="rect506" parent="group005"/>
+  <rect w="30" x="350" hilit3D="false" y="0" h="50" brush="brush001" id="rect507" parent="group005"/>
+  <rect w="30" x="380" hilit3D="false" y="0" h="50" brush="brush001" id="rect508" parent="group005"/>
+  <rect w="30" x="410" hilit3D="false" y="0" h="50" brush="brush001" id="rect509" parent="group005"/>
+  <rect w="30" x="440" hilit3D="false" y="0" h="50" brush="brush001" id="rect510" parent="group005"/>
+  <rect w="30" x="470" hilit3D="false" y="0" h="50" brush="brush001" id="rect511" parent="group005"/>
+  <rect w="30" x="500" hilit3D="false" y="0" h="50" brush="brush001" id="rect512" parent="group005"/>
+  <rect w="30" x="530" hilit3D="false" y="0" h="50" brush="brush001" id="rect513" parent="group005"/>
+  <text w="480" hilit3D="false" x="80" y="0" h="20" alignment="136" id="text500" parent="group005" outline="false" text="                                BY  ME  HA   HS  HO  RP   RB  CE   TO   NC  NB   NF" font="font001"/>
+  <text w="70" hilit3D="false" x="10" y="15" h="20" alignment="132" id="text501" parent="group005" outline="false" text="HLC0" font="font001"/>
+  <led w="10" x="90" hilit3D="false" y="30" h="10" brush="brush003" id="led500" parent="group005" state="false"/>
+  <led w="10" x="120" hilit3D="false" y="30" h="10" brush="brush003" id="led501" parent="group005" state="false"/>
+  <led w="10" x="150" hilit3D="false" y="30" h="10" brush="brush003" id="led502" parent="group005" state="false"/>
+  <led w="10" x="180" hilit3D="false" y="30" h="10" brush="brush003" id="led503" parent="group005" state="false"/>
+  <led w="10" x="210" hilit3D="false" y="30" h="10" brush="brush003" id="led504" parent="group005" state="false"/>
+  <led w="10" x="240" hilit3D="false" y="30" h="10" brush="brush003" id="led505" parent="group005" state="false"/>
+  <led w="10" x="270" hilit3D="false" y="30" h="10" brush="brush003" id="led506" parent="group005" state="false"/>
+  <led w="10" x="300" hilit3D="false" y="30" h="10" brush="brush003" id="led507" parent="group005" state="false"/>
+  <led w="10" x="330" hilit3D="false" y="30" h="10" brush="brush003" id="led508" parent="group005" state="false"/>
+  <led w="10" x="360" hilit3D="false" y="30" h="10" brush="brush003" id="led509" parent="group005" state="false"/>
+  <led w="10" x="390" hilit3D="false" y="30" h="10" brush="brush003" id="led510" parent="group005" state="false"/>
+  <led w="10" x="420" hilit3D="false" y="30" h="10" brush="brush003" id="led511" parent="group005" state="false"/>
+  <led w="10" x="450" hilit3D="false" y="30" h="10" brush="brush003" id="led512" parent="group005" state="false"/>
+  <led w="10" x="480" hilit3D="false" y="30" h="10" brush="brush003" id="led513" parent="group005" state="false"/>
+  <led w="10" x="510" hilit3D="false" y="30" h="10" brush="brush003" id="led514" parent="group005" state="false"/>
+  <led w="10" x="540" hilit3D="false" y="30" h="10" brush="brush003" id="led515" parent="group005" state="false"/>
+  <group w="550" hilit3D="false" x="3" y="327" h="50" scale="1" hidden="true" offsetX="0" offsetY="0" id="group006" parent="group103" annotation="HLC1" clip="false"/>
+  <rect w="120" x="80" hilit3D="false" y="0" h="50" brush="brush001" id="rect601" parent="group006"/>
+  <rect w="30" x="200" hilit3D="false" y="0" h="50" brush="brush001" id="rect602" parent="group006"/>
+  <rect w="30" x="230" hilit3D="false" y="0" h="50" brush="brush001" id="rect603" parent="group006"/>
+  <rect w="30" x="260" hilit3D="false" y="0" h="50" brush="brush001" id="rect604" parent="group006"/>
+  <rect w="30" x="290" hilit3D="false" y="0" h="50" brush="brush001" id="rect605" parent="group006"/>
+  <rect w="30" x="320" hilit3D="false" y="0" h="50" brush="brush001" id="rect606" parent="group006"/>
+  <rect w="30" x="350" hilit3D="false" y="0" h="50" brush="brush001" id="rect607" parent="group006"/>
+  <rect w="30" x="380" hilit3D="false" y="0" h="50" brush="brush001" id="rect608" parent="group006"/>
+  <rect w="30" x="410" hilit3D="false" y="0" h="50" brush="brush001" id="rect609" parent="group006"/>
+  <rect w="30" x="440" hilit3D="false" y="0" h="50" brush="brush001" id="rect610" parent="group006"/>
+  <rect w="30" x="470" hilit3D="false" y="0" h="50" brush="brush001" id="rect611" parent="group006"/>
+  <rect w="30" x="500" hilit3D="false" y="0" h="50" brush="brush001" id="rect612" parent="group006"/>
+  <rect w="30" x="530" hilit3D="false" y="0" h="50" brush="brush001" id="rect613" parent="group006"/>
+  <text w="480" hilit3D="false" x="80" y="0" h="20" alignment="136" id="text600" parent="group006" outline="false" text="                                BY  ME  HA   HS  HO  RP   RB  CE   TO   NC  NB   NF" font="font001"/>
+  <text w="70" hilit3D="false" x="10" y="15" h="20" alignment="132" id="text601" parent="group006" outline="false" text="HLC1" font="font001"/>
+  <led w="10" x="90" hilit3D="false" y="30" h="10" brush="brush003" id="led600" parent="group006" state="false"/>
+  <led w="10" x="120" hilit3D="false" y="30" h="10" brush="brush003" id="led601" parent="group006" state="false"/>
+  <led w="10" x="150" hilit3D="false" y="30" h="10" brush="brush003" id="led602" parent="group006" state="false"/>
+  <led w="10" x="180" hilit3D="false" y="30" h="10" brush="brush003" id="led603" parent="group006" state="false"/>
+  <led w="10" x="210" hilit3D="false" y="30" h="10" brush="brush003" id="led604" parent="group006" state="false"/>
+  <led w="10" x="240" hilit3D="false" y="30" h="10" brush="brush003" id="led605" parent="group006" state="false"/>
+  <led w="10" x="270" hilit3D="false" y="30" h="10" brush="brush003" id="led606" parent="group006" state="false"/>
+  <led w="10" x="300" hilit3D="false" y="30" h="10" brush="brush003" id="led607" parent="group006" state="false"/>
+  <led w="10" x="330" hilit3D="false" y="30" h="10" brush="brush003" id="led608" parent="group006" state="false"/>
+  <led w="10" x="360" hilit3D="false" y="30" h="10" brush="brush003" id="led609" parent="group006" state="false"/>
+  <led w="10" x="390" hilit3D="false" y="30" h="10" brush="brush003" id="led610" parent="group006" state="false"/>
+  <led w="10" x="420" hilit3D="false" y="30" h="10" brush="brush003" id="led611" parent="group006" state="false"/>
+  <led w="10" x="450" hilit3D="false" y="30" h="10" brush="brush003" id="led612" parent="group006" state="false"/>
+  <led w="10" x="480" hilit3D="false" y="30" h="10" brush="brush003" id="led613" parent="group006" state="false"/>
+  <led w="10" x="510" hilit3D="false" y="30" h="10" brush="brush003" id="led614" parent="group006" state="false"/>
+  <led w="10" x="540" hilit3D="false" y="30" h="10" brush="brush003" id="led615" parent="group006" state="false"/>
+  <group w="550" hilit3D="false" x="3" y="387" h="50" scale="1" hidden="true" offsetX="0" offsetY="0" id="group007" parent="group103" annotation="HLC2" clip="false"/>
+  <rect w="120" x="80" hilit3D="false" y="0" h="50" brush="brush001" id="rect701" parent="group007"/>
+  <rect w="30" x="200" hilit3D="false" y="0" h="50" brush="brush001" id="rect702" parent="group007"/>
+  <rect w="30" x="230" hilit3D="false" y="0" h="50" brush="brush001" id="rect703" parent="group007"/>
+  <rect w="30" x="260" hilit3D="false" y="0" h="50" brush="brush001" id="rect704" parent="group007"/>
+  <rect w="30" x="290" hilit3D="false" y="0" h="50" brush="brush001" id="rect705" parent="group007"/>
+  <rect w="30" x="320" hilit3D="false" y="0" h="50" brush="brush001" id="rect706" parent="group007"/>
+  <rect w="30" x="350" hilit3D="false" y="0" h="50" brush="brush001" id="rect707" parent="group007"/>
+  <rect w="30" x="380" hilit3D="false" y="0" h="50" brush="brush001" id="rect708" parent="group007"/>
+  <rect w="30" x="410" hilit3D="false" y="0" h="50" brush="brush001" id="rect709" parent="group007"/>
+  <rect w="30" x="440" hilit3D="false" y="0" h="50" brush="brush001" id="rect710" parent="group007"/>
+  <rect w="30" x="470" hilit3D="false" y="0" h="50" brush="brush001" id="rect711" parent="group007"/>
+  <rect w="30" x="500" hilit3D="false" y="0" h="50" brush="brush001" id="rect712" parent="group007"/>
+  <rect w="30" x="530" hilit3D="false" y="0" h="50" brush="brush001" id="rect713" parent="group007"/>
+  <text w="480" hilit3D="false" x="80" y="0" h="20" alignment="136" id="text700" parent="group007" outline="false" text="                                BY  ME  HA   HS  HO  RP   RB  CE   TO   NC  NB   NF" font="font001"/>
+  <text w="70" hilit3D="false" x="10" y="15" h="20" alignment="132" id="text701" parent="group007" outline="false" text="HLC2" font="font001"/>
+  <led w="10" x="90" hilit3D="false" y="30" h="10" brush="brush003" id="led700" parent="group007" state="false"/>
+  <led w="10" x="120" hilit3D="false" y="30" h="10" brush="brush003" id="led701" parent="group007" state="false"/>
+  <led w="10" x="150" hilit3D="false" y="30" h="10" brush="brush003" id="led702" parent="group007" state="false"/>
+  <led w="10" x="180" hilit3D="false" y="30" h="10" brush="brush003" id="led703" parent="group007" state="false"/>
+  <led w="10" x="210" hilit3D="false" y="30" h="10" brush="brush003" id="led704" parent="group007" state="false"/>
+  <led w="10" x="240" hilit3D="false" y="30" h="10" brush="brush003" id="led705" parent="group007" state="false"/>
+  <led w="10" x="270" hilit3D="false" y="30" h="10" brush="brush003" id="led706" parent="group007" state="false"/>
+  <led w="10" x="300" hilit3D="false" y="30" h="10" brush="brush003" id="led707" parent="group007" state="false"/>
+  <led w="10" x="330" hilit3D="false" y="30" h="10" brush="brush003" id="led708" parent="group007" state="false"/>
+  <led w="10" x="360" hilit3D="false" y="30" h="10" brush="brush003" id="led709" parent="group007" state="false"/>
+  <led w="10" x="390" hilit3D="false" y="30" h="10" brush="brush003" id="led710" parent="group007" state="false"/>
+  <led w="10" x="420" hilit3D="false" y="30" h="10" brush="brush003" id="led711" parent="group007" state="false"/>
+  <led w="10" x="450" hilit3D="false" y="30" h="10" brush="brush003" id="led712" parent="group007" state="false"/>
+  <led w="10" x="480" hilit3D="false" y="30" h="10" brush="brush003" id="led713" parent="group007" state="false"/>
+  <led w="10" x="510" hilit3D="false" y="30" h="10" brush="brush003" id="led714" parent="group007" state="false"/>
+  <led w="10" x="540" hilit3D="false" y="30" h="10" brush="brush003" id="led715" parent="group007" state="false"/>
+  <group w="550" hilit3D="false" x="3" y="447" h="50" scale="1" hidden="true" offsetX="0" offsetY="0" id="group008" parent="group103" annotation="SER0" clip="false"/>
+  <rect w="120" x="80" hilit3D="false" y="0" h="50" brush="brush001" id="rect801" parent="group008"/>
+  <rect w="30" x="200" hilit3D="false" y="0" h="50" brush="brush001" id="rect802" parent="group008"/>
+  <rect w="30" x="230" hilit3D="false" y="0" h="50" brush="brush001" id="rect803" parent="group008"/>
+  <rect w="30" x="260" hilit3D="false" y="0" h="50" brush="brush001" id="rect804" parent="group008"/>
+  <rect w="30" x="290" hilit3D="false" y="0" h="50" brush="brush001" id="rect805" parent="group008"/>
+  <rect w="30" x="320" hilit3D="false" y="0" h="50" brush="brush001" id="rect806" parent="group008"/>
+  <rect w="30" x="350" hilit3D="false" y="0" h="50" brush="brush001" id="rect807" parent="group008"/>
+  <rect w="30" x="380" hilit3D="false" y="0" h="50" brush="brush001" id="rect808" parent="group008"/>
+  <rect w="30" x="410" hilit3D="false" y="0" h="50" brush="brush001" id="rect809" parent="group008"/>
+  <rect w="30" x="440" hilit3D="false" y="0" h="50" brush="brush001" id="rect810" parent="group008"/>
+  <rect w="30" x="470" hilit3D="false" y="0" h="50" brush="brush001" id="rect811" parent="group008"/>
+  <rect w="30" x="500" hilit3D="false" y="0" h="50" brush="brush001" id="rect812" parent="group008"/>
+  <rect w="30" x="530" hilit3D="false" y="0" h="50" brush="brush001" id="rect813" parent="group008"/>
+  <text w="480" hilit3D="false" x="80" y="0" h="20" alignment="136" id="text800" parent="group008" outline="false" text="        SEQNUM         BY  ME          RS  RC   RP   RB  CE   TO   NC  NB   NF" font="font001"/>
+  <text w="70" hilit3D="false" x="10" y="15" h="20" alignment="132" id="text801" parent="group008" outline="false" text="SER0" font="font001"/>
+  <led w="10" x="90" hilit3D="false" y="30" h="10" brush="brush003" id="led800" parent="group008" state="false"/>
+  <led w="10" x="120" hilit3D="false" y="30" h="10" brush="brush003" id="led801" parent="group008" state="false"/>
+  <led w="10" x="150" hilit3D="false" y="30" h="10" brush="brush003" id="led802" parent="group008" state="false"/>
+  <led w="10" x="180" hilit3D="false" y="30" h="10" brush="brush003" id="led803" parent="group008" state="false"/>
+  <led w="10" x="210" hilit3D="false" y="30" h="10" brush="brush003" id="led804" parent="group008" state="false"/>
+  <led w="10" x="240" hilit3D="false" y="30" h="10" brush="brush003" id="led805" parent="group008" state="false"/>
+  <led w="10" x="270" hilit3D="false" y="30" h="10" brush="brush003" id="led806" parent="group008" state="false"/>
+  <led w="10" x="300" hilit3D="false" y="30" h="10" brush="brush003" id="led807" parent="group008" state="false"/>
+  <led w="10" x="330" hilit3D="false" y="30" h="10" brush="brush003" id="led808" parent="group008" state="false"/>
+  <led w="10" x="360" hilit3D="false" y="30" h="10" brush="brush003" id="led809" parent="group008" state="false"/>
+  <led w="10" x="390" hilit3D="false" y="30" h="10" brush="brush003" id="led810" parent="group008" state="false"/>
+  <led w="10" x="420" hilit3D="false" y="30" h="10" brush="brush003" id="led811" parent="group008" state="false"/>
+  <led w="10" x="450" hilit3D="false" y="30" h="10" brush="brush003" id="led812" parent="group008" state="false"/>
+  <led w="10" x="480" hilit3D="false" y="30" h="10" brush="brush003" id="led813" parent="group008" state="false"/>
+  <led w="10" x="510" hilit3D="false" y="30" h="10" brush="brush003" id="led814" parent="group008" state="false"/>
+  <led w="10" x="540" hilit3D="false" y="30" h="10" brush="brush003" id="led815" parent="group008" state="false"/>
+  <group w="550" hilit3D="false" x="3" y="507" h="50" scale="1" hidden="true" offsetX="0" offsetY="0" id="group009" parent="group103" annotation="SER1" clip="false"/>
+  <rect w="120" x="80" hilit3D="false" y="0" h="50" brush="brush001" id="rect901" parent="group009"/>
+  <rect w="30" x="200" hilit3D="false" y="0" h="50" brush="brush001" id="rect902" parent="group009"/>
+  <rect w="30" x="230" hilit3D="false" y="0" h="50" brush="brush001" id="rect903" parent="group009"/>
+  <rect w="30" x="260" hilit3D="false" y="0" h="50" brush="brush001" id="rect904" parent="group009"/>
+  <rect w="30" x="290" hilit3D="false" y="0" h="50" brush="brush001" id="rect905" parent="group009"/>
+  <rect w="30" x="320" hilit3D="false" y="0" h="50" brush="brush001" id="rect906" parent="group009"/>
+  <rect w="30" x="350" hilit3D="false" y="0" h="50" brush="brush001" id="rect907" parent="group009"/>
+  <rect w="30" x="380" hilit3D="false" y="0" h="50" brush="brush001" id="rect908" parent="group009"/>
+  <rect w="30" x="410" hilit3D="false" y="0" h="50" brush="brush001" id="rect909" parent="group009"/>
+  <rect w="30" x="440" hilit3D="false" y="0" h="50" brush="brush001" id="rect910" parent="group009"/>
+  <rect w="30" x="470" hilit3D="false" y="0" h="50" brush="brush001" id="rect911" parent="group009"/>
+  <rect w="30" x="500" hilit3D="false" y="0" h="50" brush="brush001" id="rect912" parent="group009"/>
+  <rect w="30" x="530" hilit3D="false" y="0" h="50" brush="brush001" id="rect913" parent="group009"/>
+  <text w="480" hilit3D="false" x="80" y="0" h="20" alignment="136" id="text900" parent="group009" outline="false" text="        SEQNUM         BY  ME          RS  RC   RP   RB  CE   TO   NC  NB   NF" font="font001"/>
+  <text w="70" hilit3D="false" x="10" y="15" h="20" alignment="132" id="text901" parent="group009" outline="false" text="SER1" font="font001"/>
+  <led w="10" x="90" hilit3D="false" y="30" h="10" brush="brush003" id="led900" parent="group009" state="false"/>
+  <led w="10" x="120" hilit3D="false" y="30" h="10" brush="brush003" id="led901" parent="group009" state="false"/>
+  <led w="10" x="150" hilit3D="false" y="30" h="10" brush="brush003" id="led902" parent="group009" state="false"/>
+  <led w="10" x="180" hilit3D="false" y="30" h="10" brush="brush003" id="led903" parent="group009" state="false"/>
+  <led w="10" x="210" hilit3D="false" y="30" h="10" brush="brush003" id="led904" parent="group009" state="false"/>
+  <led w="10" x="240" hilit3D="false" y="30" h="10" brush="brush003" id="led905" parent="group009" state="false"/>
+  <led w="10" x="270" hilit3D="false" y="30" h="10" brush="brush003" id="led906" parent="group009" state="false"/>
+  <led w="10" x="300" hilit3D="false" y="30" h="10" brush="brush003" id="led907" parent="group009" state="false"/>
+  <led w="10" x="330" hilit3D="false" y="30" h="10" brush="brush003" id="led908" parent="group009" state="false"/>
+  <led w="10" x="360" hilit3D="false" y="30" h="10" brush="brush003" id="led909" parent="group009" state="false"/>
+  <led w="10" x="390" hilit3D="false" y="30" h="10" brush="brush003" id="led910" parent="group009" state="false"/>
+  <led w="10" x="420" hilit3D="false" y="30" h="10" brush="brush003" id="led911" parent="group009" state="false"/>
+  <led w="10" x="450" hilit3D="false" y="30" h="10" brush="brush003" id="led912" parent="group009" state="false"/>
+  <led w="10" x="480" hilit3D="false" y="30" h="10" brush="brush003" id="led913" parent="group009" state="false"/>
+  <led w="10" x="510" hilit3D="false" y="30" h="10" brush="brush003" id="led914" parent="group009" state="false"/>
+  <led w="10" x="540" hilit3D="false" y="30" h="10" brush="brush003" id="led915" parent="group009" state="false"/>
+ </shapes>
+ <transforms/>
+ <dynamics>
+  <param id="param100" name="PRT1016S"/>
+  <param id="param104" name="PRT1017S"/>
+  <param id="param105" name="PRT1018S"/>
+  <param id="param109" name="PRT1019S"/>
+  <param id="param110" name="PRT1020S"/>
+  <param id="param200" name="PRT1021S"/>
+  <param id="param204" name="PRT1022S"/>
+  <param id="param205" name="PRT1023S"/>
+  <param id="param209" name="PRT1024S"/>
+  <param id="param210" name="PRT1025S"/>
+  <param id="param211" name="PRT1026S"/>
+  <param id="param212" name="PRT1027S"/>
+  <param id="param213" name="PRT1028S"/>
+  <param id="param214" name="PRT1029S"/>
+  <param id="param215" name="PRT1030S"/>
+  <param id="param300" name="PRT1031S"/>
+  <param id="param304" name="PRT1032S"/>
+  <param id="param305" name="PRT1033S"/>
+  <param id="param309" name="PRT1034S"/>
+  <param id="param310" name="PRT1035S"/>
+  <param id="param311" name="PRT1036S"/>
+  <param id="param312" name="PRT1037S"/>
+  <param id="param313" name="PRT1038S"/>
+  <param id="param314" name="PRT1039S"/>
+  <param id="param315" name="PRT1040S"/>
+  <param id="param400" name="PRT1041S"/>
+  <param id="param404" name="PRT1042S"/>
+  <param id="param405" name="PRT1043S"/>
+  <param id="param409" name="PRT1044S"/>
+  <param id="param410" name="PRT1045S"/>
+  <param id="param411" name="PRT1046S"/>
+  <param id="param412" name="PRT1047S"/>
+  <param id="param413" name="PRT1048S"/>
+  <param id="param414" name="PRT1049S"/>
+  <param id="param415" name="PRT1050S"/>
+  <param id="param504" name="PRT1051S"/>
+  <param id="param505" name="PRT1052S"/>
+  <param id="param506" name="PRT1053S"/>
+  <param id="param507" name="PRT1054S"/>
+  <param id="param508" name="PRT1055S"/>
+  <param id="param509" name="PRT1056S"/>
+  <param id="param510" name="PRT1057S"/>
+  <param id="param511" name="PRT1058S"/>
+  <param id="param512" name="PRT1059S"/>
+  <param id="param513" name="PRT1060S"/>
+  <param id="param514" name="PRT1061S"/>
+  <param id="param515" name="PRT1062S"/>
+  <param id="param604" name="PRT1063S"/>
+  <param id="param605" name="PRT1064S"/>
+  <param id="param606" name="PRT1065S"/>
+  <param id="param607" name="PRT1066S"/>
+  <param id="param608" name="PRT1067S"/>
+  <param id="param609" name="PRT1068S"/>
+  <param id="param610" name="PRT1069S"/>
+  <param id="param611" name="PRT1070S"/>
+  <param id="param612" name="PRT1071S"/>
+  <param id="param613" name="PRT1072S"/>
+  <param id="param614" name="PRT1073S"/>
+  <param id="param615" name="PRT1074S"/>
+  <param id="param704" name="PRT1075S"/>
+  <param id="param705" name="PRT1076S"/>
+  <param id="param706" name="PRT1077S"/>
+  <param id="param707" name="PRT1078S"/>
+  <param id="param708" name="PRT1079S"/>
+  <param id="param709" name="PRT1080S"/>
+  <param id="param710" name="PRT1081S"/>
+  <param id="param711" name="PRT1082S"/>
+  <param id="param712" name="PRT1083S"/>
+  <param id="param713" name="PRT1084S"/>
+  <param id="param714" name="PRT1085S"/>
+  <param id="param715" name="PRT1086S"/>
+  <param id="param800" name="PRT1087S"/>
+  <param id="param804" name="PRT1088S"/>
+  <param id="param805" name="PRT1089S"/>
+  <param id="param807" name="PRT1090S"/>
+  <param id="param808" name="PRT1091S"/>
+  <param id="param809" name="PRT1092S"/>
+  <param id="param810" name="PRT1093S"/>
+  <param id="param811" name="PRT1094S"/>
+  <param id="param812" name="PRT1095S"/>
+  <param id="param813" name="PRT1096S"/>
+  <param id="param814" name="PRT1097S"/>
+  <param id="param815" name="PRT1098S"/>
+  <param id="param900" name="PRT1099S"/>
+  <param id="param904" name="PRT1100S"/>
+  <param id="param905" name="PRT1101S"/>
+  <param id="param907" name="PRT1102S"/>
+  <param id="param908" name="PRT1103S"/>
+  <param id="param909" name="PRT1104S"/>
+  <param id="param910" name="PRT1105S"/>
+  <param id="param911" name="PRT1106S"/>
+  <param id="param912" name="PRT1107S"/>
+  <param id="param913" name="PRT1108S"/>
+  <param id="param914" name="PRT1109S"/>
+  <param id="param915" name="PRT1110S"/>
+  <param id="param1000" name="PRT1004_"/>
+  <param id="param1001" name="PRT1005_"/>
+  <param id="param1002" name="PRT1006_"/>
+ </dynamics>
+ <connections>
+  <connect dest="led800" srcProp="value" destProp="state" src="expression800"/>
+  <connect dest="led801" srcProp="value" destProp="state" src="expression801"/>
+  <connect dest="led802" srcProp="value" destProp="state" src="expression802"/>
+  <connect dest="led803" srcProp="value" destProp="state" src="expression803"/>
+  <connect dest="led804" srcProp="rawValue" destProp="state" src="param804"/>
+  <connect dest="led805" srcProp="rawValue" destProp="state" src="param805"/>
+  <connect dest="led807" srcProp="rawValue" destProp="state" src="param807"/>
+  <connect dest="led808" srcProp="rawValue" destProp="state" src="param808"/>
+  <connect dest="led809" srcProp="rawValue" destProp="state" src="param809"/>
+  <connect dest="led604" srcProp="rawValue" destProp="state" src="param604"/>
+  <connect dest="led605" srcProp="rawValue" destProp="state" src="param605"/>
+  <connect dest="led606" srcProp="rawValue" destProp="state" src="param606"/>
+  <connect dest="led607" srcProp="rawValue" destProp="state" src="param607"/>
+  <connect dest="led810" srcProp="rawValue" destProp="state" src="param810"/>
+  <connect dest="led608" srcProp="rawValue" destProp="state" src="param608"/>
+  <connect dest="led811" srcProp="rawValue" destProp="state" src="param811"/>
+  <connect dest="led400" srcProp="value" destProp="state" src="expression400"/>
+  <connect dest="led609" srcProp="rawValue" destProp="state" src="param609"/>
+  <connect dest="led812" srcProp="rawValue" destProp="state" src="param812"/>
+  <connect dest="led401" srcProp="value" destProp="state" src="expression401"/>
+  <connect dest="led813" srcProp="rawValue" destProp="state" src="param813"/>
+  <connect dest="led402" srcProp="value" destProp="state" src="expression402"/>
+  <connect dest="led814" srcProp="rawValue" destProp="state" src="param814"/>
+  <connect dest="led403" srcProp="value" destProp="state" src="expression403"/>
+  <connect dest="led815" srcProp="rawValue" destProp="state" src="param815"/>
+  <connect dest="led404" srcProp="rawValue" destProp="state" src="param404"/>
+  <connect dest="led405" srcProp="rawValue" destProp="state" src="param405"/>
+  <connect dest="led610" srcProp="rawValue" destProp="state" src="param610"/>
+  <connect dest="led611" srcProp="rawValue" destProp="state" src="param611"/>
+  <connect dest="led200" srcProp="value" destProp="state" src="expression200"/>
+  <connect dest="led409" srcProp="rawValue" destProp="state" src="param409"/>
+  <connect dest="led612" srcProp="rawValue" destProp="state" src="param612"/>
+  <connect dest="led201" srcProp="value" destProp="state" src="expression201"/>
+  <connect dest="led613" srcProp="rawValue" destProp="state" src="param613"/>
+  <connect dest="led202" srcProp="value" destProp="state" src="expression202"/>
+  <connect dest="led614" srcProp="rawValue" destProp="state" src="param614"/>
+  <connect dest="led203" srcProp="value" destProp="state" src="expression203"/>
+  <connect dest="led615" srcProp="rawValue" destProp="state" src="param615"/>
+  <connect dest="led204" srcProp="rawValue" destProp="state" src="param204"/>
+  <connect dest="led205" srcProp="rawValue" destProp="state" src="param205"/>
+  <connect dest="led410" srcProp="rawValue" destProp="state" src="param410"/>
+  <connect dest="led411" srcProp="rawValue" destProp="state" src="param411"/>
+  <connect dest="led209" srcProp="rawValue" destProp="state" src="param209"/>
+  <connect dest="led412" srcProp="rawValue" destProp="state" src="param412"/>
+  <connect dest="led413" srcProp="rawValue" destProp="state" src="param413"/>
+  <connect dest="led414" srcProp="rawValue" destProp="state" src="param414"/>
+  <connect dest="led415" srcProp="rawValue" destProp="state" src="param415"/>
+  <connect dest="led210" srcProp="rawValue" destProp="state" src="param210"/>
+  <connect dest="led211" srcProp="rawValue" destProp="state" src="param211"/>
+  <connect dest="led212" srcProp="rawValue" destProp="state" src="param212"/>
+  <connect dest="led213" srcProp="rawValue" destProp="state" src="param213"/>
+  <connect dest="led214" srcProp="rawValue" destProp="state" src="param214"/>
+  <connect dest="led215" srcProp="rawValue" destProp="state" src="param215"/>
+  <connect dest="expression400" srcProp="rawValue" destProp="arg0" src="param400"/>
+  <connect dest="expression401" srcProp="rawValue" destProp="arg0" src="param400"/>
+  <connect dest="expression402" srcProp="rawValue" destProp="arg0" src="param400"/>
+  <connect dest="expression403" srcProp="rawValue" destProp="arg0" src="param400"/>
+  <connect dest="expression200" srcProp="rawValue" destProp="arg0" src="param200"/>
+  <connect dest="expression201" srcProp="rawValue" destProp="arg0" src="param200"/>
+  <connect dest="expression202" srcProp="rawValue" destProp="arg0" src="param200"/>
+  <connect dest="expression203" srcProp="rawValue" destProp="arg0" src="param200"/>
+  <connect dest="interface1" srcProp="rawValue" destProp="intValue" src="param1001"/>
+  <connect dest="interface2" srcProp="rawValue" destProp="intValue" src="param1002"/>
+  <connect dest="expression800" srcProp="rawValue" destProp="arg0" src="param800"/>
+  <connect dest="expression801" srcProp="rawValue" destProp="arg0" src="param800"/>
+  <connect dest="expression802" srcProp="rawValue" destProp="arg0" src="param800"/>
+  <connect dest="expression803" srcProp="rawValue" destProp="arg0" src="param800"/>
+  <connect dest="led900" srcProp="value" destProp="state" src="expression900"/>
+  <connect dest="led901" srcProp="value" destProp="state" src="expression901"/>
+  <connect dest="led902" srcProp="value" destProp="state" src="expression902"/>
+  <connect dest="text1011" srcProp="hexValue" destProp="text" src="interface1"/>
+  <connect dest="led903" srcProp="value" destProp="state" src="expression903"/>
+  <connect dest="led904" srcProp="rawValue" destProp="state" src="param904"/>
+  <connect dest="text1013" srcProp="hexValue" destProp="text" src="interface2"/>
+  <connect dest="led905" srcProp="rawValue" destProp="state" src="param905"/>
+  <connect dest="led907" srcProp="rawValue" destProp="state" src="param907"/>
+  <connect dest="led908" srcProp="rawValue" destProp="state" src="param908"/>
+  <connect dest="led909" srcProp="rawValue" destProp="state" src="param909"/>
+  <connect dest="led704" srcProp="rawValue" destProp="state" src="param704"/>
+  <connect dest="led705" srcProp="rawValue" destProp="state" src="param705"/>
+  <connect dest="led706" srcProp="rawValue" destProp="state" src="param706"/>
+  <connect dest="led707" srcProp="rawValue" destProp="state" src="param707"/>
+  <connect dest="led910" srcProp="rawValue" destProp="state" src="param910"/>
+  <connect dest="led708" srcProp="rawValue" destProp="state" src="param708"/>
+  <connect dest="led911" srcProp="rawValue" destProp="state" src="param911"/>
+  <connect dest="led709" srcProp="rawValue" destProp="state" src="param709"/>
+  <connect dest="led912" srcProp="rawValue" destProp="state" src="param912"/>
+  <connect dest="led913" srcProp="rawValue" destProp="state" src="param913"/>
+  <connect dest="led914" srcProp="rawValue" destProp="state" src="param914"/>
+  <connect dest="led915" srcProp="rawValue" destProp="state" src="param915"/>
+  <connect dest="led504" srcProp="rawValue" destProp="state" src="param504"/>
+  <connect dest="led505" srcProp="rawValue" destProp="state" src="param505"/>
+  <connect dest="led506" srcProp="rawValue" destProp="state" src="param506"/>
+  <connect dest="led507" srcProp="rawValue" destProp="state" src="param507"/>
+  <connect dest="led710" srcProp="rawValue" destProp="state" src="param710"/>
+  <connect dest="led508" srcProp="rawValue" destProp="state" src="param508"/>
+  <connect dest="led711" srcProp="rawValue" destProp="state" src="param711"/>
+  <connect dest="led300" srcProp="value" destProp="state" src="expression300"/>
+  <connect dest="led509" srcProp="rawValue" destProp="state" src="param509"/>
+  <connect dest="led712" srcProp="rawValue" destProp="state" src="param712"/>
+  <connect dest="led301" srcProp="value" destProp="state" src="expression301"/>
+  <connect dest="led713" srcProp="rawValue" destProp="state" src="param713"/>
+  <connect dest="led302" srcProp="value" destProp="state" src="expression302"/>
+  <connect dest="led714" srcProp="rawValue" destProp="state" src="param714"/>
+  <connect dest="led303" srcProp="value" destProp="state" src="expression303"/>
+  <connect dest="led715" srcProp="rawValue" destProp="state" src="param715"/>
+  <connect dest="led304" srcProp="rawValue" destProp="state" src="param304"/>
+  <connect dest="led305" srcProp="rawValue" destProp="state" src="param305"/>
+  <connect dest="led510" srcProp="rawValue" destProp="state" src="param510"/>
+  <connect dest="led511" srcProp="rawValue" destProp="state" src="param511"/>
+  <connect dest="led100" srcProp="value" destProp="state" src="expression100"/>
+  <connect dest="led309" srcProp="rawValue" destProp="state" src="param309"/>
+  <connect dest="led512" srcProp="rawValue" destProp="state" src="param512"/>
+  <connect dest="led101" srcProp="value" destProp="state" src="expression101"/>
+  <connect dest="led513" srcProp="rawValue" destProp="state" src="param513"/>
+  <connect dest="led102" srcProp="value" destProp="state" src="expression102"/>
+  <connect dest="led514" srcProp="rawValue" destProp="state" src="param514"/>
+  <connect dest="led103" srcProp="value" destProp="state" src="expression103"/>
+  <connect dest="led515" srcProp="rawValue" destProp="state" src="param515"/>
+  <connect dest="led104" srcProp="rawValue" destProp="state" src="param104"/>
+  <connect dest="led105" srcProp="rawValue" destProp="state" src="param105"/>
+  <connect dest="led310" srcProp="rawValue" destProp="state" src="param310"/>
+  <connect dest="led311" srcProp="rawValue" destProp="state" src="param311"/>
+  <connect dest="led109" srcProp="rawValue" destProp="state" src="param109"/>
+  <connect dest="led312" srcProp="rawValue" destProp="state" src="param312"/>
+  <connect dest="led313" srcProp="rawValue" destProp="state" src="param313"/>
+  <connect dest="led314" srcProp="rawValue" destProp="state" src="param314"/>
+  <connect dest="led315" srcProp="rawValue" destProp="state" src="param315"/>
+  <connect dest="led110" srcProp="rawValue" destProp="state" src="param110"/>
+  <connect dest="expression300" srcProp="rawValue" destProp="arg0" src="param300"/>
+  <connect dest="expression301" srcProp="rawValue" destProp="arg0" src="param300"/>
+  <connect dest="expression302" srcProp="rawValue" destProp="arg0" src="param300"/>
+  <connect dest="expression303" srcProp="rawValue" destProp="arg0" src="param300"/>
+  <connect dest="expression100" srcProp="rawValue" destProp="arg0" src="param100"/>
+  <connect dest="expression101" srcProp="rawValue" destProp="arg0" src="param100"/>
+  <connect dest="expression102" srcProp="rawValue" destProp="arg0" src="param100"/>
+  <connect dest="expression103" srcProp="rawValue" destProp="arg0" src="param100"/>
+  <connect dest="expression1000" srcProp="rawValue" destProp="arg0" src="param1000"/>
+  <connect dest="expression1001" srcProp="rawValue" destProp="arg0" src="param1000"/>
+  <connect dest="expression1002" srcProp="rawValue" destProp="arg0" src="param1000"/>
+  <connect dest="expression1003" srcProp="rawValue" destProp="arg0" src="param1000"/>
+  <connect dest="text1003" srcProp="value" destProp="text" src="expression1000"/>
+  <connect dest="text1005" srcProp="value" destProp="text" src="expression1001"/>
+  <connect dest="text1007" srcProp="value" destProp="text" src="expression1002"/>
+  <connect dest="text1009" srcProp="value" destProp="text" src="expression1003"/>
+  <connect dest="expression900" srcProp="rawValue" destProp="arg0" src="param900"/>
+  <connect dest="expression901" srcProp="rawValue" destProp="arg0" src="param900"/>
+  <connect dest="expression902" srcProp="rawValue" destProp="arg0" src="param900"/>
+  <connect dest="expression903" srcProp="rawValue" destProp="arg0" src="param900"/>
+ </connections>
+</synoptic>

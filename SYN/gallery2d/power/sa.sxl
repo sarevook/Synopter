@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<synoptic xsi:noNamespaceSchemaLocation="http://projects.nl.terma.com/SCHEMAS/SYNOPTICS/synopter.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" editor3D="0" editorVersion="1117" >
+ <assets>
+  <scale sx="0.06" sy="0.99" id="scale1" />
+  <pen width="0" g="85" penStyle="1" id="pen5" r="0" a="255" b="127" />
+ </assets>
+ <slots>
+  <interface value="1" id="interface2" name="extended" />
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="0.05+((arg0%101)/100)" id="expression3" annotation="horiz" arg0="1" arg1="0" arg2="0" arg3="0" />
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="1-((arg0%110)/100)" id="expression4" annotation="vertical" arg0="1" arg1="0" arg2="0" arg3="0" />
+ </slots>
+ <shapes>
+  <polyLine x="0" pen="pen5" y="0" id="polyLine0" annotation="top edge" >
+   <point x="0" y="0" />
+   <point x="50" y="50" />
+   <point x="100" y="0" />
+   <point x="150" y="50" />
+   <point x="200" y="0" />
+  </polyLine>
+  <polyLine x="2" pen="pen5" y="2" id="polyLine6" annotation="middle" >
+   <point x="0" y="0" />
+   <point x="50" y="50" />
+   <point x="100" y="0" />
+   <point x="150" y="50" />
+   <point x="200" y="0" />
+  </polyLine>
+  <polyLine x="4" pen="pen5" y="4" id="polyLine8" annotation="bottom edge" >
+   <point x="0" y="0" />
+   <point x="50" y="50" />
+   <point x="100" y="0" />
+   <point x="150" y="50" />
+   <point x="200" y="0" />
+  </polyLine>
+ </shapes>
+ <transforms>
+  <apply trans="scale1" id="polyLine0" />
+  <apply trans="scale1" id="polyLine6" />
+  <apply trans="scale1" id="polyLine8" />
+ </transforms>
+ <connections>
+  <connect dest="expression3" srcProp="intValue" destProp="arg0" src="interface2" />
+  <connect dest="expression4" srcProp="intValue" destProp="arg0" src="interface2" />
+  <connect dest="scale1" srcProp="value" destProp="sx" src="expression3" />
+  <connect dest="scale1" srcProp="value" destProp="sy" src="expression4" />
+ </connections>
+</synoptic>

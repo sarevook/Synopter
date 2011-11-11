@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<synoptic xsi:noNamespaceSchemaLocation="http://projects.nl.terma.com/SCHEMAS/SYNOPTICS/synopter.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" editor3D="0" editorVersion="1117" >
+ <assets>
+  <brush g="0" id="brush3" r="0" a="125" b="255" />
+  <pen width="5" g="255" penStyle="1" id="pen5" r="255" a="255" b="0" />
+ </assets>
+ <slots>
+  <interface value="1" id="interface9" annotation="on off" name="on" />
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0%100)*255" id="expression10" annotation="alpha of radio waves" arg0="1" arg1="0" arg2="0" arg3="0" />
+ </slots>
+ <shapes>
+  <chord w="100" x="0" hilit3D="false" y="0" h="100" spanAngle="2000" brush="brush3" startAngle="1880" id="chord0" annotation="dish" />
+  <line w="24" x="26" hilit3D="false" y="50" h="0" brush="brush3" id="line1" annotation="ant" />
+  <line w="0" x="44" hilit3D="false" y="44.0000000000001" h="12" id="line8" annotation="cross" />
+  <arc w="100" x="0" hilit3D="false" pen="pen5" y="0" h="100" spanAngle="1440" startAngle="-720" id="arc4" annotation="radio wave out" />
+  <arc w="80" x="10" hilit3D="false" pen="pen5" y="10" h="80" spanAngle="1440" startAngle="-720" id="arc7" annotation="radio wave middle" />
+  <arc w="60" x="20" hilit3D="false" pen="pen5" y="20" h="60" spanAngle="1440" startAngle="-720" id="arc8" annotation="radio wave in" />
+ </shapes>
+ <transforms/>
+ <connections>
+  <connect dest="pen5" srcProp="value" destProp="a" src="expression10" />
+  <connect dest="expression10" srcProp="intValue" destProp="arg0" src="interface9" />
+ </connections>
+</synoptic>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<synoptic xsi:noNamespaceSchemaLocation="http://projects.nl.terma.com/SCHEMAS/SYNOPTICS/synopter.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" editor3D="0" editorVersion="1117" >
+ <assets>
+  <brush g="255" id="brush4" r="0" a="200" annotation="bat level colour" b="0" />
+  <brush g="0" id="brush8" r="0" a="255" annotation="black fill" b="0" />
+  <font fontFamily="MS Shell Dlg 2" pointSize="16" bold="true" id="font10" italic="false" />
+  <brush g="0" id="brush23" r="0" a="255" b="0" />
+  <brush g="170" id="brush19" r="170" a="255" b="127" />
+ </assets>
+ <slots>
+  <interface value="29" id="interface1" annotation="the fill level of the memory" name="level" />
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="(arg0%100)*0.6" id="expression20" annotation="level height" arg0="29" arg1="0" arg2="0" arg3="0" />
+  <expression arg4="0" arg5="0" arg6="0" arg7="0" arg8="0" arg9="0" formula="100-((arg0%100)*0.6)" id="expression21" annotation="level y coord" arg0="29" arg1="0" arg2="0" arg3="0" />
+  <chooser defaultValue="0" id="chooser18" annotation="decide red component" >
+   <pattern wildCard="false" regexp="[8-9][0-9]" value="255" minimal="false" />
+   <pattern wildCard="false" regexp="[1-7][0-9]" value="0" minimal="false" />
+  </chooser>
+  <chooser defaultValue="0" id="chooser22" annotation="decide green component" >
+   <pattern wildCard="false" regexp="[9][0-9]" value="0" minimal="false" />
+   <pattern wildCard="false" regexp="[8][0-9]" value="175" minimal="false" />
+   <pattern wildCard="false" regexp="[0-9]" value="255" minimal="false" />
+  </chooser>
+  <interface id="interface25" annotation="OBMM power on" name="pwr" />
+ </slots>
+ <shapes>
+  <rect w="100" x="0" hilit3D="false" y="40" h="60" brush="brush19" id="rect0" annotation="shell" />
+  <rect w="100" x="0" hilit3D="false" y="82.6" h="17.4" brush="brush4" id="rect3" annotation="level indicator" />
+  <rect w="5" x="0" hilit3D="false" y="0" h="5" brush="brush8" id="rect18" annotation="data connector" />
+  <text w="80" hilit3D="false" x="10" y="78" h="20" alignment="132" id="text20" text="OBMM" font="font10" />
+  <led w="20" x="80" hilit3D="false" y="0" h="20" id="led21" annotation="power LED" state="false" />
+  <rect w="5" x="12" hilit3D="false" y="34" h="5" brush="brush8" id="rect23" annotation="data connector" />
+  <polyLine x="16" y="37" id="polyLine24" >
+   <point x="0" y="0" />
+   <point x="0" y="-37" />
+   <point x="-16" y="-37" />
+  </polyLine>
+ </shapes>
+ <transforms/>
+ <connections>
+  <connect dest="led21" srcProp="boolValue" destProp="state" src="interface25" />
+  <connect dest="expression20" srcProp="value" destProp="arg0" src="interface1" />
+  <connect dest="expression21" srcProp="value" destProp="arg0" src="interface1" />
+  <connect dest="chooser22" srcProp="value" destProp="input" src="interface1" />
+  <connect dest="rect3" srcProp="value" destProp="h" src="expression20" />
+  <connect dest="rect3" srcProp="value" destProp="y" src="expression21" />
+  <connect dest="brush4" srcProp="output" destProp="r" src="chooser18" />
+  <connect dest="brush4" srcProp="output" destProp="g" src="chooser22" />
+  <connect dest="chooser18" srcProp="value" destProp="input" src="interface1" />
+ </connections>
+</synoptic>

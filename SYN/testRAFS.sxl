@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<synoptic xsi:noNamespaceSchemaLocation="http://projects.nl.terma.com/SCHEMAS/SYNOPTICS/synopter.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" editor3D="0" editorVersion="0">
+ <assets>
+  <font fontFamily="MS Shell Dlg 2" pointSize="11" bold="true" id="font60" italic="false"/>
+  <font fontFamily="MS Shell Dlg 2" pointSize="36" bold="false" id="font61" italic="false"/>
+  <brush g="255" id="brush33" r="255" a="255" b="255"/>
+  <brush g="255" id="brush34" r="255" a="255" b="127"/>
+  <linearGradient direction="1" id="linearGradient38">
+   <gradientStop g="200" position="0" r="100" a="200" b="200"/>
+   <gradientStop g="0" position="1" r="0" a="255" b="0"/>
+  </linearGradient>
+  <brush gradient="linearGradient38" g="200" id="brush39" r="200" a="222" b="200"/>
+  <pen width="0" g="200" penStyle="1" id="pen40" r="170" a="255" b="50"/>
+ </assets>
+ <shapes>
+  <rect w="193.396" x="153.302" hilit3D="false" y="67" h="344" brush="brush33" id="rect39"/>
+  <text w="245.57" hilit3D="false" x="-43.7085" y="5.0005" h="70.4937" alignment="132" id="text48" outline="false" text="RAFS" font="font61"/>
+  <rect w="146.604" x="8" hilit3D="false" y="66.74" h="342.52" brush="brush33" id="rect54"/>
+  <text w="80" hilit3D="false" x="63.302" y="137.74" h="20" alignment="132" id="text56" outline="false" text="LOCK ST" font="font60"/>
+  <led w="42.1985" x="19.202" hilit3D="false" y="128.303" h="49.8893" id="led43" state="false"/>
+  <led w="42.1985" x="20.2025" hilit3D="false" y="75.7955" h="49.8893" id="led71" state="false"/>
+  <text w="80" hilit3D="false" x="64.3015" y="84.74" h="20" alignment="132" id="text72" outline="false" text="RAFS ON" font="font60"/>
+  <text w="108.039" hilit3D="false" x="29.281" y="314.782" h="20" alignment="132" id="text53" outline="false" text="RAFS Voltage" font="font60"/>
+  <parameterbox w="134" showGenerationTime="false" hilit3D="false" x="15" y="344" showMonitoringState="true" showSource="false" h="50" showRawValue="false" showValidity="false" showUnit="false" showEngineeringValue="true" showMonitoringDescription="false" id="parameterbox55" showReceivedTime="false" showDestination="false"/>
+  <text w="135.571" hilit3D="false" x="13.5165" y="228.433" h="19.1344" alignment="68" id="text41" outline="false" text="RAFS Current" font="font60"/>
+  <parameterbox w="136" showGenerationTime="false" hilit3D="false" x="13" y="257" showMonitoringState="true" showSource="false" h="48" showRawValue="false" showValidity="false" showUnit="false" showEngineeringValue="true" showMonitoringDescription="false" id="parameterbox36" showReceivedTime="false" showDestination="false"/>
+  <text w="108.039" hilit3D="false" x="148.281" y="71.782" h="20" alignment="132" id="text58" outline="false" text="Light" font="font60"/>
+  <parameterbox w="164" showGenerationTime="false" hilit3D="false" x="164" y="95" showMonitoringState="true" showSource="false" h="42" showRawValue="false" showValidity="false" showUnit="false" showEngineeringValue="true" showMonitoringDescription="false" id="parameterbox37" showReceivedTime="false" showDestination="false"/>
+  <text w="108.039" hilit3D="false" x="155.281" y="137.782" h="20" alignment="132" id="text42" outline="false" text="Signal" font="font60"/>
+  <parameterbox w="164" showGenerationTime="false" hilit3D="false" x="166" y="161" showMonitoringState="true" showSource="false" h="42" showRawValue="false" showValidity="false" showUnit="false" showEngineeringValue="true" showMonitoringDescription="false" id="parameterbox44" showReceivedTime="false" showDestination="false"/>
+  <text w="108.039" hilit3D="false" x="167.281" y="203.782" h="20" alignment="132" id="text45" outline="false" text="EPC Temp" font="font60"/>
+  <parameterbox w="164" showGenerationTime="false" hilit3D="false" x="165" y="226" showMonitoringState="true" showSource="false" h="42" showRawValue="false" showValidity="false" showUnit="false" showEngineeringValue="true" showMonitoringDescription="false" id="parameterbox47" showReceivedTime="false" showDestination="false"/>
+  <text w="108.039" hilit3D="false" x="168.281" y="268.782" h="20" alignment="132" id="text49" outline="false" text="TCB Temp" font="font60"/>
+  <parameterbox w="164" showGenerationTime="false" hilit3D="false" x="165" y="291" showMonitoringState="true" showSource="false" h="42" showRawValue="false" showValidity="false" showUnit="false" showEngineeringValue="true" showMonitoringDescription="false" id="parameterbox51" showReceivedTime="false" showDestination="false"/>
+  <commandbutton w="100" x="30" hilit3D="false" y="188" h="24" arguments="rafsOn" id="commandbutton34" font="font60" text="ON/Off"/>
+ </shapes>
+ <transforms/>
+ <dynamics>
+  <param id="param62" annotation="RAFS ON" name="PRA1001S"/>
+  <param id="param63" annotation="Lock ST" name="PRA1002S"/>
+  <param id="param64" annotation="RAFS Current" name="PRA1003I"/>
+  <param id="param65" annotation="Rafs Voltage" name="PRA1004U"/>
+  <param id="param67" annotation="Light" name="PRA1005_"/>
+  <param id="param68" annotation="Signal" name="PRA1006_"/>
+  <param id="param69" annotation="EPC Temp" name="PRA1009T"/>
+  <param id="param56" annotation="TCB Temp" name="PRA1007T"/>
+ </dynamics>
+ <connections>
+  <connect dest="led43" srcProp="rawValue" destProp="state" src="param63"/>
+  <connect dest="parameterbox36" srcProp="*" src="param64"/>
+  <connect dest="parameterbox51" srcProp="*" src="param56"/>
+  <connect dest="parameterbox37" srcProp="*" src="param67"/>
+  <connect dest="parameterbox55" srcProp="*" src="param65"/>
+  <connect dest="led71" srcProp="rawValue" destProp="state" src="param62"/>
+  <connect dest="parameterbox44" srcProp="*" src="param68"/>
+  <connect dest="parameterbox47" srcProp="*" src="param69"/>
+ </connections>
+</synoptic>

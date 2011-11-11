@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<synoptic xsi:noNamespaceSchemaLocation="http://projects.nl.terma.com/SCHEMAS/SYNOPTICS/synopter.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" editor3D="0" editorVersion="1117" >
+ <assets>
+  <brush g="0" id="brush6" r="0" a="255" b="0" />
+  <brush g="255" id="brush8" r="255" a="255" b="127" />
+  <brush g="170" id="brush14" r="170" a="255" b="127" />
+  <font fontFamily="Arial" pointSize="10" bold="true" id="font32" italic="false" />
+  <font fontFamily="Arial" pointSize="8" bold="false" id="font40" italic="false" />
+ </assets>
+ <slots>
+  <interface id="interface20" annotation="MIL BC running" name="bc" />
+  <interface id="interface21" annotation="CPU running" name="cpu" />
+  <interface id="interface22" annotation="power on" name="power" />
+  <interface id="interface23" annotation="RM running" name="rm" />
+  <interface id="interface29" annotation="TME running" name="tme" />
+  <interface id="interface30" annotation="TCD running" name="tcd" />
+ </slots>
+ <shapes>
+  <rect w="140" x="0" hilit3D="false" y="0" h="100" brush="brush6" id="rect3" />
+  <rect w="100" x="20" hilit3D="false" y="0" h="20" brush="brush8" id="rect4" />
+  <rect w="20" x="20" hilit3D="false" y="40" h="60" brush="brush14" id="rect11" />
+  <rect w="20" x="40" hilit3D="false" y="40" h="60" brush="brush14" id="rect12" />
+  <rect w="20" x="60" hilit3D="false" y="40" h="60" brush="brush14" id="rect13" />
+  <led w="20" x="20" hilit3D="false" y="40" h="20" id="led16" annotation="CPU  LED" state="false" />
+  <led w="20" x="40" hilit3D="false" y="40" h="20" id="led17" annotation="mil BC LED" state="false" />
+  <led w="20" x="60" hilit3D="false" y="40" h="20" id="led18" annotation="rm LED" state="false" />
+  <led w="20" x="100" hilit3D="false" y="0" h="20" id="led19" annotation="power LED" state="false" />
+  <rect w="20" x="80" hilit3D="false" y="40" h="60" brush="brush14" id="rect25" />
+  <rect w="20" x="100" hilit3D="false" y="40" h="60" brush="brush14" id="rect26" />
+  <led w="20" x="79.9000000000001" hilit3D="false" y="40" h="20" id="led27" annotation="tme LED" state="false" />
+  <led w="20" x="100" hilit3D="false" y="40" h="20" id="led28" annotation="tcd LED" state="false" />
+  <text w="80" hilit3D="false" x="20" y="0" h="20" alignment="132" id="text31" text="CDMU" font="font32" />
+  <line w="0" x="50" hilit3D="false" y="140" h="-40" id="line34" />
+  <line w="0" x="90" hilit3D="false" y="140" h="-40" id="line36" />
+  <line w="0" x="110" hilit3D="false" y="140" h="-40" id="line37" />
+  <text w="60" hilit3D="false" x="0" y="120" h="20" alignment="132" id="text38" text="1553" font="font40" />
+  <text w="20" hilit3D="false" x="70" y="120" h="20" alignment="132" id="text41" text="TM" font="font40" />
+  <text w="20" hilit3D="false" x="110" y="121" h="20" alignment="132" id="text42" text="TC" font="font40" />
+ </shapes>
+ <transforms/>
+ <connections>
+  <connect dest="led27" srcProp="boolValue" destProp="state" src="interface29" />
+  <connect dest="led28" srcProp="value" destProp="state" src="interface30" />
+  <connect dest="led16" srcProp="boolValue" destProp="state" src="interface21" />
+  <connect dest="led17" srcProp="boolValue" destProp="state" src="interface20" />
+  <connect dest="led18" srcProp="boolValue" destProp="state" src="interface23" />
+  <connect dest="led19" srcProp="boolValue" destProp="state" src="interface22" />
+ </connections>
+</synoptic>
